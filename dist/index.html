@@ -5,10 +5,39 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>FFXIV Retainer Fetch Calculator</title>
   <link href="output.css" rel="stylesheet">
-  <script src="script.js"></script>
 </head>
-<body>
-	<h1 class="my4">FFXIV fetch.me</h1>
+<body class="p-8">
+	<h1 class="my-4 text-4xl">FFXIV fetch.me</h1>
+	<form class="settings flex flex-col gap-4" action="none">
+		<label>World Select
+			<select class="world border">
+				<option value="leviathan">Leviathan</option>
+			</select>
+		</label>
 
+		<label>Retainer Type
+			<select class="retainer-type border">
+				<option value="bot">Botanist</option>
+				<option value="fsh">Fisher</option>
+				<option value="hnt">Hunter</option>
+				<option value="min">Miner</option>
+			</select>
+		</label>
+
+		<label>Retainer Perception
+			<input type="number" class="retainer-level border" value="3482">
+		</label>
+
+		<button class="fetch border inline-block">Fetch</button>
+	</form>
+
+	<hr class="my-4">
+
+	<table class="data-table table-auto w-full">
+		
+	</table>
+	
+  <script src="data.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
