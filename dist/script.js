@@ -22,7 +22,7 @@ function breakpoints(data) {
 
 function updateTable(data) {
 	// console.log(data);
-	let html = '<tr><th class="order cursor-pointer">Item</th><th class="order cursor-pointer">min Price</th></th><th class="order cursor-pointer">Amounts</th><th class="order cursor-pointer">Gil/Trip</th></tr>';
+	let html = '<tr><th class="order">Item</th><th class="order">min Price</th></th><th class="order">Amounts</th><th class="order">Gil/Trip <span class="cursor-pointer">&#x21c5;</span></th></tr>';
 	for (let i = Object.keys(data.itemIDs).length - 1; i >= 0; i--) {
 		let id = Object.values(data.items)[i].itemID;
 		let name = itemName(id);
