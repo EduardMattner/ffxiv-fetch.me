@@ -1,7 +1,9 @@
 const endpoint = 'https://universalis.app/api/v2';
 const settings = document.querySelector('.settings');
 const table = document.querySelector('.data-table');
-let retainerPerception = 0; // grab updated value when fetching
+const worldSelect = settings.querySelector('.world');
+const retainerSelect = settings.querySelector('.retainer-type');
+const retainerLevel = settings.querySelector('.retainer-level');
 
 let theData = {};
 
@@ -13,7 +15,7 @@ function breakpoints(data) {
 	let breakpoints = Object.entries(data);
 	let amount = breakpoints[0][0];
 	for (let i = 0; i < breakpoints.length; i++) {
-		if (breakpoints[i][1] < retainerPerception ) {
+		if (breakpoints[i][1] <= retainerLevel.value ) {
 			amount = breakpoints[i][0];
 		}
 	}
@@ -22,7 +24,7 @@ function breakpoints(data) {
 
 function updateTable(data) {
 	// console.log(data);
-	let html = '<tr><th class="order">Item</th><th class="order">min Price</th></th><th class="order">Amounts</th><th class="order">Gil/Trip <span class="cursor-pointer">&#x21c5;</span></th></tr>';
+	let html = '<tr><th>Item &#x21c5;</th><th>min Price &#x21c5;</th></th><th>Amounts &#x21c5;</th><th>Gil/Trip &#x21c5;</th></tr>';
 	for (let i = Object.keys(data.itemIDs).length - 1; i >= 0; i--) {
 		let id = Object.values(data.items)[i].itemID;
 		let name = itemName(id);
@@ -43,8 +45,8 @@ function updateTable(data) {
 }
 
 function fetchData() {
-	let world = settings.querySelector('.world').value;
-	let retType = settings.querySelector('.retainer-type').value;
+	let world = worldSelect.value;
+	let retType = retainerSelect.value;
 	let items = '';
 	switch(retType) {
 		case "bot":
@@ -61,19 +63,15 @@ function fetchData() {
 			break;
 	}
 	items = items.join(',');
-	// console.log(items);
 
 	fetch(`${endpoint}/${world}/${items}/`)
 	.then(resp => resp.json())
 	.then(data => {
 		// theData = data;
 		updateTable(data);
-		// console.log(data);
 	})
 	.catch(err => console.log(err));
 }
-
-
 
 function sortCol() {
 	const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
@@ -93,6 +91,30 @@ function sortCol() {
 
 settings.querySelector('.fetch').addEventListener('click', (e) => {
 	e.preventDefault();
-	retainerPerception = document.querySelector('.retainer-level').value;
+	updateLocalSave();
 	fetchData();
 });
+
+function updateLocalSave() {
+	let saveState = {
+		world: worldSelect.value,
+		rType: retainerSelect.value,
+		rLevel: retainerLevel.value
+	}
+
+	localStorage.setItem('ffFetchSave', JSON.stringify(saveState));
+}
+// hookup the onchange event for saving state
+Array.from(settings.querySelectorAll('label > *')).map(el => el.addEventListener('click', updateLocalSave));
+
+function loadLocalSave() {
+	let loadState = JSON.parse(localStorage.getItem('ffFetchSave'));
+
+	worldSelect.value = loadState.world;
+	retainerSelect.value = loadState.rType;
+	retainerLevel.value = loadState.rLevel;
+}
+
+if(localStorage.getItem('ffFetchSave')) {
+	loadLocalSave();
+}
