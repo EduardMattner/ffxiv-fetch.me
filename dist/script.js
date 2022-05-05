@@ -30,7 +30,6 @@ function updateTable(rawData) {
 		itemIDs: [],
 		items: {}
 	};
-	// console.log(rawData);
 	let html = '<tr><th>Item &#x21c5;</th><th>min Price &#x21c5;</th></th><th>Amounts &#x21c5;</th><th>Gil/Trip &#x21c5;</th></tr>';
 	
 	if (rawData.length) {
@@ -38,7 +37,6 @@ function updateTable(rawData) {
 			data.itemIDs = data.itemIDs.concat(rawData[i].itemIDs);
 			let objKeys = Object.keys(rawData[i].items);
 			for (var q = 0; q < objKeys.length; q++) {
-				console.log(rawData[i].items[objKeys[q]]);
 				data.items[objKeys[q]] = rawData[i].items[objKeys[q]];
 			}
 		}
@@ -57,7 +55,6 @@ function updateTable(rawData) {
 			html += `<td>${amount}</td>`;
 			html += `<td>${gilPerTrip}</td>`;
 		html += '</tr>';
-		// console.log(Object.values(data.items)[i]);
 	}
 	table.innerHTML = html;
 	sortCol();
