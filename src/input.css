@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+	transition: .2s;
+}
+
+th {
+	@apply text-left;
+	cursor: pointer;
+}
+
+
+tr:nth-child(2n){
+	@apply bg-gray-700;
+}
+
+th,td {
+	@apply p-2;
+}
+
+a {
+	text-decoration: underline;
+}
+
+p {
+	@apply mb-2;
+}

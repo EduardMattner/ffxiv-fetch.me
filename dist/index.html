@@ -6,65 +6,84 @@
 	<title>FFXIV Retainer Fetch Calculator</title>
   <link href="output.css" rel="stylesheet">
 </head>
-<body class="p-8 w-4/5 mx-auto bg-gray-800 text-gray-100">
-	<h1 class="my-4 text-4xl">FFXIV fetch.me</h1>
-	<form class="settings flex flex-col gap-4" action="none">
-		<label>World Select
-			<select class="world border bg-gray-800">
-				<option disabled value="aether">AETHER</option>
-				<option value="cactuar">Cactuar</option>
-				<option value="faerie">Faerie</option>
-				<option value="gilgamesh">Gilgamesh</option>
-				<option value="jenova">Jenova</option>
-				<option value="midgardsormr">Midgardsormr</option>
-				<option value="sargatanas">Sargatanas</option>
-				<option value="siren">Siren</option>
-				<option disabled value=""></option>
-				
-				<option disabled value="crystal">CRYSTAL</option>
-				<option value="balmung">Balmung</option>
-				<option value="brynhildr">Brynhildr</option>
-				<option value="coeurl">Coeurl</option>
-				<option value="diabolos">Diabolos</option>
-				<option value="goblin">Goblin</option>
-				<option value="malboro">Malboro</option>
-				<option value="mateus">Mateus</option>
-				<option value="zalera">Zalera</option>
-				<option disabled value=""></option>
-				
-				<option disabled value="primal">PRIMAL</option>
-				<option value="behemoth">Behemoth</option>
-				<option value="excalibur">Excalibur</option>
-				<option value="exodus">Exodus</option>
-				<option value="famfrit">Famfrit</option>
-				<option value="hyperion">Hyperion</option>
-				<option value="lamia">Lamia</option>
-				<option value="leviathan">Leviathan</option>
-				<option value="ultros">Ultros</option>
-			</select>
-		</label>
-
-		<label>Retainer Type
-			<select class="retainer-type border bg-gray-800">
-				<option value="bot">Botanist</option>
-				<option value="fsh">Fisher</option>
-				<option value="hnt">Hunter</option>
-				<option value="min">Miner</option>
-			</select>
-		</label>
-
-		<label>Retainer Perception/ilvl
-			<input type="number" class="retainer-level border bg-gray-800" value="0">
-		</label>
-
-		<button class="fetch border inline-block">Fetch</button>
-	</form>
-
-	<hr class="my-4">
-
-	<table class="data-table table-auto w-full">
+<body class="bg-gray-800 text-gray-100 min-h-[100vh] pb-24">
+	<header class="w-4/5 mx-auto py-8">
+		<h1 class="my-4 text-4xl">FFXIV fetch.me</h1>
+		<p></p>
+	</header>
+	<section class="w-4/5 mx-auto lg:grid grid-cols-2 gap-4 ">
 		
-	</table>
+		<form class="settings flex flex-col gap-4 w-2/3 mb-8 pt-3" action="none">
+			<label class="grid grid-cols-2 gap-4">World Select
+				<select class="world border bg-gray-800">
+					<option disabled value="aether">AETHER</option>
+					<option value="cactuar">Cactuar</option>
+					<option value="faerie">Faerie</option>
+					<option value="gilgamesh">Gilgamesh</option>
+					<option value="jenova">Jenova</option>
+					<option value="midgardsormr">Midgardsormr</option>
+					<option value="sargatanas">Sargatanas</option>
+					<option value="siren">Siren</option>
+					<option disabled value=""></option>
+					
+					<option disabled value="crystal">CRYSTAL</option>
+					<option value="balmung">Balmung</option>
+					<option value="brynhildr">Brynhildr</option>
+					<option value="coeurl">Coeurl</option>
+					<option value="diabolos">Diabolos</option>
+					<option value="goblin">Goblin</option>
+					<option value="malboro">Malboro</option>
+					<option value="mateus">Mateus</option>
+					<option value="zalera">Zalera</option>
+					<option disabled value=""></option>
+					
+					<option disabled value="primal">PRIMAL</option>
+					<option value="behemoth">Behemoth</option>
+					<option value="excalibur">Excalibur</option>
+					<option value="exodus">Exodus</option>
+					<option value="famfrit">Famfrit</option>
+					<option value="hyperion">Hyperion</option>
+					<option value="lamia">Lamia</option>
+					<option value="leviathan">Leviathan</option>
+					<option value="ultros">Ultros</option>
+				</select>
+			</label>
+
+			<label class="grid grid-cols-2 gap-4">Retainer Type
+				<select class="retainer-type border bg-gray-800">
+					<option value="bot">Botanist</option>
+					<option value="fsh">Fisher</option>
+					<option value="hnt">Hunter</option>
+					<option value="min">Miner</option>
+				</select>
+			</label>
+
+			<label class="grid grid-cols-2 gap-4">Retainer Perception/ilvl
+				<input type="number" class="retainer-level border bg-gray-800 pl-1" value="0">
+			</label>
+
+			<button class="fetch border inline-block hover:bg-gray-700">Fetch</button>
+		</form>
+
+		<div class="intro">
+			<h2 class="text-2xl">What is this?</h2>
+			<p>Figure out what your retainers should be gathering for you.</p>
+			<p>The data is from <a href="https://universalis.app/">universalis.app</a>.</p>
+			<p>None of your info is tracked or collected, your settings are saved in your own browser.</p>
+			<p>Use your head and happy farming, <br>Shast</p>
+		</div>
+	</section>
+	
+	<section class="w-4/5 mx-auto mt-8">			
+		<table class="data-table table-auto w-full">
+		</table>
+	</section>
+
+
+	<footer class="w-full text-center fixed bottom-0 mt-12 p-4 bg-gray-900 flex justify-between">
+		<p>Forged in the belief that gil is but a number.</p>
+		<p><em>v.0.0.2</em> | by Shastjion Decesare@Leviathan | <a target="_blank" rel="noopener" href="https://ko-fi.com/shast">support my coffee habit</a></p>
+	</footer>
 	
   <script src="data.js"></script>
   <script src="script.js"></script>
