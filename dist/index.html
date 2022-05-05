@@ -6,11 +6,11 @@
 	<title>FFXIV Retainer Fetch Calculator</title>
   <link href="output.css" rel="stylesheet">
 </head>
-<body class="p-8">
+<body class="p-8 w-4/5 mx-auto bg-gray-800 text-gray-100">
 	<h1 class="my-4 text-4xl">FFXIV fetch.me</h1>
 	<form class="settings flex flex-col gap-4" action="none">
 		<label>World Select
-			<select class="world border">
+			<select class="world border bg-gray-800">
 				<option disabled value="aether">AETHER</option>
 				<option value="cactuar">Cactuar</option>
 				<option value="faerie">Faerie</option>
@@ -45,7 +45,7 @@
 		</label>
 
 		<label>Retainer Type
-			<select class="retainer-type border">
+			<select class="retainer-type border bg-gray-800">
 				<option value="bot">Botanist</option>
 				<option value="fsh">Fisher</option>
 				<option value="hnt">Hunter</option>
@@ -54,7 +54,7 @@
 		</label>
 
 		<label>Retainer Perception/ilvl
-			<input type="number" class="retainer-level border" value="0">
+			<input type="number" class="retainer-level border bg-gray-800" value="0">
 		</label>
 
 		<button class="fetch border inline-block">Fetch</button>

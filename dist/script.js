@@ -4,6 +4,7 @@ const table = document.querySelector('.data-table');
 const worldSelect = settings.querySelector('.world');
 const retainerSelect = settings.querySelector('.retainer-type');
 const retainerLevel = settings.querySelector('.retainer-level');
+let tempData = {};
 
 let theData = {};
 
@@ -22,9 +23,27 @@ function breakpoints(data) {
 	return amount;
 }
 
-function updateTable(data) {
-	// console.log(data);
+
+function updateTable(rawData) {
+	// TODO: not working right now, fix the stitching together. Or rework to have it work in parts again.
+	let data = {
+		itemIDs: [],
+		items: {}
+	};
+	// console.log(rawData);
 	let html = '<tr><th>Item &#x21c5;</th><th>min Price &#x21c5;</th></th><th>Amounts &#x21c5;</th><th>Gil/Trip &#x21c5;</th></tr>';
+	
+	if (rawData.length) {
+		for (var i = 0; i < rawData.length; i++) {
+			data.itemIDs = data.itemIDs.concat(rawData[i].itemIDs);
+			let objKeys = Object.keys(rawData[i].items);
+			for (var q = 0; q < objKeys.length; q++) {
+				console.log(rawData[i].items[objKeys[q]]);
+				data.items[objKeys[q]] = rawData[i].items[objKeys[q]];
+			}
+		}
+	} 
+
 	for (let i = Object.keys(data.itemIDs).length - 1; i >= 0; i--) {
 		let id = Object.values(data.items)[i].itemID;
 		let name = itemName(id);
@@ -33,7 +52,7 @@ function updateTable(data) {
 		let gilPerTrip = amount * minPrice;
 
 		html += '<tr>';
-			html += `<td>${name}</td>`;
+			html += `<td><a href="https://universalis.app/market/${id}" target="_blank" rel="noopener">${name}</a></td>`;
 			html += `<td>${minPrice}</td>`;
 			html += `<td>${amount}</td>`;
 			html += `<td>${gilPerTrip}</td>`;
@@ -44,10 +63,11 @@ function updateTable(data) {
 	sortCol();
 }
 
-function fetchData() {
+async function fetchData() {
 	let world = worldSelect.value;
 	let retType = retainerSelect.value;
 	let items = '';
+	let result = [];
 	switch(retType) {
 		case "bot":
 			items = botData;
@@ -62,15 +82,22 @@ function fetchData() {
 			items = hntData;
 			break;
 	}
-	items = items.join(',');
 
-	fetch(`${endpoint}/${world}/${items}/`)
-	.then(resp => resp.json())
-	.then(data => {
-		// theData = data;
-		updateTable(data);
-	})
-	.catch(err => console.log(err));
+	// only 100 items at a time are permitted from the API, so chop chop
+	let itemsSlice = [];
+	for (var i = 0; i < Math.ceil(items.length / 100); i++) {
+		itemsSlice[i] = items.slice(i * 100, (i+1) * 100);
+		itemsSlice[i] = itemsSlice[i].join(',');
+	}
+
+	for (var i = 0; i < itemsSlice.length; i++) {
+		await fetch(`${endpoint}/${world}/${itemsSlice[i]}/`)
+		.then(resp => resp.json())
+		.then(data => result.push(data))
+		.catch(err => console.log(err));
+	}
+	// theData = data;
+	updateTable(result);
 }
 
 function sortCol() {
