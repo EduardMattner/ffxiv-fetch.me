@@ -30,7 +30,7 @@ function updateTable(rawData) {
 		itemIDs: [],
 		items: {}
 	};
-	let html = '<tr><th>Item &#x21c5;</th><th>min Price &#x21c5;</th></th><th>Amounts &#x21c5;</th><th>Gil/Trip &#x21c5;</th></tr>';
+	let html = '<tr class="sticky top-0 bg-gray-800"><th>Item &#x21c5;</th><th>min Price &#x21c5;</th></th><th>Amounts &#x21c5;</th><th>Gil/Trip &#x21c5;</th></tr>';
 	
 	if (rawData.length) {
 		for (var i = 0; i < rawData.length; i++) {
@@ -100,7 +100,7 @@ async function fetchData() {
 function sortCol() {
 	const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
 
-	const comparer = (idx, asc) => (a, b) => ((v1, v2) => 
+	const comparer = (idx, asc) => (a, b) => ((v2, v1) => 
 	    v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
 	    )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
 
