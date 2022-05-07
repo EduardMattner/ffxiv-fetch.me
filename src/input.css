@@ -15,24 +15,28 @@ body.loading::after {
   content: '⛏️';
   position: absolute;
   font-size: 500%;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-name: loading-animation;
   animation-iteration-count: infinite;
-  transform-origin: bottom;
-  left: 45%;
-  top: 45%;
+  left: 50%;
+  top: 50%;
   z-index: 55;
+  transform: translate(-50%, -50%);
+  transform-origin: bottom;
 }
 
 @keyframes loading-animation {
   from {
-    transform: rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg);
   }
-    50% {
-        transform: rotate(120deg);
-    }
+  15% {
+      transform: translate(-50%, -50%) rotate(125deg);
+  }
+  20% {
+      transform: translate(-50%, -50%) rotate(125deg);
+  }
   to {
-    transform: rotate(0deg);
+    transform: translate(-50%, -50%) rotate(0deg);
   }
 }
 
