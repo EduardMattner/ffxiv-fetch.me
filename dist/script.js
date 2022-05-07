@@ -2,6 +2,7 @@ const body = document.querySelector('body');
 const endpoint = 'https://universalis.app/api/v2';
 const settings = document.querySelector('.settings');
 const table = document.querySelector('.data-table');
+const langSelect = settings.querySelector('.language');
 const worldSelect = settings.querySelector('.world');
 const retainerSelect = settings.querySelector('.retainer-type');
 const retainerLevel = settings.querySelector('.retainer-level');
@@ -10,7 +11,7 @@ let tempData = {};
 let theData = {};
 
 function itemName(id) {
-	return itemData[id].en;
+	return itemData[id][langSelect.value];
 }
 
 function breakpoints(data) {
@@ -23,7 +24,6 @@ function breakpoints(data) {
 	}
 	return amount;
 }
-
 
 function updateTable(rawData) {
 	// TODO: not working right now, fix the stitching together. Or rework to have it work in parts again.
@@ -124,6 +124,7 @@ settings.querySelector('.fetch').addEventListener('click', (e) => {
 
 function updateLocalSave() {
 	let saveState = {
+		lang: langSelect.value,
 		world: worldSelect.value,
 		rType: retainerSelect.value,
 		rLevel: retainerLevel.value
@@ -136,7 +137,7 @@ Array.from(settings.querySelectorAll('label > *')).map(el => el.addEventListener
 
 function loadLocalSave() {
 	let loadState = JSON.parse(localStorage.getItem('ffFetchSave'));
-
+	langSelect.value = loadState.lang;
 	worldSelect.value = loadState.world;
 	retainerSelect.value = loadState.rType;
 	retainerLevel.value = loadState.rLevel;
