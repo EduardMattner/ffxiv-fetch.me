@@ -57,8 +57,12 @@ function updateTable(rawData) {
 			html += `<td>${gilPerTrip}</td>`;
 		html += '</tr>';
 	}
+	// populate table
 	table.innerHTML = html;
+	// apply sorting funcionality
 	sortCol();
+	// sort by gil/trip column Desc
+	document.querySelector('table th:last-of-type').click();
 }
 
 async function fetchData() {
