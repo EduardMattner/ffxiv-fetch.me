@@ -1,3 +1,4 @@
+const body = document.querySelector('body');
 const endpoint = 'https://universalis.app/api/v2';
 const settings = document.querySelector('.settings');
 const table = document.querySelector('.data-table');
@@ -61,6 +62,7 @@ function updateTable(rawData) {
 }
 
 async function fetchData() {
+	body.classList.add('loading');
 	let world = worldSelect.value;
 	let retType = retainerSelect.value;
 	let items = '';
@@ -95,6 +97,7 @@ async function fetchData() {
 	}
 	// theData = data;
 	updateTable(result);
+	body.classList.remove('loading');
 }
 
 function sortCol() {

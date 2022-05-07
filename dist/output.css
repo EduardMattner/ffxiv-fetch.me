@@ -477,12 +477,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: sticky;
 }
 
-.bottom-0 {
-  bottom: 0px;
-}
-
 .top-0 {
   top: 0px;
+}
+
+.bottom-0 {
+  bottom: 0px;
 }
 
 .mx-auto {
@@ -537,6 +537,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .table-auto {
   table-layout: auto;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .grid-cols-2 {
@@ -615,6 +619,59 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+
+body.loading::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height:  100%;
+  background: rgba(0,0,0,.5);
+  z-index: 5;
+}
+
+body.loading::after {
+  content: '⛏️';
+  position: absolute;
+  font-size: 500%;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-name: loading-animation;
+          animation-name: loading-animation;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  transform-origin: bottom;
+  left: 45%;
+  top: 45%;
+  z-index: 55;
+}
+
+@-webkit-keyframes loading-animation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(120deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes loading-animation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(120deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
 }
 
 * {
