@@ -10,7 +10,8 @@ const itemData = {
             "100": 1350,
             "110": 1485,
             "120": 1620
-        }
+        },
+        "level": 1
     },
     "3": {
         "en": "Ice Shard",
@@ -23,7 +24,8 @@ const itemData = {
             "100": 1350,
             "110": 1485,
             "120": 1620
-        }
+        },
+        "level": 1
     },
     "4": {
         "en": "Wind Shard",
@@ -36,7 +38,8 @@ const itemData = {
             "100": 1350,
             "110": 1485,
             "120": 1620
-        }
+        },
+        "level": 1
     },
     "5": {
         "en": "Earth Shard",
@@ -49,7 +52,8 @@ const itemData = {
             "100": 1350,
             "110": 1485,
             "120": 1620
-        }
+        },
+        "level": 1
     },
     "6": {
         "en": "Lightning Shard",
@@ -62,7 +66,8 @@ const itemData = {
             "100": 1350,
             "110": 1485,
             "120": 1620
-        }
+        },
+        "level": 1
     },
     "7": {
         "en": "Water Shard",
@@ -75,7 +80,8 @@ const itemData = {
             "100": 1350,
             "110": 1485,
             "120": 1620
-        }
+        },
+        "level": 1
     },
     "8": {
         "en": "Fire Crystal",
@@ -88,7 +94,8 @@ const itemData = {
             "100": 1350,
             "110": 1485,
             "120": 1620
-        }
+        },
+        "level": 26
     },
     "9": {
         "en": "Ice Crystal",
@@ -101,7 +108,8 @@ const itemData = {
             "100": 1350,
             "110": 1485,
             "120": 1620
-        }
+        },
+        "level": 26
     },
     "10": {
         "en": "Wind Crystal",
@@ -114,7 +122,8 @@ const itemData = {
             "100": 1350,
             "110": 1485,
             "120": 1620
-        }
+        },
+        "level": 26
     },
     "11": {
         "en": "Earth Crystal",
@@ -127,7 +136,8 @@ const itemData = {
             "100": 1350,
             "110": 1485,
             "120": 1620
-        }
+        },
+        "level": 26
     },
     "12": {
         "en": "Lightning Crystal",
@@ -140,7 +150,8 @@ const itemData = {
             "100": 1350,
             "110": 1485,
             "120": 1620
-        }
+        },
+        "level": 26
     },
     "13": {
         "en": "Water Crystal",
@@ -153,7 +164,8 @@ const itemData = {
             "100": 1350,
             "110": 1485,
             "120": 1620
-        }
+        },
+        "level": 26
     },
     "4758": {
         "en": "Marmot Meat",
@@ -166,7 +178,8 @@ const itemData = {
             "10": 17,
             "12": 22,
             "15": 27
-        }
+        },
+        "level": 7
     },
     "4759": {
         "en": "Mutton Loin",
@@ -179,7 +192,8 @@ const itemData = {
             "10": 19,
             "12": 24,
             "15": 29
-        }
+        },
+        "level": 9
     },
     "4760": {
         "en": "Dodo Tenderloin",
@@ -192,7 +206,8 @@ const itemData = {
             "10": 21,
             "12": 26,
             "15": 31
-        }
+        },
+        "level": 11
     },
     "4761": {
         "en": "Mole Meat",
@@ -205,7 +220,8 @@ const itemData = {
             "10": 22,
             "12": 27,
             "15": 32
-        }
+        },
+        "level": 12
     },
     "4765": {
         "en": "Antelope Shank",
@@ -218,7 +234,8 @@ const itemData = {
             "10": 31,
             "12": 36,
             "15": 41
-        }
+        },
+        "level": 21
     },
     "4766": {
         "en": "Aldgoat Chuck",
@@ -231,7 +248,8 @@ const itemData = {
             "10": 35,
             "12": 40,
             "15": 45
-        }
+        },
+        "level": 25
     },
     "4767": {
         "en": "Raptor Shank",
@@ -244,7 +262,8 @@ const itemData = {
             "10": 42,
             "12": 47,
             "15": 52
-        }
+        },
+        "level": 32
     },
     "4768": {
         "en": "Buffalo Sirloin",
@@ -257,7 +276,8 @@ const itemData = {
             "10": 53,
             "12": 58,
             "15": 63
-        }
+        },
+        "level": 43
     },
     "4769": {
         "en": "Eft Tail",
@@ -270,7 +290,8 @@ const itemData = {
             "10": 57,
             "12": 62,
             "15": 67
-        }
+        },
+        "level": 47
     },
     "4770": {
         "en": "Orobon Liver",
@@ -283,7 +304,8 @@ const itemData = {
             "10": 38,
             "12": 43,
             "15": 48
-        }
+        },
+        "level": 28
     },
     "4771": {
         "en": "Megalocrab Leg",
@@ -296,7 +318,8 @@ const itemData = {
             "10": 32,
             "12": 37,
             "15": 42
-        }
+        },
+        "level": 22
     },
     "4773": {
         "en": "Dodo Egg",
@@ -309,7 +332,8 @@ const itemData = {
             "10": 24,
             "12": 29,
             "15": 34
-        }
+        },
+        "level": 14
     },
     "4774": {
         "en": "Puk Egg",
@@ -322,7 +346,8 @@ const itemData = {
             "10": 37,
             "12": 42,
             "15": 47
-        }
+        },
+        "level": 27
     },
     "4775": {
         "en": "Apkallu Egg",
@@ -335,7 +360,8 @@ const itemData = {
             "10": 54,
             "12": 59,
             "15": 64
-        }
+        },
+        "level": 44
     },
     "4777": {
         "en": "Wild Onion",
@@ -348,7 +374,8 @@ const itemData = {
             "30": 58,
             "40": 64,
             "50": 70
-        }
+        },
+        "level": 12
     },
     "4778": {
         "en": "Coerthan Carrot",
@@ -361,7 +388,8 @@ const itemData = {
             "30": 60,
             "40": 66,
             "50": 72
-        }
+        },
+        "level": 13
     },
     "4779": {
         "en": "Ogre Pumpkin",
@@ -374,7 +402,8 @@ const itemData = {
             "30": 60,
             "40": 66,
             "50": 72
-        }
+        },
+        "level": 13
     },
     "4780": {
         "en": "Ruby Tomato",
@@ -387,7 +416,8 @@ const itemData = {
             "30": 65,
             "40": 72,
             "50": 78
-        }
+        },
+        "level": 15
     },
     "4781": {
         "en": "Alpine Parsnip",
@@ -400,7 +430,8 @@ const itemData = {
             "30": 65,
             "40": 72,
             "50": 78
-        }
+        },
+        "level": 15
     },
     "4782": {
         "en": "La Noscean Lettuce",
@@ -413,7 +444,8 @@ const itemData = {
             "30": 60,
             "40": 66,
             "50": 72
-        }
+        },
+        "level": 13
     },
     "4783": {
         "en": "Cieldalaes Spinach",
@@ -426,7 +458,8 @@ const itemData = {
             "30": 63,
             "40": 69,
             "50": 76
-        }
+        },
+        "level": 14
     },
     "4784": {
         "en": "Highland Parsley",
@@ -439,7 +472,8 @@ const itemData = {
             "30": 65,
             "40": 72,
             "50": 78
-        }
+        },
+        "level": 15
     },
     "4785": {
         "en": "Paprika",
@@ -452,7 +486,8 @@ const itemData = {
             "30": 96,
             "40": 106,
             "50": 115
-        }
+        },
+        "level": 16
     },
     "4786": {
         "en": "Nopales",
@@ -465,7 +500,8 @@ const itemData = {
             "30": 102,
             "40": 112,
             "50": 122
-        }
+        },
+        "level": 18
     },
     "4787": {
         "en": "Popoto",
@@ -478,7 +514,8 @@ const itemData = {
             "30": 102,
             "40": 112,
             "50": 122
-        }
+        },
+        "level": 18
     },
     "4788": {
         "en": "Wizard Eggplant",
@@ -491,7 +528,8 @@ const itemData = {
             "30": 161,
             "40": 177,
             "50": 193
-        }
+        },
+        "level": 27
     },
     "4789": {
         "en": "Midland Cabbage",
@@ -504,7 +542,8 @@ const itemData = {
             "30": 165,
             "40": 182,
             "50": 198
-        }
+        },
+        "level": 28
     },
     "4790": {
         "en": "Aloe",
@@ -517,7 +556,8 @@ const itemData = {
             "30": 180,
             "40": 198,
             "50": 216
-        }
+        },
+        "level": 32
     },
     "4791": {
         "en": "Salt Leek",
@@ -530,7 +570,8 @@ const itemData = {
             "30": 187,
             "40": 206,
             "50": 224
-        }
+        },
+        "level": 34
     },
     "4792": {
         "en": "Ramhorn Zucchini",
@@ -543,7 +584,8 @@ const itemData = {
             "30": 206,
             "40": 227,
             "50": 247
-        }
+        },
+        "level": 39
     },
     "4793": {
         "en": "Maiden Artichoke",
@@ -556,7 +598,8 @@ const itemData = {
             "30": 202,
             "40": 222,
             "50": 242
-        }
+        },
+        "level": 38
     },
     "4794": {
         "en": "Shriekshroom",
@@ -569,7 +612,8 @@ const itemData = {
             "10": 13,
             "12": 18,
             "15": 23
-        }
+        },
+        "level": 3
     },
     "4795": {
         "en": "Chanterelle",
@@ -582,7 +626,8 @@ const itemData = {
             "30": 58,
             "40": 64,
             "50": 70
-        }
+        },
+        "level": 11
     },
     "4796": {
         "en": "Gil Bun",
@@ -595,7 +640,8 @@ const itemData = {
             "30": 105,
             "40": 116,
             "50": 126
-        }
+        },
+        "level": 19
     },
     "4797": {
         "en": "Button Mushroom",
@@ -608,7 +654,8 @@ const itemData = {
             "30": 123,
             "40": 135,
             "50": 148
-        }
+        },
+        "level": 22
     },
     "4798": {
         "en": "White Truffle",
@@ -621,7 +668,8 @@ const itemData = {
             "30": 183,
             "40": 201,
             "50": 220
-        }
+        },
+        "level": 33
     },
     "4800": {
         "en": "Black Truffle",
@@ -634,7 +682,8 @@ const itemData = {
             "9": 280,
             "10": 308,
             "11": 336
-        }
+        },
+        "level": 50
     },
     "4803": {
         "en": "Kukuru Bean",
@@ -647,7 +696,8 @@ const itemData = {
             "30": 43,
             "40": 47,
             "50": 52
-        }
+        },
+        "level": 9
     },
     "4804": {
         "en": "Cinderfoot Olive",
@@ -660,7 +710,8 @@ const itemData = {
             "30": 60,
             "40": 66,
             "50": 72
-        }
+        },
+        "level": 13
     },
     "4805": {
         "en": "Gridanian Chestnut",
@@ -673,7 +724,8 @@ const itemData = {
             "30": 63,
             "40": 69,
             "50": 76
-        }
+        },
+        "level": 14
     },
     "4806": {
         "en": "Gridanian Walnut",
@@ -686,7 +738,8 @@ const itemData = {
             "30": 120,
             "40": 132,
             "50": 144
-        }
+        },
+        "level": 21
     },
     "4807": {
         "en": "Iron Acorn",
@@ -699,7 +752,8 @@ const itemData = {
             "30": 195,
             "40": 215,
             "50": 234
-        }
+        },
+        "level": 36
     },
     "4808": {
         "en": "Lowland Grapes",
@@ -712,7 +766,8 @@ const itemData = {
             "30": 58,
             "40": 64,
             "50": 70
-        }
+        },
+        "level": 11
     },
     "4809": {
         "en": "La Noscean Orange",
@@ -725,7 +780,8 @@ const itemData = {
             "30": 40,
             "40": 44,
             "50": 48
-        }
+        },
+        "level": 7
     },
     "4810": {
         "en": "Faerie Apple",
@@ -738,7 +794,8 @@ const itemData = {
             "30": 96,
             "40": 106,
             "50": 115
-        }
+        },
+        "level": 16
     },
     "4811": {
         "en": "Sun Lemon",
@@ -751,7 +808,8 @@ const itemData = {
             "30": 99,
             "40": 109,
             "50": 119
-        }
+        },
+        "level": 17
     },
     "4812": {
         "en": "Pixie Plums",
@@ -764,7 +822,8 @@ const itemData = {
             "30": 120,
             "40": 132,
             "50": 144
-        }
+        },
+        "level": 21
     },
     "4813": {
         "en": "Alligator Pear",
@@ -777,7 +836,8 @@ const itemData = {
             "30": 172,
             "40": 189,
             "50": 206
-        }
+        },
+        "level": 30
     },
     "4814": {
         "en": "Blood Currants",
@@ -790,7 +850,8 @@ const itemData = {
             "30": 195,
             "40": 215,
             "50": 234
-        }
+        },
+        "level": 36
     },
     "4815": {
         "en": "Rolanberry",
@@ -803,7 +864,8 @@ const itemData = {
             "30": 221,
             "40": 243,
             "50": 265
-        }
+        },
+        "level": 43
     },
     "4816": {
         "en": "Prickly Pineapple",
@@ -816,7 +878,8 @@ const itemData = {
             "9": 280,
             "10": 308,
             "11": 336
-        }
+        },
+        "level": 50
     },
     "4818": {
         "en": "Buffalo Beans",
@@ -829,7 +892,8 @@ const itemData = {
             "30": 58,
             "40": 64,
             "50": 70
-        }
+        },
+        "level": 12
     },
     "4819": {
         "en": "Sticky Rice",
@@ -842,7 +906,8 @@ const itemData = {
             "30": 133,
             "40": 146,
             "50": 160
-        }
+        },
+        "level": 25
     },
     "4820": {
         "en": "Lalafellin Lentil",
@@ -855,7 +920,8 @@ const itemData = {
             "30": 99,
             "40": 109,
             "50": 119
-        }
+        },
+        "level": 17
     },
     "4821": {
         "en": "Millioncorn",
@@ -868,7 +934,8 @@ const itemData = {
             "30": 133,
             "40": 146,
             "50": 160
-        }
+        },
+        "level": 25
     },
     "4822": {
         "en": "Jade Peas",
@@ -881,7 +948,8 @@ const itemData = {
             "30": 157,
             "40": 173,
             "50": 188
-        }
+        },
+        "level": 26
     },
     "4823": {
         "en": "Rye",
@@ -894,7 +962,8 @@ const itemData = {
             "30": 58,
             "40": 64,
             "50": 70
-        }
+        },
+        "level": 11
     },
     "4824": {
         "en": "Sunset Wheat",
@@ -907,7 +976,8 @@ const itemData = {
             "30": 58,
             "40": 64,
             "50": 70
-        }
+        },
+        "level": 11
     },
     "4828": {
         "en": "Cinnamon",
@@ -920,7 +990,8 @@ const itemData = {
             "30": 35,
             "40": 39,
             "50": 42
-        }
+        },
+        "level": 4
     },
     "4829": {
         "en": "Garlean Garlic",
@@ -933,7 +1004,8 @@ const itemData = {
             "30": 58,
             "40": 64,
             "50": 70
-        }
+        },
+        "level": 11
     },
     "4830": {
         "en": "Black Pepper",
@@ -946,7 +1018,8 @@ const itemData = {
             "30": 63,
             "40": 69,
             "50": 76
-        }
+        },
+        "level": 14
     },
     "4831": {
         "en": "Cloves",
@@ -959,7 +1032,8 @@ const itemData = {
             "30": 45,
             "40": 50,
             "50": 54
-        }
+        },
+        "level": 10
     },
     "4832": {
         "en": "Marjoram",
@@ -972,7 +1046,8 @@ const itemData = {
             "30": 65,
             "40": 72,
             "50": 78
-        }
+        },
+        "level": 15
     },
     "4833": {
         "en": "Vanilla Beans",
@@ -985,7 +1060,8 @@ const itemData = {
             "7": 860,
             "8": 946,
             "9": 1032
-        }
+        },
+        "level": 60
     },
     "4834": {
         "en": "Galago Mint",
@@ -998,7 +1074,8 @@ const itemData = {
             "30": 96,
             "40": 106,
             "50": 115
-        }
+        },
+        "level": 16
     },
     "4835": {
         "en": "Ala Mhigan Mustard",
@@ -1011,7 +1088,8 @@ const itemData = {
             "30": 126,
             "40": 139,
             "50": 151
-        }
+        },
+        "level": 23
     },
     "4836": {
         "en": "Pearl Ginger",
@@ -1024,7 +1102,8 @@ const itemData = {
             "30": 130,
             "40": 143,
             "50": 156
-        }
+        },
+        "level": 24
     },
     "4837": {
         "en": "Midland Basil",
@@ -1037,7 +1116,8 @@ const itemData = {
             "30": 180,
             "40": 198,
             "50": 216
-        }
+        },
+        "level": 32
     },
     "4838": {
         "en": "Dragon Pepper",
@@ -1050,7 +1130,8 @@ const itemData = {
             "30": 191,
             "40": 210,
             "50": 229
-        }
+        },
+        "level": 35
     },
     "4839": {
         "en": "Laurel",
@@ -1063,7 +1144,8 @@ const itemData = {
             "30": 187,
             "40": 206,
             "50": 224
-        }
+        },
+        "level": 34
     },
     "4840": {
         "en": "Mugwort",
@@ -1076,7 +1158,8 @@ const itemData = {
             "30": 198,
             "40": 218,
             "50": 238
-        }
+        },
+        "level": 37
     },
     "4841": {
         "en": "Thyme",
@@ -1089,7 +1172,8 @@ const itemData = {
             "30": 206,
             "40": 227,
             "50": 247
-        }
+        },
+        "level": 39
     },
     "4842": {
         "en": "Almonds",
@@ -1102,7 +1186,8 @@ const itemData = {
             "30": 210,
             "40": 231,
             "50": 252
-        }
+        },
+        "level": 40
     },
     "4843": {
         "en": "Desert Saffron",
@@ -1115,7 +1200,8 @@ const itemData = {
             "30": 191,
             "40": 210,
             "50": 229
-        }
+        },
+        "level": 35
     },
     "4844": {
         "en": "Nutmeg",
@@ -1128,7 +1214,8 @@ const itemData = {
             "30": 206,
             "40": 227,
             "50": 247
-        }
+        },
+        "level": 39
     },
     "4845": {
         "en": "Sagolii Sage",
@@ -1141,7 +1228,8 @@ const itemData = {
             "30": 213,
             "40": 234,
             "50": 256
-        }
+        },
+        "level": 41
     },
     "4846": {
         "en": "Thanalan Tea Leaves",
@@ -1154,7 +1242,8 @@ const itemData = {
             "30": 262,
             "40": 288,
             "50": 314
-        }
+        },
+        "level": 48
     },
     "4850": {
         "en": "Honey",
@@ -1167,7 +1256,8 @@ const itemData = {
             "10": 14,
             "12": 19,
             "15": 24
-        }
+        },
+        "level": 4
     },
     "4871": {
         "en": "Finger Shrimp",
@@ -1180,7 +1270,8 @@ const itemData = {
             "7": 23,
             "8": 25,
             "9": 27
-        }
+        },
+        "level": 4
     },
     "4876": {
         "en": "Coral Butterfly",
@@ -1193,7 +1284,8 @@ const itemData = {
             "10": 28,
             "11": 31,
             "12": 34
-        }
+        },
+        "level": 9
     },
     "4879": {
         "en": "Tiger Cod",
@@ -1206,7 +1298,8 @@ const itemData = {
             "10": 41,
             "11": 45,
             "12": 49
-        }
+        },
+        "level": 14
     },
     "4880": {
         "en": "Helmet Crab",
@@ -1219,7 +1312,8 @@ const itemData = {
             "7": 62,
             "8": 69,
             "9": 75
-        }
+        },
+        "level": 16
     },
     "4881": {
         "en": "Rothlyt Oyster",
@@ -1232,7 +1326,8 @@ const itemData = {
             "7": 64,
             "8": 71,
             "9": 77
-        }
+        },
+        "level": 17
     },
     "4882": {
         "en": "Navigator's Dagger",
@@ -1245,7 +1340,8 @@ const itemData = {
             "7": 66,
             "8": 73,
             "9": 79
-        }
+        },
+        "level": 18
     },
     "4884": {
         "en": "Razor Clam",
@@ -1258,7 +1354,8 @@ const itemData = {
             "7": 70,
             "8": 77,
             "9": 85
-        }
+        },
+        "level": 20
     },
     "4886": {
         "en": "Blowfish",
@@ -1271,7 +1368,8 @@ const itemData = {
             "10": 78,
             "11": 86,
             "12": 94
-        }
+        },
+        "level": 21
     },
     "4891": {
         "en": "Bianaq Bream",
@@ -1284,7 +1382,8 @@ const itemData = {
             "7": 105,
             "8": 115,
             "9": 125
-        }
+        },
+        "level": 27
     },
     "4892": {
         "en": "Black Sole",
@@ -1297,7 +1396,8 @@ const itemData = {
             "7": 107,
             "8": 118,
             "9": 129
-        }
+        },
+        "level": 28
     },
     "4893": {
         "en": "Hammerhead Shark",
@@ -1310,7 +1410,8 @@ const itemData = {
             "3": 109,
             "4": 120,
             "5": 131
-        }
+        },
+        "level": 29
     },
     "4895": {
         "en": "Indigo Herring",
@@ -1323,7 +1424,8 @@ const itemData = {
             "7": 114,
             "8": 126,
             "9": 137
-        }
+        },
+        "level": 31
     },
     "4896": {
         "en": "Ash Tuna",
@@ -1336,7 +1438,8 @@ const itemData = {
             "10": 117,
             "11": 129,
             "12": 140
-        }
+        },
+        "level": 32
     },
     "4898": {
         "en": "Fullmoon Sardine",
@@ -1349,7 +1452,8 @@ const itemData = {
             "7": 122,
             "8": 134,
             "9": 146
-        }
+        },
+        "level": 34
     },
     "4900": {
         "en": "Whitelip Oyster",
@@ -1362,7 +1466,8 @@ const itemData = {
             "7": 127,
             "8": 140,
             "9": 152
-        }
+        },
+        "level": 36
     },
     "4903": {
         "en": "Silver Shark",
@@ -1375,7 +1480,8 @@ const itemData = {
             "3": 138,
             "4": 152,
             "5": 166
-        }
+        },
+        "level": 41
     },
     "4905": {
         "en": "Raincaller",
@@ -1388,7 +1494,8 @@ const itemData = {
             "3": 144,
             "4": 158,
             "5": 172
-        }
+        },
+        "level": 43
     },
     "4925": {
         "en": "Crayfish",
@@ -1401,7 +1508,8 @@ const itemData = {
             "10": 19,
             "11": 21,
             "12": 23
-        }
+        },
+        "level": 1
     },
     "4930": {
         "en": "Princess Trout",
@@ -1414,7 +1522,8 @@ const itemData = {
             "7": 23,
             "8": 26,
             "9": 28
-        }
+        },
+        "level": 5
     },
     "4931": {
         "en": "Dusk Goby",
@@ -1427,7 +1536,8 @@ const itemData = {
             "10": 25,
             "11": 27,
             "12": 30
-        }
+        },
+        "level": 6
     },
     "4932": {
         "en": "Pipira",
@@ -1440,7 +1550,8 @@ const itemData = {
             "10": 26,
             "11": 29,
             "12": 31
-        }
+        },
+        "level": 7
     },
     "4933": {
         "en": "Crimson Crayfish",
@@ -1453,7 +1564,8 @@ const itemData = {
             "10": 27,
             "11": 30,
             "12": 33
-        }
+        },
+        "level": 8
     },
     "4935": {
         "en": "Brass Loach",
@@ -1466,7 +1578,8 @@ const itemData = {
             "10": 29,
             "11": 33,
             "12": 35
-        }
+        },
+        "level": 10
     },
     "4936": {
         "en": "Maiden Carp",
@@ -1479,7 +1592,8 @@ const itemData = {
             "7": 38,
             "8": 42,
             "9": 46
-        }
+        },
+        "level": 11
     },
     "4949": {
         "en": "Bluebell Salmon",
@@ -1492,7 +1606,8 @@ const itemData = {
             "10": 68,
             "11": 75,
             "12": 82
-        }
+        },
+        "level": 19
     },
     "4955": {
         "en": "Warmwater Trout",
@@ -1505,7 +1620,8 @@ const itemData = {
             "10": 82,
             "11": 90,
             "12": 98
-        }
+        },
+        "level": 23
     },
     "4958": {
         "en": "Black Eel",
@@ -1518,7 +1634,8 @@ const itemData = {
             "7": 85,
             "8": 93,
             "9": 101
-        }
+        },
+        "level": 24
     },
     "4959": {
         "en": "Dark Bass",
@@ -1531,7 +1648,8 @@ const itemData = {
             "10": 86,
             "11": 95,
             "12": 104
-        }
+        },
+        "level": 25
     },
     "4982": {
         "en": "Velodyna Carp",
@@ -1544,7 +1662,8 @@ const itemData = {
             "10": 131,
             "11": 144,
             "12": 157
-        }
+        },
+        "level": 38
     },
     "4997": {
         "en": "Northern Pike",
@@ -1557,7 +1676,8 @@ const itemData = {
             "10": 157,
             "11": 172,
             "12": 188
-        }
+        },
+        "level": 46
     },
     "5040": {
         "en": "Cloud Cutter",
@@ -1570,7 +1690,8 @@ const itemData = {
             "7": 170,
             "8": 187,
             "9": 204
-        }
+        },
+        "level": 48
     },
     "5050": {
         "en": "Allagan Snail",
@@ -1583,7 +1704,8 @@ const itemData = {
             "30": 31,
             "40": 34,
             "50": 37
-        }
+        },
+        "level": 2
     },
     "5051": {
         "en": "Tree Toad",
@@ -1596,7 +1718,8 @@ const itemData = {
             "30": 58,
             "40": 64,
             "50": 70
-        }
+        },
+        "level": 11
     },
     "5054": {
         "en": "Dart Frog",
@@ -1609,7 +1732,8 @@ const itemData = {
             "30": 228,
             "40": 251,
             "50": 274
-        }
+        },
+        "level": 45
     },
     "5055": {
         "en": "Lava Toad",
@@ -1622,7 +1746,8 @@ const itemData = {
             "30": 273,
             "40": 300,
             "50": 328
-        }
+        },
+        "level": 49
     },
     "5106": {
         "en": "Copper Ore",
@@ -1635,7 +1760,8 @@ const itemData = {
             "30": 31,
             "40": 34,
             "50": 37
-        }
+        },
+        "level": 2
     },
     "5107": {
         "en": "Tin Ore",
@@ -1648,7 +1774,8 @@ const itemData = {
             "30": 38,
             "40": 42,
             "50": 46
-        }
+        },
+        "level": 6
     },
     "5108": {
         "en": "Yellow Copper Ore",
@@ -1661,7 +1788,8 @@ const itemData = {
             "30": 366,
             "40": 403,
             "50": 439
-        }
+        },
+        "level": 50
     },
     "5109": {
         "en": "Pyrite",
@@ -1674,7 +1802,8 @@ const itemData = {
             "30": 419,
             "40": 461,
             "50": 503
-        }
+        },
+        "level": 51
     },
     "5110": {
         "en": "Zinc Ore",
@@ -1687,7 +1816,8 @@ const itemData = {
             "30": 43,
             "40": 47,
             "50": 52
-        }
+        },
+        "level": 9
     },
     "5111": {
         "en": "Iron Ore",
@@ -1700,7 +1830,8 @@ const itemData = {
             "30": 63,
             "40": 69,
             "50": 76
-        }
+        },
+        "level": 14
     },
     "5112": {
         "en": "Limonite",
@@ -1713,7 +1844,8 @@ const itemData = {
             "30": 550,
             "40": 605,
             "50": 660
-        }
+        },
+        "level": 54
     },
     "5113": {
         "en": "Silver Ore",
@@ -1726,7 +1858,8 @@ const itemData = {
             "30": 133,
             "40": 146,
             "50": 160
-        }
+        },
+        "level": 25
     },
     "5114": {
         "en": "Mythril Ore",
@@ -1739,7 +1872,8 @@ const itemData = {
             "30": 187,
             "40": 206,
             "50": 224
-        }
+        },
+        "level": 34
     },
     "5115": {
         "en": "Electrum Ore",
@@ -1752,7 +1886,8 @@ const itemData = {
             "30": 221,
             "40": 243,
             "50": 265
-        }
+        },
+        "level": 43
     },
     "5116": {
         "en": "Cobalt Ore",
@@ -1765,7 +1900,8 @@ const itemData = {
             "30": 252,
             "40": 277,
             "50": 302
-        }
+        },
+        "level": 47
     },
     "5117": {
         "en": "Light Kidney Ore",
@@ -1778,7 +1914,8 @@ const itemData = {
             "30": 593,
             "40": 652,
             "50": 712
-        }
+        },
+        "level": 57
     },
     "5118": {
         "en": "Gold Ore",
@@ -1791,7 +1928,8 @@ const itemData = {
             "9": 280,
             "10": 308,
             "11": 336
-        }
+        },
+        "level": 50
     },
     "5120": {
         "en": "Platinum Ore",
@@ -1804,7 +1942,8 @@ const itemData = {
             "5": 280,
             "6": 308,
             "7": 336
-        }
+        },
+        "level": 50
     },
     "5121": {
         "en": "Darksteel Ore",
@@ -1817,7 +1956,8 @@ const itemData = {
             "9": 280,
             "10": 308,
             "11": 336
-        }
+        },
+        "level": 50
     },
     "5124": {
         "en": "Obsidian",
@@ -1830,7 +1970,8 @@ const itemData = {
             "30": 45,
             "40": 50,
             "50": 54
-        }
+        },
+        "level": 10
     },
     "5125": {
         "en": "Wyvern Obsidian",
@@ -1843,7 +1984,8 @@ const itemData = {
             "30": 165,
             "40": 182,
             "50": 198
-        }
+        },
+        "level": 28
     },
     "5126": {
         "en": "Dragon Obsidian",
@@ -1856,7 +1998,8 @@ const itemData = {
             "30": 419,
             "40": 461,
             "50": 503
-        }
+        },
+        "level": 51
     },
     "5127": {
         "en": "Wyrm Obsidian",
@@ -1869,7 +2012,8 @@ const itemData = {
             "30": 680,
             "40": 748,
             "50": 816
-        }
+        },
+        "level": 60
     },
     "5128": {
         "en": "Raw Sunstone",
@@ -1882,7 +2026,8 @@ const itemData = {
             "30": 40,
             "40": 44,
             "50": 48
-        }
+        },
+        "level": 7
     },
     "5129": {
         "en": "Raw Danburite",
@@ -1895,7 +2040,8 @@ const itemData = {
             "30": 102,
             "40": 112,
             "50": 122
-        }
+        },
+        "level": 18
     },
     "5130": {
         "en": "Raw Malachite",
@@ -1908,7 +2054,8 @@ const itemData = {
             "30": 96,
             "40": 106,
             "50": 115
-        }
+        },
+        "level": 16
     },
     "5131": {
         "en": "Raw Sphene",
@@ -1921,7 +2068,8 @@ const itemData = {
             "30": 99,
             "40": 109,
             "50": 119
-        }
+        },
+        "level": 17
     },
     "5132": {
         "en": "Raw Fluorite",
@@ -1934,7 +2082,8 @@ const itemData = {
             "30": 99,
             "40": 109,
             "50": 119
-        }
+        },
+        "level": 17
     },
     "5133": {
         "en": "Raw Lapis Lazuli",
@@ -1947,7 +2096,8 @@ const itemData = {
             "30": 40,
             "40": 44,
             "50": 48
-        }
+        },
+        "level": 7
     },
     "5134": {
         "en": "Raw Garnet",
@@ -1960,7 +2110,8 @@ const itemData = {
             "30": 176,
             "40": 194,
             "50": 211
-        }
+        },
+        "level": 31
     },
     "5135": {
         "en": "Raw Goshenite",
@@ -1973,7 +2124,8 @@ const itemData = {
             "30": 183,
             "40": 201,
             "50": 220
-        }
+        },
+        "level": 33
     },
     "5136": {
         "en": "Raw Peridot",
@@ -1986,7 +2138,8 @@ const itemData = {
             "30": 183,
             "40": 201,
             "50": 220
-        }
+        },
+        "level": 33
     },
     "5137": {
         "en": "Raw Heliodor",
@@ -1999,7 +2152,8 @@ const itemData = {
             "30": 180,
             "40": 198,
             "50": 216
-        }
+        },
+        "level": 32
     },
     "5138": {
         "en": "Raw Amethyst",
@@ -2012,7 +2166,8 @@ const itemData = {
             "30": 187,
             "40": 206,
             "50": 224
-        }
+        },
+        "level": 34
     },
     "5139": {
         "en": "Raw Aquamarine",
@@ -2025,7 +2180,8 @@ const itemData = {
             "30": 191,
             "40": 210,
             "50": 229
-        }
+        },
+        "level": 35
     },
     "5140": {
         "en": "Raw Rubellite",
@@ -2038,7 +2194,8 @@ const itemData = {
             "30": 228,
             "40": 251,
             "50": 274
-        }
+        },
+        "level": 45
     },
     "5141": {
         "en": "Raw Zircon",
@@ -2051,7 +2208,8 @@ const itemData = {
             "30": 202,
             "40": 222,
             "50": 242
-        }
+        },
+        "level": 38
     },
     "5142": {
         "en": "Raw Tourmaline",
@@ -2064,7 +2222,8 @@ const itemData = {
             "30": 195,
             "40": 215,
             "50": 234
-        }
+        },
+        "level": 36
     },
     "5143": {
         "en": "Raw Amber",
@@ -2077,7 +2236,8 @@ const itemData = {
             "30": 225,
             "40": 248,
             "50": 270
-        }
+        },
+        "level": 44
     },
     "5144": {
         "en": "Raw Spinel",
@@ -2090,7 +2250,8 @@ const itemData = {
             "30": 198,
             "40": 218,
             "50": 238
-        }
+        },
+        "level": 37
     },
     "5145": {
         "en": "Raw Turquoise",
@@ -2103,7 +2264,8 @@ const itemData = {
             "30": 213,
             "40": 234,
             "50": 256
-        }
+        },
+        "level": 41
     },
     "5146": {
         "en": "Raw Ruby",
@@ -2116,7 +2278,8 @@ const itemData = {
             "5": 280,
             "6": 308,
             "7": 336
-        }
+        },
+        "level": 50
     },
     "5147": {
         "en": "Raw Diamond",
@@ -2129,7 +2292,8 @@ const itemData = {
             "5": 280,
             "6": 308,
             "7": 336
-        }
+        },
+        "level": 50
     },
     "5148": {
         "en": "Raw Emerald",
@@ -2142,7 +2306,8 @@ const itemData = {
             "5": 280,
             "6": 308,
             "7": 336
-        }
+        },
+        "level": 50
     },
     "5149": {
         "en": "Raw Topaz",
@@ -2155,7 +2320,8 @@ const itemData = {
             "5": 280,
             "6": 308,
             "7": 336
-        }
+        },
+        "level": 50
     },
     "5150": {
         "en": "Raw Iolite",
@@ -2168,7 +2334,8 @@ const itemData = {
             "5": 280,
             "6": 308,
             "7": 336
-        }
+        },
+        "level": 50
     },
     "5151": {
         "en": "Raw Sapphire",
@@ -2181,7 +2348,8 @@ const itemData = {
             "5": 280,
             "6": 308,
             "7": 336
-        }
+        },
+        "level": 50
     },
     "5152": {
         "en": "Fire Rock",
@@ -2194,7 +2362,8 @@ const itemData = {
             "30": 126,
             "40": 139,
             "50": 151
-        }
+        },
+        "level": 23
     },
     "5153": {
         "en": "Ice Rock",
@@ -2207,7 +2376,8 @@ const itemData = {
             "30": 126,
             "40": 139,
             "50": 151
-        }
+        },
+        "level": 23
     },
     "5154": {
         "en": "Wind Rock",
@@ -2220,7 +2390,8 @@ const itemData = {
             "30": 130,
             "40": 143,
             "50": 156
-        }
+        },
+        "level": 24
     },
     "5155": {
         "en": "Earth Rock",
@@ -2233,7 +2404,8 @@ const itemData = {
             "30": 120,
             "40": 132,
             "50": 144
-        }
+        },
+        "level": 21
     },
     "5156": {
         "en": "Lightning Rock",
@@ -2246,7 +2418,8 @@ const itemData = {
             "30": 130,
             "40": 143,
             "50": 156
-        }
+        },
+        "level": 24
     },
     "5157": {
         "en": "Water Rock",
@@ -2259,7 +2432,8 @@ const itemData = {
             "30": 133,
             "40": 146,
             "50": 160
-        }
+        },
+        "level": 25
     },
     "5158": {
         "en": "Astral Rock",
@@ -2272,7 +2446,8 @@ const itemData = {
             "9": 280,
             "10": 308,
             "11": 336
-        }
+        },
+        "level": 50
     },
     "5159": {
         "en": "Red Quartz",
@@ -2285,7 +2460,8 @@ const itemData = {
             "7": 618,
             "8": 680,
             "9": 742
-        }
+        },
+        "level": 58
     },
     "5160": {
         "en": "Blue Quartz",
@@ -2298,7 +2474,8 @@ const itemData = {
             "7": 860,
             "8": 946,
             "9": 1032
-        }
+        },
+        "level": 60
     },
     "5161": {
         "en": "Green Quartz",
@@ -2311,7 +2488,8 @@ const itemData = {
             "30": 585,
             "40": 644,
             "50": 702
-        }
+        },
+        "level": 55
     },
     "5162": {
         "en": "Yellow Quartz",
@@ -2324,7 +2502,8 @@ const itemData = {
             "30": 454,
             "40": 499,
             "50": 545
-        }
+        },
+        "level": 52
     },
     "5163": {
         "en": "Violet Quartz",
@@ -2337,7 +2516,8 @@ const itemData = {
             "7": 860,
             "8": 946,
             "9": 1032
-        }
+        },
+        "level": 60
     },
     "5168": {
         "en": "Jade",
@@ -2350,7 +2530,8 @@ const itemData = {
             "30": 206,
             "40": 227,
             "50": 247
-        }
+        },
+        "level": 39
     },
     "5226": {
         "en": "Astral Moraine",
@@ -2363,7 +2544,8 @@ const itemData = {
             "7": 860,
             "8": 946,
             "9": 1032
-        }
+        },
+        "level": 60
     },
     "5228": {
         "en": "Ragstone",
@@ -2376,7 +2558,8 @@ const itemData = {
             "30": 60,
             "40": 66,
             "50": 72
-        }
+        },
+        "level": 13
     },
     "5229": {
         "en": "Mudstone",
@@ -2389,7 +2572,8 @@ const itemData = {
             "30": 108,
             "40": 119,
             "50": 130
-        }
+        },
+        "level": 20
     },
     "5230": {
         "en": "Limestone",
@@ -2402,7 +2586,8 @@ const itemData = {
             "30": 99,
             "40": 109,
             "50": 119
-        }
+        },
+        "level": 17
     },
     "5231": {
         "en": "Siltstone",
@@ -2415,7 +2600,8 @@ const itemData = {
             "30": 172,
             "40": 189,
             "50": 206
-        }
+        },
+        "level": 30
     },
     "5232": {
         "en": "Stiperstone",
@@ -2428,7 +2614,8 @@ const itemData = {
             "30": 1000,
             "40": 1100,
             "50": 1200
-        }
+        },
+        "level": 61
     },
     "5263": {
         "en": "Basilisk Egg",
@@ -2441,7 +2628,8 @@ const itemData = {
             "10": 52,
             "12": 57,
             "15": 62
-        }
+        },
+        "level": 42
     },
     "5267": {
         "en": "Fine Sand",
@@ -2454,7 +2642,8 @@ const itemData = {
             "30": 58,
             "40": 64,
             "50": 70
-        }
+        },
+        "level": 11
     },
     "5268": {
         "en": "Copper Sand",
@@ -2467,7 +2656,8 @@ const itemData = {
             "30": 58,
             "40": 64,
             "50": 70
-        }
+        },
+        "level": 11
     },
     "5269": {
         "en": "Iron Sand",
@@ -2480,7 +2670,8 @@ const itemData = {
             "30": 63,
             "40": 69,
             "50": 76
-        }
+        },
+        "level": 14
     },
     "5270": {
         "en": "Silver Sand",
@@ -2493,7 +2684,8 @@ const itemData = {
             "30": 123,
             "40": 135,
             "50": 148
-        }
+        },
+        "level": 22
     },
     "5271": {
         "en": "Mythril Sand",
@@ -2506,7 +2698,8 @@ const itemData = {
             "30": 183,
             "40": 201,
             "50": 220
-        }
+        },
+        "level": 33
     },
     "5272": {
         "en": "Electrum Sand",
@@ -2519,7 +2712,8 @@ const itemData = {
             "30": 217,
             "40": 239,
             "50": 260
-        }
+        },
+        "level": 42
     },
     "5273": {
         "en": "Gold Sand",
@@ -2532,7 +2726,8 @@ const itemData = {
             "9": 280,
             "10": 308,
             "11": 336
-        }
+        },
+        "level": 50
     },
     "5291": {
         "en": "Animal Skin",
@@ -2545,7 +2740,8 @@ const itemData = {
             "10": 11,
             "12": 16,
             "15": 21
-        }
+        },
+        "level": 1
     },
     "5292": {
         "en": "Animal Hide",
@@ -2558,7 +2754,8 @@ const itemData = {
             "10": 18,
             "12": 23,
             "15": 28
-        }
+        },
+        "level": 8
     },
     "5296": {
         "en": "Aldgoat Skin",
@@ -2571,7 +2768,8 @@ const itemData = {
             "10": 28,
             "12": 33,
             "15": 38
-        }
+        },
+        "level": 18
     },
     "5300": {
         "en": "Gigantoad Skin",
@@ -2584,7 +2782,8 @@ const itemData = {
             "10": 36,
             "12": 41,
             "15": 46
-        }
+        },
+        "level": 26
     },
     "5303": {
         "en": "Boar Hide",
@@ -2597,7 +2796,8 @@ const itemData = {
             "10": 43,
             "12": 48,
             "15": 53
-        }
+        },
+        "level": 33
     },
     "5306": {
         "en": "Peiste Skin",
@@ -2610,7 +2810,8 @@ const itemData = {
             "10": 44,
             "12": 49,
             "15": 54
-        }
+        },
+        "level": 34
     },
     "5308": {
         "en": "Karakul Skin",
@@ -2623,7 +2824,8 @@ const itemData = {
             "10": 47,
             "12": 52,
             "15": 57
-        }
+        },
+        "level": 37
     },
     "5310": {
         "en": "Raptor Skin",
@@ -2636,7 +2838,8 @@ const itemData = {
             "10": 58,
             "12": 63,
             "15": 68
-        }
+        },
+        "level": 48
     },
     "5318": {
         "en": "Animal Sinew",
@@ -2649,7 +2852,8 @@ const itemData = {
             "10": 12,
             "12": 17,
             "15": 22
-        }
+        },
+        "level": 2
     },
     "5319": {
         "en": "Beast Sinew",
@@ -2662,7 +2866,8 @@ const itemData = {
             "10": 20,
             "12": 25,
             "15": 30
-        }
+        },
+        "level": 10
     },
     "5320": {
         "en": "Diremite Sinew",
@@ -2675,7 +2880,8 @@ const itemData = {
             "10": 35,
             "12": 40,
             "15": 45
-        }
+        },
+        "level": 25
     },
     "5321": {
         "en": "Hippogryph Sinew",
@@ -2688,7 +2894,8 @@ const itemData = {
             "10": 42,
             "12": 47,
             "15": 52
-        }
+        },
+        "level": 32
     },
     "5322": {
         "en": "Raptor Sinew",
@@ -2701,7 +2908,8 @@ const itemData = {
             "10": 49,
             "12": 54,
             "15": 59
-        }
+        },
+        "level": 39
     },
     "5341": {
         "en": "Moko Grass",
@@ -2714,7 +2922,8 @@ const itemData = {
             "30": 58,
             "40": 64,
             "50": 70
-        }
+        },
+        "level": 11
     },
     "5342": {
         "en": "Straw",
@@ -2727,7 +2936,8 @@ const itemData = {
             "30": 58,
             "40": 64,
             "50": 70
-        }
+        },
+        "level": 12
     },
     "5343": {
         "en": "Cotton Boll",
@@ -2740,7 +2950,8 @@ const itemData = {
             "30": 63,
             "40": 69,
             "50": 76
-        }
+        },
+        "level": 14
     },
     "5345": {
         "en": "Diremite Web",
@@ -2753,7 +2964,8 @@ const itemData = {
             "10": 34,
             "12": 39,
             "15": 44
-        }
+        },
+        "level": 24
     },
     "5346": {
         "en": "Flax",
@@ -2766,7 +2978,8 @@ const itemData = {
             "30": 176,
             "40": 194,
             "50": 211
-        }
+        },
+        "level": 31
     },
     "5347": {
         "en": "Fleece",
@@ -2779,7 +2992,8 @@ const itemData = {
             "10": 45,
             "12": 50,
             "15": 55
-        }
+        },
+        "level": 35
     },
     "5348": {
         "en": "Apkallu Down",
@@ -2792,7 +3006,8 @@ const itemData = {
             "10": 55,
             "12": 60,
             "15": 65
-        }
+        },
+        "level": 45
     },
     "5349": {
         "en": "Snurble Tufts",
@@ -2805,7 +3020,8 @@ const itemData = {
             "10": 59,
             "12": 64,
             "15": 69
-        }
+        },
+        "level": 49
     },
     "5350": {
         "en": "Silkworm Cocoon",
@@ -2818,7 +3034,8 @@ const itemData = {
             "9": 280,
             "10": 308,
             "11": 336
-        }
+        },
+        "level": 50
     },
     "5351": {
         "en": "Cock Feather",
@@ -2831,7 +3048,8 @@ const itemData = {
             "30": 38,
             "40": 42,
             "50": 46
-        }
+        },
+        "level": 6
     },
     "5352": {
         "en": "Crow Feather",
@@ -2844,7 +3062,8 @@ const itemData = {
             "30": 45,
             "40": 50,
             "50": 54
-        }
+        },
+        "level": 10
     },
     "5355": {
         "en": "Dodo Feather",
@@ -2857,7 +3076,8 @@ const itemData = {
             "10": 29,
             "12": 34,
             "15": 39
-        }
+        },
+        "level": 19
     },
     "5359": {
         "en": "Chocobo Feather",
@@ -2870,7 +3090,8 @@ const itemData = {
             "30": 168,
             "40": 185,
             "50": 202
-        }
+        },
+        "level": 29
     },
     "5360": {
         "en": "Wildfowl Feather",
@@ -2883,7 +3104,8 @@ const itemData = {
             "30": 187,
             "40": 206,
             "50": 224
-        }
+        },
+        "level": 34
     },
     "5365": {
         "en": "Bamboo Stick",
@@ -2896,7 +3118,8 @@ const itemData = {
             "5": 280,
             "6": 308,
             "7": 336
-        }
+        },
+        "level": 50
     },
     "5380": {
         "en": "Maple Log",
@@ -2909,7 +3132,8 @@ const itemData = {
             "30": 33,
             "40": 36,
             "50": 40
-        }
+        },
+        "level": 3
     },
     "5383": {
         "en": "Ash Log",
@@ -2922,7 +3146,8 @@ const itemData = {
             "30": 42,
             "40": 46,
             "50": 50
-        }
+        },
+        "level": 8
     },
     "5384": {
         "en": "Cedar Log",
@@ -2935,7 +3160,8 @@ const itemData = {
             "30": 419,
             "40": 461,
             "50": 503
-        }
+        },
+        "level": 51
     },
     "5385": {
         "en": "Elm Log",
@@ -2948,7 +3174,8 @@ const itemData = {
             "30": 58,
             "40": 64,
             "50": 70
-        }
+        },
+        "level": 12
     },
     "5386": {
         "en": "Yew Log",
@@ -2961,7 +3188,8 @@ const itemData = {
             "30": 105,
             "40": 116,
             "50": 126
-        }
+        },
+        "level": 19
     },
     "5388": {
         "en": "Walnut Log",
@@ -2974,7 +3202,8 @@ const itemData = {
             "30": 130,
             "40": 143,
             "50": 156
-        }
+        },
+        "level": 24
     },
     "5389": {
         "en": "Pine Log",
@@ -2987,7 +3216,8 @@ const itemData = {
             "30": 1055,
             "40": 1161,
             "50": 1266
-        }
+        },
+        "level": 65
     },
     "5390": {
         "en": "Oak Log",
@@ -3000,7 +3230,8 @@ const itemData = {
             "30": 180,
             "40": 198,
             "50": 216
-        }
+        },
+        "level": 32
     },
     "5391": {
         "en": "Mahogany Log",
@@ -3013,7 +3244,8 @@ const itemData = {
             "30": 198,
             "40": 218,
             "50": 238
-        }
+        },
+        "level": 37
     },
     "5392": {
         "en": "Teak Log",
@@ -3026,7 +3258,8 @@ const itemData = {
             "7": 980,
             "8": 1078,
             "9": 1176
-        }
+        },
+        "level": 60
     },
     "5393": {
         "en": "Rosewood Log",
@@ -3039,7 +3272,8 @@ const itemData = {
             "30": 241,
             "40": 265,
             "50": 289
-        }
+        },
+        "level": 46
     },
     "5394": {
         "en": "Ebony Log",
@@ -3052,7 +3286,8 @@ const itemData = {
             "5": 280,
             "6": 308,
             "7": 336
-        }
+        },
+        "level": 50
     },
     "5395": {
         "en": "Spruce Log",
@@ -3065,7 +3300,8 @@ const itemData = {
             "9": 280,
             "10": 308,
             "11": 336
-        }
+        },
+        "level": 50
     },
     "5396": {
         "en": "Maple Branch",
@@ -3078,7 +3314,8 @@ const itemData = {
             "30": 36,
             "40": 40,
             "50": 43
-        }
+        },
+        "level": 5
     },
     "5402": {
         "en": "Ash Branch",
@@ -3091,7 +3328,8 @@ const itemData = {
             "30": 43,
             "40": 47,
             "50": 52
-        }
+        },
+        "level": 9
     },
     "5403": {
         "en": "Cedar Branch",
@@ -3104,7 +3342,8 @@ const itemData = {
             "30": 419,
             "40": 461,
             "50": 503
-        }
+        },
+        "level": 51
     },
     "5405": {
         "en": "Yew Branch",
@@ -3117,7 +3356,8 @@ const itemData = {
             "30": 108,
             "40": 119,
             "50": 130
-        }
+        },
+        "level": 20
     },
     "5409": {
         "en": "Oak Branch",
@@ -3130,7 +3370,8 @@ const itemData = {
             "30": 176,
             "40": 194,
             "50": 211
-        }
+        },
+        "level": 31
     },
     "5414": {
         "en": "Rosewood Branch",
@@ -3143,7 +3384,8 @@ const itemData = {
             "30": 252,
             "40": 277,
             "50": 302
-        }
+        },
+        "level": 47
     },
     "5432": {
         "en": "Bone Chip",
@@ -3156,7 +3398,8 @@ const itemData = {
             "30": 36,
             "40": 40,
             "50": 43
-        }
+        },
+        "level": 5
     },
     "5433": {
         "en": "Soiled Femur",
@@ -3169,7 +3412,8 @@ const itemData = {
             "30": 42,
             "40": 46,
             "50": 50
-        }
+        },
+        "level": 8
     },
     "5434": {
         "en": "Ram Horn",
@@ -3182,7 +3426,8 @@ const itemData = {
             "10": 15,
             "12": 20,
             "15": 25
-        }
+        },
+        "level": 5
     },
     "5435": {
         "en": "Antelope Horn",
@@ -3195,7 +3440,8 @@ const itemData = {
             "10": 25,
             "12": 30,
             "15": 35
-        }
+        },
+        "level": 15
     },
     "5436": {
         "en": "Aldgoat Horn",
@@ -3208,7 +3454,8 @@ const itemData = {
             "10": 35,
             "12": 40,
             "15": 45
-        }
+        },
+        "level": 25
     },
     "5439": {
         "en": "Ogre Horn",
@@ -3221,7 +3468,8 @@ const itemData = {
             "10": 59,
             "12": 64,
             "15": 69
-        }
+        },
+        "level": 49
     },
     "5442": {
         "en": "Bat Fang",
@@ -3234,7 +3482,8 @@ const itemData = {
             "10": 20,
             "12": 25,
             "15": 30
-        }
+        },
+        "level": 10
     },
     "5444": {
         "en": "Wolf Fang",
@@ -3247,7 +3496,8 @@ const itemData = {
             "10": 35,
             "12": 40,
             "15": 45
-        }
+        },
+        "level": 25
     },
     "5446": {
         "en": "Goobbue Fang",
@@ -3260,7 +3510,8 @@ const itemData = {
             "10": 25,
             "12": 30,
             "15": 35
-        }
+        },
+        "level": 15
     },
     "5447": {
         "en": "Sandworm Fang",
@@ -3273,7 +3524,8 @@ const itemData = {
             "10": 40,
             "12": 45,
             "15": 50
-        }
+        },
+        "level": 30
     },
     "5448": {
         "en": "Biast Scales",
@@ -3286,7 +3538,8 @@ const itemData = {
             "10": 143,
             "12": 148,
             "15": 153
-        }
+        },
+        "level": 54
     },
     "5449": {
         "en": "Drake Scales",
@@ -3299,7 +3552,8 @@ const itemData = {
             "10": 149,
             "12": 154,
             "15": 159
-        }
+        },
+        "level": 56
     },
     "5454": {
         "en": "Yellow Yarzon Leg",
@@ -3312,7 +3566,8 @@ const itemData = {
             "10": 25,
             "12": 30,
             "15": 35
-        }
+        },
+        "level": 15
     },
     "5455": {
         "en": "Blue Yarzon Leg",
@@ -3325,7 +3580,8 @@ const itemData = {
             "10": 39,
             "12": 44,
             "15": 49
-        }
+        },
+        "level": 29
     },
     "5456": {
         "en": "Green Megalocrab Shell",
@@ -3338,7 +3594,8 @@ const itemData = {
             "10": 30,
             "12": 35,
             "15": 40
-        }
+        },
+        "level": 20
     },
     "5458": {
         "en": "Adamantoise Shell",
@@ -3351,7 +3608,8 @@ const itemData = {
             "30": 262,
             "40": 288,
             "50": 314
-        }
+        },
+        "level": 48
     },
     "5460": {
         "en": "White Coral",
@@ -3364,7 +3622,8 @@ const itemData = {
             "7": 23,
             "8": 26,
             "9": 28
-        }
+        },
+        "level": 5
     },
     "5461": {
         "en": "Blue Coral",
@@ -3377,7 +3636,8 @@ const itemData = {
             "7": 102,
             "8": 112,
             "9": 122
-        }
+        },
+        "level": 26
     },
     "5462": {
         "en": "Red Coral",
@@ -3390,7 +3650,8 @@ const itemData = {
             "7": 137,
             "8": 150,
             "9": 164
-        }
+        },
+        "level": 40
     },
     "5465": {
         "en": "Sunrise Tellin",
@@ -3403,7 +3664,8 @@ const itemData = {
             "30": 105,
             "40": 116,
             "50": 126
-        }
+        },
+        "level": 19
     },
     "5466": {
         "en": "Blacklip Oyster",
@@ -3416,7 +3678,8 @@ const itemData = {
             "7": 146,
             "8": 161,
             "9": 176
-        }
+        },
+        "level": 44
     },
     "5468": {
         "en": "Cactuar Needle",
@@ -3429,7 +3692,8 @@ const itemData = {
             "10": 39,
             "12": 44,
             "15": 49
-        }
+        },
+        "level": 29
     },
     "5488": {
         "en": "Muddy Water",
@@ -3442,7 +3706,8 @@ const itemData = {
             "30": 33,
             "40": 36,
             "50": 40
-        }
+        },
+        "level": 3
     },
     "5491": {
         "en": "Effervescent Water",
@@ -3455,7 +3720,8 @@ const itemData = {
             "30": 130,
             "40": 143,
             "50": 156
-        }
+        },
+        "level": 24
     },
     "5492": {
         "en": "Beastkin Blood",
@@ -3468,7 +3734,8 @@ const itemData = {
             "10": 16,
             "12": 21,
             "15": 26
-        }
+        },
+        "level": 6
     },
     "5493": {
         "en": "Scalekin Blood",
@@ -3481,7 +3748,8 @@ const itemData = {
             "10": 35,
             "12": 40,
             "15": 45
-        }
+        },
+        "level": 25
     },
     "5494": {
         "en": "Spoken Blood",
@@ -3494,7 +3762,8 @@ const itemData = {
             "10": 46,
             "12": 51,
             "15": 56
-        }
+        },
+        "level": 36
     },
     "5495": {
         "en": "Viscous Secretions",
@@ -3507,7 +3776,8 @@ const itemData = {
             "10": 23,
             "12": 28,
             "15": 33
-        }
+        },
+        "level": 13
     },
     "5496": {
         "en": "Acidic Secretions",
@@ -3520,7 +3790,8 @@ const itemData = {
             "10": 33,
             "12": 38,
             "15": 43
-        }
+        },
+        "level": 23
     },
     "5497": {
         "en": "Formic Acid",
@@ -3533,7 +3804,8 @@ const itemData = {
             "10": 41,
             "12": 46,
             "15": 51
-        }
+        },
+        "level": 31
     },
     "5498": {
         "en": "Maple Sap",
@@ -3546,7 +3818,8 @@ const itemData = {
             "30": 31,
             "40": 34,
             "50": 37
-        }
+        },
+        "level": 2
     },
     "5499": {
         "en": "Treant Sap",
@@ -3559,7 +3832,8 @@ const itemData = {
             "10": 35,
             "12": 40,
             "15": 45
-        }
+        },
+        "level": 25
     },
     "5509": {
         "en": "Latex",
@@ -3572,7 +3846,8 @@ const itemData = {
             "30": 29,
             "40": 32,
             "50": 35
-        }
+        },
+        "level": 1
     },
     "5513": {
         "en": "Potter's Clay",
@@ -3585,7 +3860,8 @@ const itemData = {
             "30": 45,
             "40": 50,
             "50": 54
-        }
+        },
+        "level": 10
     },
     "5514": {
         "en": "Humus",
@@ -3598,7 +3874,8 @@ const itemData = {
             "30": 60,
             "40": 66,
             "50": 72
-        }
+        },
+        "level": 13
     },
     "5516": {
         "en": "Beehive Chip",
@@ -3611,7 +3888,8 @@ const itemData = {
             "30": 36,
             "40": 40,
             "50": 43
-        }
+        },
+        "level": 5
     },
     "5518": {
         "en": "Rock Salt",
@@ -3624,7 +3902,8 @@ const itemData = {
             "30": 58,
             "40": 64,
             "50": 70
-        }
+        },
+        "level": 12
     },
     "5519": {
         "en": "Cinnabar",
@@ -3637,7 +3916,8 @@ const itemData = {
             "30": 65,
             "40": 72,
             "50": 78
-        }
+        },
+        "level": 15
     },
     "5521": {
         "en": "Saltpeter",
@@ -3650,7 +3930,8 @@ const itemData = {
             "30": 172,
             "40": 189,
             "50": 206
-        }
+        },
+        "level": 30
     },
     "5523": {
         "en": "Silex",
@@ -3663,7 +3944,8 @@ const itemData = {
             "30": 161,
             "40": 177,
             "50": 193
-        }
+        },
+        "level": 27
     },
     "5524": {
         "en": "Alumen",
@@ -3676,7 +3958,8 @@ const itemData = {
             "30": 105,
             "40": 116,
             "50": 126
-        }
+        },
+        "level": 19
     },
     "5525": {
         "en": "Black Alumen",
@@ -3689,7 +3972,8 @@ const itemData = {
             "30": 210,
             "40": 231,
             "50": 252
-        }
+        },
+        "level": 40
     },
     "5526": {
         "en": "Grenade Ash",
@@ -3702,7 +3986,8 @@ const itemData = {
             "10": 48,
             "12": 53,
             "15": 58
-        }
+        },
+        "level": 38
     },
     "5527": {
         "en": "Brimstone",
@@ -3715,7 +4000,8 @@ const itemData = {
             "30": 168,
             "40": 185,
             "50": 202
-        }
+        },
+        "level": 29
     },
     "5528": {
         "en": "Bomb Ash",
@@ -3728,7 +4014,8 @@ const itemData = {
             "10": 36,
             "12": 41,
             "15": 46
-        }
+        },
+        "level": 26
     },
     "5534": {
         "en": "Tinolqa Mistletoe",
@@ -3741,7 +4028,8 @@ const itemData = {
             "30": 38,
             "40": 42,
             "50": 46
-        }
+        },
+        "level": 6
     },
     "5535": {
         "en": "Matron's Mistletoe",
@@ -3754,7 +4042,8 @@ const itemData = {
             "30": 126,
             "40": 139,
             "50": 151
-        }
+        },
+        "level": 23
     },
     "5536": {
         "en": "Mistletoe",
@@ -3767,7 +4056,8 @@ const itemData = {
             "30": 225,
             "40": 248,
             "50": 270
-        }
+        },
+        "level": 44
     },
     "5537": {
         "en": "Thavnairian Mistletoe",
@@ -3780,7 +4070,8 @@ const itemData = {
             "9": 280,
             "10": 308,
             "11": 336
-        }
+        },
+        "level": 50
     },
     "5538": {
         "en": "Yellow Ginseng",
@@ -3793,7 +4084,8 @@ const itemData = {
             "30": 58,
             "40": 64,
             "50": 70
-        }
+        },
+        "level": 11
     },
     "5539": {
         "en": "Lavender",
@@ -3806,7 +4098,8 @@ const itemData = {
             "30": 58,
             "40": 64,
             "50": 70
-        }
+        },
+        "level": 12
     },
     "5540": {
         "en": "Carnation",
@@ -3819,7 +4112,8 @@ const itemData = {
             "30": 60,
             "40": 66,
             "50": 72
-        }
+        },
+        "level": 13
     },
     "5541": {
         "en": "Belladonna",
@@ -3832,7 +4126,8 @@ const itemData = {
             "30": 102,
             "40": 112,
             "50": 122
-        }
+        },
+        "level": 18
     },
     "5542": {
         "en": "Chamomile",
@@ -3845,7 +4140,8 @@ const itemData = {
             "30": 130,
             "40": 143,
             "50": 156
-        }
+        },
+        "level": 24
     },
     "5543": {
         "en": "Mandrake",
@@ -3858,7 +4154,8 @@ const itemData = {
             "30": 183,
             "40": 201,
             "50": 220
-        }
+        },
+        "level": 33
     },
     "5545": {
         "en": "Trillium",
@@ -3871,7 +4168,8 @@ const itemData = {
             "9": 280,
             "10": 308,
             "11": 336
-        }
+        },
+        "level": 50
     },
     "5546": {
         "en": "Trillium Bulb",
@@ -3884,7 +4182,8 @@ const itemData = {
             "9": 280,
             "10": 308,
             "11": 336
-        }
+        },
+        "level": 50
     },
     "5547": {
         "en": "Vampire Plant",
@@ -3897,7 +4196,8 @@ const itemData = {
             "9": 280,
             "10": 308,
             "11": 336
-        }
+        },
+        "level": 50
     },
     "5548": {
         "en": "Red Landtrap Leaf",
@@ -3910,7 +4210,8 @@ const itemData = {
             "10": 20,
             "12": 25,
             "15": 30
-        }
+        },
+        "level": 10
     },
     "5549": {
         "en": "Blue Landtrap Leaf",
@@ -3923,7 +4224,8 @@ const itemData = {
             "10": 40,
             "12": 45,
             "15": 50
-        }
+        },
+        "level": 30
     },
     "5550": {
         "en": "Puk Wing",
@@ -3936,7 +4238,8 @@ const itemData = {
             "10": 22,
             "12": 27,
             "15": 32
-        }
+        },
+        "level": 12
     },
     "5551": {
         "en": "Bat Wing",
@@ -3949,7 +4252,8 @@ const itemData = {
             "10": 24,
             "12": 29,
             "15": 34
-        }
+        },
+        "level": 14
     },
     "5552": {
         "en": "Imp Wing",
@@ -3962,7 +4266,8 @@ const itemData = {
             "10": 26,
             "12": 31,
             "15": 36
-        }
+        },
+        "level": 16
     },
     "5553": {
         "en": "Ahriman Wing",
@@ -3975,7 +4280,8 @@ const itemData = {
             "10": 56,
             "12": 61,
             "15": 66
-        }
+        },
+        "level": 46
     },
     "5554": {
         "en": "Morbol Vine",
@@ -3988,7 +4294,8 @@ const itemData = {
             "10": 40,
             "12": 45,
             "15": 50
-        }
+        },
+        "level": 30
     },
     "5555": {
         "en": "Ochu Vine",
@@ -4001,7 +4308,8 @@ const itemData = {
             "10": 50,
             "12": 55,
             "15": 60
-        }
+        },
+        "level": 40
     },
     "5556": {
         "en": "Jellyfish Cnida",
@@ -4014,7 +4322,8 @@ const itemData = {
             "10": 21,
             "12": 26,
             "15": 31
-        }
+        },
+        "level": 11
     },
     "5557": {
         "en": "Jellyfish Umbrella",
@@ -4027,7 +4336,8 @@ const itemData = {
             "10": 27,
             "12": 32,
             "15": 37
-        }
+        },
+        "level": 17
     },
     "5558": {
         "en": "Pudding Flesh",
@@ -4040,7 +4350,8 @@ const itemData = {
             "10": 51,
             "12": 56,
             "15": 61
-        }
+        },
+        "level": 41
     },
     "5559": {
         "en": "Moor Leech",
@@ -4053,7 +4364,8 @@ const itemData = {
             "30": 172,
             "40": 189,
             "50": 206
-        }
+        },
+        "level": 30
     },
     "5560": {
         "en": "Grass Viper",
@@ -4066,7 +4378,8 @@ const itemData = {
             "30": 58,
             "40": 64,
             "50": 70
-        }
+        },
+        "level": 12
     },
     "5562": {
         "en": "Tarantula",
@@ -4079,7 +4392,8 @@ const itemData = {
             "30": 191,
             "40": 210,
             "50": 229
-        }
+        },
+        "level": 35
     },
     "5563": {
         "en": "White Scorpion",
@@ -4092,7 +4406,8 @@ const itemData = {
             "30": 108,
             "40": 119,
             "50": 130
-        }
+        },
+        "level": 20
     },
     "5564": {
         "en": "Black Scorpion",
@@ -4105,7 +4420,8 @@ const itemData = {
             "30": 217,
             "40": 239,
             "50": 260
-        }
+        },
+        "level": 42
     },
     "5814": {
         "en": "Blue Pigment",
@@ -4118,7 +4434,8 @@ const itemData = {
             "30": 165,
             "40": 182,
             "50": 198
-        }
+        },
+        "level": 28
     },
     "5815": {
         "en": "Red Pigment",
@@ -4131,7 +4448,8 @@ const itemData = {
             "30": 165,
             "40": 182,
             "50": 198
-        }
+        },
+        "level": 28
     },
     "5816": {
         "en": "Yellow Pigment",
@@ -4144,7 +4462,8 @@ const itemData = {
             "30": 165,
             "40": 182,
             "50": 198
-        }
+        },
+        "level": 28
     },
     "5817": {
         "en": "Grey Pigment",
@@ -4157,7 +4476,8 @@ const itemData = {
             "30": 165,
             "40": 182,
             "50": 198
-        }
+        },
+        "level": 28
     },
     "5818": {
         "en": "Brown Pigment",
@@ -4170,7 +4490,8 @@ const itemData = {
             "30": 165,
             "40": 182,
             "50": 198
-        }
+        },
+        "level": 28
     },
     "5819": {
         "en": "Green Pigment",
@@ -4183,7 +4504,8 @@ const itemData = {
             "30": 165,
             "40": 182,
             "50": 198
-        }
+        },
+        "level": 28
     },
     "5820": {
         "en": "Purple Pigment",
@@ -4196,7 +4518,8 @@ const itemData = {
             "30": 165,
             "40": 182,
             "50": 198
-        }
+        },
+        "level": 28
     },
     "6145": {
         "en": "Noble Grapes",
@@ -4209,7 +4532,8 @@ const itemData = {
             "30": 123,
             "40": 135,
             "50": 148
-        }
+        },
+        "level": 22
     },
     "6146": {
         "en": "Mirror Apple",
@@ -4222,7 +4546,8 @@ const itemData = {
             "30": 217,
             "40": 239,
             "50": 260
-        }
+        },
+        "level": 42
     },
     "6147": {
         "en": "Honey Lemon",
@@ -4235,7 +4560,8 @@ const itemData = {
             "9": 280,
             "10": 308,
             "11": 336
-        }
+        },
+        "level": 50
     },
     "6148": {
         "en": "Dzemael Tomato",
@@ -4248,7 +4574,8 @@ const itemData = {
             "9": 280,
             "10": 308,
             "11": 336
-        }
+        },
+        "level": 50
     },
     "6149": {
         "en": "Night Milk",
@@ -4261,7 +4588,8 @@ const itemData = {
             "10": 38,
             "12": 43,
             "15": 48
-        }
+        },
+        "level": 28
     },
     "6152": {
         "en": "Volcanic Rock Salt",
@@ -4274,7 +4602,8 @@ const itemData = {
             "9": 280,
             "10": 308,
             "11": 336
-        }
+        },
+        "level": 50
     },
     "7008": {
         "en": "Granite",
@@ -4287,7 +4616,8 @@ const itemData = {
             "30": 176,
             "40": 194,
             "50": 211
-        }
+        },
+        "level": 31
     },
     "7010": {
         "en": "Marble",
@@ -4300,7 +4630,8 @@ const itemData = {
             "30": 228,
             "40": 251,
             "50": 274
-        }
+        },
+        "level": 45
     },
     "7011": {
         "en": "Bloodgrass",
@@ -4313,7 +4644,8 @@ const itemData = {
             "30": 183,
             "40": 201,
             "50": 220
-        }
+        },
+        "level": 33
     },
     "7012": {
         "en": "Maiden Grass",
@@ -4326,7 +4658,8 @@ const itemData = {
             "30": 273,
             "40": 300,
             "50": 328
-        }
+        },
+        "level": 49
     },
     "7029": {
         "en": "Island Seedling",
@@ -4339,7 +4672,8 @@ const itemData = {
             "30": 108,
             "40": 119,
             "50": 130
-        }
+        },
+        "level": 20
     },
     "7030": {
         "en": "Shroud Seedling",
@@ -4352,7 +4686,8 @@ const itemData = {
             "30": 108,
             "40": 119,
             "50": 130
-        }
+        },
+        "level": 20
     },
     "7031": {
         "en": "Desert Seedling",
@@ -4365,7 +4700,8 @@ const itemData = {
             "30": 108,
             "40": 119,
             "50": 130
-        }
+        },
+        "level": 20
     },
     "7588": {
         "en": "Ferberite",
@@ -4378,7 +4714,8 @@ const itemData = {
             "5": 280,
             "6": 308,
             "7": 336
-        }
+        },
+        "level": 50
     },
     "7589": {
         "en": "Native Gold",
@@ -4391,7 +4728,8 @@ const itemData = {
             "5": 280,
             "6": 308,
             "7": 336
-        }
+        },
+        "level": 50
     },
     "7590": {
         "en": "Scarlet Sap",
@@ -4404,7 +4742,8 @@ const itemData = {
             "5": 280,
             "6": 308,
             "7": 336
-        }
+        },
+        "level": 50
     },
     "7591": {
         "en": "Shroud Tea Leaves",
@@ -4417,7 +4756,8 @@ const itemData = {
             "5": 280,
             "6": 308,
             "7": 336
-        }
+        },
+        "level": 50
     },
     "7592": {
         "en": "Apricot",
@@ -4430,7 +4770,8 @@ const itemData = {
             "30": 280,
             "40": 308,
             "50": 336
-        }
+        },
+        "level": 50
     },
     "7593": {
         "en": "La Noscean Leek",
@@ -4443,7 +4784,8 @@ const itemData = {
             "30": 280,
             "40": 308,
             "50": 336
-        }
+        },
+        "level": 50
     },
     "7594": {
         "en": "Young Cieldalaes Spinach",
@@ -4456,7 +4798,8 @@ const itemData = {
             "5": 280,
             "6": 308,
             "7": 336
-        }
+        },
+        "level": 50
     },
     "7595": {
         "en": "Blood Orange",
@@ -4469,7 +4812,8 @@ const itemData = {
             "5": 280,
             "6": 308,
             "7": 336
-        }
+        },
+        "level": 50
     },
     "7715": {
         "en": "Paprika Seeds",
@@ -4478,7 +4822,8 @@ const itemData = {
         "fr": "Graines de paprika",
         "breakpoints": {
             "1": 115
-        }
+        },
+        "level": 16
     },
     "7716": {
         "en": "Wild Onion Set",
@@ -4487,7 +4832,8 @@ const itemData = {
         "fr": "Bulbe d'oignon sauvage",
         "breakpoints": {
             "1": 70
-        }
+        },
+        "level": 12
     },
     "7717": {
         "en": "Coerthan Carrot Seeds",
@@ -4496,7 +4842,8 @@ const itemData = {
         "fr": "Graines de carotte du Coerthas",
         "breakpoints": {
             "1": 72
-        }
+        },
+        "level": 13
     },
     "7718": {
         "en": "La Noscean Lettuce Seeds",
@@ -4505,7 +4852,8 @@ const itemData = {
         "fr": "Graines de laitue noscéenne",
         "breakpoints": {
             "1": 72
-        }
+        },
+        "level": 13
     },
     "7719": {
         "en": "Olive Seeds",
@@ -4514,7 +4862,8 @@ const itemData = {
         "fr": "Graines d'olive cendrée",
         "breakpoints": {
             "1": 72
-        }
+        },
+        "level": 13
     },
     "7720": {
         "en": "Popoto Set",
@@ -4523,7 +4872,8 @@ const itemData = {
         "fr": "Tubercule de popoto",
         "breakpoints": {
             "1": 122
-        }
+        },
+        "level": 18
     },
     "7721": {
         "en": "Millioncorn Seeds",
@@ -4532,7 +4882,8 @@ const itemData = {
         "fr": "Graines de milli-maïs",
         "breakpoints": {
             "1": 160
-        }
+        },
+        "level": 25
     },
     "7722": {
         "en": "Wizard Eggplant Seeds",
@@ -4541,7 +4892,8 @@ const itemData = {
         "fr": "Graines d'aubergine du mage",
         "breakpoints": {
             "1": 193
-        }
+        },
+        "level": 27
     },
     "7723": {
         "en": "Midland Cabbage Seeds",
@@ -4550,7 +4902,8 @@ const itemData = {
         "fr": "Graines de chou hyurois",
         "breakpoints": {
             "1": 198
-        }
+        },
+        "level": 28
     },
     "7724": {
         "en": "Dzemael Tomato Seeds",
@@ -4559,7 +4912,8 @@ const itemData = {
         "fr": "Graines de tomate Dzemael",
         "breakpoints": {
             "1": 336
-        }
+        },
+        "level": 50
     },
     "7725": {
         "en": "La Noscean Orange Seeds",
@@ -4568,7 +4922,8 @@ const itemData = {
         "fr": "Graines d'oranger noscéen",
         "breakpoints": {
             "1": 48
-        }
+        },
+        "level": 7
     },
     "7726": {
         "en": "Lowland Grape Seeds",
@@ -4577,7 +4932,8 @@ const itemData = {
         "fr": "Graines de raisin des plaines",
         "breakpoints": {
             "1": 70
-        }
+        },
+        "level": 11
     },
     "7727": {
         "en": "Faerie Apple Seeds",
@@ -4586,7 +4942,8 @@ const itemData = {
         "fr": "Graines de pommier de fée",
         "breakpoints": {
             "1": 115
-        }
+        },
+        "level": 16
     },
     "7728": {
         "en": "Sun Lemon Seeds",
@@ -4595,7 +4952,8 @@ const itemData = {
         "fr": "Graines de citronnier soleil",
         "breakpoints": {
             "1": 119
-        }
+        },
+        "level": 17
     },
     "7729": {
         "en": "Pixie Plum Seeds",
@@ -4604,7 +4962,8 @@ const itemData = {
         "fr": "Graines de prunier sylphe",
         "breakpoints": {
             "1": 144
-        }
+        },
+        "level": 21
     },
     "7730": {
         "en": "Blood Currant Seeds",
@@ -4613,7 +4972,8 @@ const itemData = {
         "fr": "Graines de groseillier sanguin",
         "breakpoints": {
             "1": 234
-        }
+        },
+        "level": 36
     },
     "7731": {
         "en": "Mirror Apple Seeds",
@@ -4622,7 +4982,8 @@ const itemData = {
         "fr": "Graines de pommier luisant",
         "breakpoints": {
             "1": 260
-        }
+        },
+        "level": 42
     },
     "7732": {
         "en": "Rolanberry Seeds",
@@ -4631,7 +4992,8 @@ const itemData = {
         "fr": "Graines de rolanbaie",
         "breakpoints": {
             "1": 265
-        }
+        },
+        "level": 43
     },
     "7733": {
         "en": "Honey Lemon Seeds",
@@ -4640,7 +5002,8 @@ const itemData = {
         "fr": "Graines de citronnier miel",
         "breakpoints": {
             "1": 336
-        }
+        },
+        "level": 50
     },
     "7734": {
         "en": "Prickly Pineapple Seeds",
@@ -4649,7 +5012,8 @@ const itemData = {
         "fr": "Graines d'ananas épineux",
         "breakpoints": {
             "1": 336
-        }
+        },
+        "level": 50
     },
     "7735": {
         "en": "Garlic Cloves",
@@ -4658,7 +5022,8 @@ const itemData = {
         "fr": "Graines d'ail garlemaldais",
         "breakpoints": {
             "1": 70
-        }
+        },
+        "level": 11
     },
     "7736": {
         "en": "Lavender Seeds",
@@ -4667,7 +5032,8 @@ const itemData = {
         "fr": "Graines de lavande",
         "breakpoints": {
             "1": 70
-        }
+        },
+        "level": 12
     },
     "7737": {
         "en": "Black Pepper Seeds",
@@ -4676,7 +5042,8 @@ const itemData = {
         "fr": "Grains de poivre noir",
         "breakpoints": {
             "1": 76
-        }
+        },
+        "level": 14
     },
     "7738": {
         "en": "Ala Mhigan Mustard Seeds",
@@ -4685,7 +5052,8 @@ const itemData = {
         "fr": "Graines de moutarde mhigoise",
         "breakpoints": {
             "1": 151
-        }
+        },
+        "level": 23
     },
     "7739": {
         "en": "Pearl Ginger Root",
@@ -4694,7 +5062,8 @@ const itemData = {
         "fr": "Rhizome de gingembre perlé",
         "breakpoints": {
             "1": 156
-        }
+        },
+        "level": 24
     },
     "7740": {
         "en": "Chamomile Seeds",
@@ -4703,7 +5072,8 @@ const itemData = {
         "fr": "Graines de camomille",
         "breakpoints": {
             "1": 156
-        }
+        },
+        "level": 24
     },
     "7741": {
         "en": "Linseed",
@@ -4712,7 +5082,8 @@ const itemData = {
         "fr": "Graines de lin",
         "breakpoints": {
             "1": 211
-        }
+        },
+        "level": 31
     },
     "7742": {
         "en": "Midland Basil Seeds",
@@ -4721,7 +5092,8 @@ const itemData = {
         "fr": "Graines de basilic hyurois",
         "breakpoints": {
             "1": 216
-        }
+        },
+        "level": 32
     },
     "7743": {
         "en": "Mandrake Seeds",
@@ -4730,7 +5102,8 @@ const itemData = {
         "fr": "Graines de mandragore",
         "breakpoints": {
             "1": 220
-        }
+        },
+        "level": 33
     },
     "7744": {
         "en": "Almond Seeds",
@@ -4739,7 +5112,8 @@ const itemData = {
         "fr": "Graines d'amandier",
         "breakpoints": {
             "1": 252
-        }
+        },
+        "level": 40
     },
     "7758": {
         "en": "Grade 1 La Noscean Topsoil",
@@ -4752,7 +5126,8 @@ const itemData = {
             "10": 172,
             "12": 189,
             "15": 206
-        }
+        },
+        "level": 30
     },
     "7759": {
         "en": "Grade 2 La Noscean Topsoil",
@@ -4765,7 +5140,8 @@ const itemData = {
             "3": 210,
             "4": 231,
             "5": 252
-        }
+        },
+        "level": 40
     },
     "7760": {
         "en": "Grade 3 La Noscean Topsoil",
@@ -4774,7 +5150,8 @@ const itemData = {
         "fr": "Terreau noscéen III",
         "breakpoints": {
             "1": 336
-        }
+        },
+        "level": 50
     },
     "7761": {
         "en": "Grade 1 Shroud Topsoil",
@@ -4787,7 +5164,8 @@ const itemData = {
             "10": 172,
             "12": 189,
             "15": 206
-        }
+        },
+        "level": 30
     },
     "7762": {
         "en": "Grade 2 Shroud Topsoil",
@@ -4800,7 +5178,8 @@ const itemData = {
             "3": 210,
             "4": 231,
             "5": 252
-        }
+        },
+        "level": 40
     },
     "7763": {
         "en": "Grade 3 Shroud Topsoil",
@@ -4809,7 +5188,8 @@ const itemData = {
         "fr": "Terreau sombrelinçois III",
         "breakpoints": {
             "1": 336
-        }
+        },
+        "level": 50
     },
     "7764": {
         "en": "Grade 1 Thanalan Topsoil",
@@ -4822,7 +5202,8 @@ const itemData = {
             "10": 172,
             "12": 189,
             "15": 206
-        }
+        },
+        "level": 30
     },
     "7765": {
         "en": "Grade 2 Thanalan Topsoil",
@@ -4835,7 +5216,8 @@ const itemData = {
             "3": 210,
             "4": 231,
             "5": 252
-        }
+        },
+        "level": 40
     },
     "7766": {
         "en": "Grade 3 Thanalan Topsoil",
@@ -4844,7 +5226,8 @@ const itemData = {
         "fr": "Terreau thanalanais III",
         "breakpoints": {
             "1": 336
-        }
+        },
+        "level": 50
     },
     "8024": {
         "en": "Waterfowl Feather",
@@ -4857,7 +5240,8 @@ const itemData = {
             "5": 280,
             "6": 308,
             "7": 336
-        }
+        },
+        "level": 50
     },
     "9518": {
         "en": "Cypress Log",
@@ -4870,7 +5254,8 @@ const itemData = {
             "5": 280,
             "6": 308,
             "7": 336
-        }
+        },
+        "level": 50
     },
     "9519": {
         "en": "Pumice",
@@ -4883,7 +5268,8 @@ const itemData = {
             "5": 280,
             "6": 308,
             "7": 336
-        }
+        },
+        "level": 50
     },
     "10092": {
         "en": "Black Limestone",
@@ -4896,7 +5282,8 @@ const itemData = {
             "20": 280,
             "25": 308,
             "30": 336
-        }
+        },
+        "level": 50
     },
     "10093": {
         "en": "Virgin Basilisk Egg",
@@ -4909,7 +5296,8 @@ const itemData = {
             "5": 280,
             "6": 308,
             "7": 336
-        }
+        },
+        "level": 50
     },
     "10095": {
         "en": "Gregarious Worm",
@@ -4922,7 +5310,8 @@ const itemData = {
             "3": 280,
             "4": 308,
             "5": 336
-        }
+        },
+        "level": 50
     },
     "10096": {
         "en": "Rosemary",
@@ -4935,7 +5324,8 @@ const itemData = {
             "5": 280,
             "6": 308,
             "7": 336
-        }
+        },
+        "level": 50
     },
     "10098": {
         "en": "Mazlaya Greens",
@@ -4948,7 +5338,8 @@ const itemData = {
             "3": 280,
             "4": 308,
             "5": 336
-        }
+        },
+        "level": 50
     },
     "10099": {
         "en": "Unaspected Crystal",
@@ -4961,7 +5352,8 @@ const itemData = {
             "5": 280,
             "6": 308,
             "7": 336
-        }
+        },
+        "level": 50
     },
     "10335": {
         "en": "Dark Matter Cluster",
@@ -4974,7 +5366,8 @@ const itemData = {
             "7": 280,
             "8": 308,
             "9": 336
-        }
+        },
+        "level": 50
     },
     "12531": {
         "en": "Mythrite Sand",
@@ -4987,7 +5380,8 @@ const itemData = {
             "30": 419,
             "40": 461,
             "50": 503
-        }
+        },
+        "level": 51
     },
     "12532": {
         "en": "Hardsilver Sand",
@@ -5000,7 +5394,8 @@ const itemData = {
             "30": 588,
             "40": 647,
             "50": 706
-        }
+        },
+        "level": 56
     },
     "12533": {
         "en": "Aurum Regis Sand",
@@ -5013,7 +5408,8 @@ const itemData = {
             "30": 640,
             "40": 704,
             "50": 768
-        }
+        },
+        "level": 59
     },
     "12534": {
         "en": "Mythrite Ore",
@@ -5026,7 +5422,8 @@ const itemData = {
             "20": 535,
             "25": 589,
             "30": 642
-        }
+        },
+        "level": 53
     },
     "12535": {
         "en": "Hardsilver Ore",
@@ -5039,7 +5436,8 @@ const itemData = {
             "20": 618,
             "25": 680,
             "30": 742
-        }
+        },
+        "level": 58
     },
     "12536": {
         "en": "Aurum Regis Ore",
@@ -5052,7 +5450,8 @@ const itemData = {
             "7": 860,
             "8": 946,
             "9": 1032
-        }
+        },
+        "level": 60
     },
     "12537": {
         "en": "Titanium Ore",
@@ -5065,7 +5464,8 @@ const itemData = {
             "20": 585,
             "25": 644,
             "30": 702
-        }
+        },
+        "level": 55
     },
     "12538": {
         "en": "Adamantite Ore",
@@ -5078,7 +5478,8 @@ const itemData = {
             "7": 680,
             "8": 748,
             "9": 816
-        }
+        },
+        "level": 60
     },
     "12539": {
         "en": "Cloud Mica",
@@ -5091,7 +5492,8 @@ const itemData = {
             "30": 618,
             "40": 680,
             "50": 742
-        }
+        },
+        "level": 58
     },
     "12540": {
         "en": "Sun Mica",
@@ -5104,7 +5506,8 @@ const itemData = {
             "7": 860,
             "8": 946,
             "9": 1032
-        }
+        },
+        "level": 60
     },
     "12551": {
         "en": "Raw Larimar",
@@ -5117,7 +5520,8 @@ const itemData = {
             "30": 535,
             "40": 589,
             "50": 642
-        }
+        },
+        "level": 53
     },
     "12552": {
         "en": "Raw Tiger's Eye",
@@ -5130,7 +5534,8 @@ const itemData = {
             "30": 454,
             "40": 499,
             "50": 545
-        }
+        },
+        "level": 52
     },
     "12553": {
         "en": "Raw Agate",
@@ -5143,7 +5548,8 @@ const itemData = {
             "30": 419,
             "40": 461,
             "50": 503
-        }
+        },
+        "level": 51
     },
     "12554": {
         "en": "Raw Star Ruby",
@@ -5156,7 +5562,8 @@ const itemData = {
             "30": 585,
             "40": 644,
             "50": 702
-        }
+        },
+        "level": 55
     },
     "12555": {
         "en": "Raw Star Sapphire",
@@ -5169,7 +5576,8 @@ const itemData = {
             "30": 585,
             "40": 644,
             "50": 702
-        }
+        },
+        "level": 55
     },
     "12556": {
         "en": "Raw Opal",
@@ -5182,7 +5590,8 @@ const itemData = {
             "30": 593,
             "40": 652,
             "50": 712
-        }
+        },
+        "level": 57
     },
     "12557": {
         "en": "Raw Citrine",
@@ -5195,7 +5604,8 @@ const itemData = {
             "30": 640,
             "40": 704,
             "50": 768
-        }
+        },
+        "level": 59
     },
     "12558": {
         "en": "Raw Chrysolite",
@@ -5208,7 +5618,8 @@ const itemData = {
             "30": 680,
             "40": 748,
             "50": 816
-        }
+        },
+        "level": 60
     },
     "12559": {
         "en": "Raw Mormorion",
@@ -5221,7 +5632,8 @@ const itemData = {
             "30": 550,
             "40": 605,
             "50": 660
-        }
+        },
+        "level": 54
     },
     "12560": {
         "en": "Raw Carnelian",
@@ -5234,7 +5646,8 @@ const itemData = {
             "30": 618,
             "40": 680,
             "50": 742
-        }
+        },
+        "level": 58
     },
     "12568": {
         "en": "Archaeornis Skin",
@@ -5247,7 +5660,8 @@ const itemData = {
             "10": 130,
             "12": 135,
             "15": 140
-        }
+        },
+        "level": 51
     },
     "12569": {
         "en": "Wyvern Skin",
@@ -5260,7 +5674,8 @@ const itemData = {
             "10": 140,
             "12": 145,
             "15": 150
-        }
+        },
+        "level": 53
     },
     "12570": {
         "en": "Dhalmel Hide",
@@ -5273,7 +5688,8 @@ const itemData = {
             "10": 146,
             "12": 151,
             "15": 156
-        }
+        },
+        "level": 55
     },
     "12571": {
         "en": "Dragon Skin",
@@ -5286,7 +5702,8 @@ const itemData = {
             "10": 152,
             "12": 157,
             "15": 162
-        }
+        },
+        "level": 57
     },
     "12572": {
         "en": "Amphiptere Skin",
@@ -5299,7 +5716,8 @@ const itemData = {
             "10": 158,
             "12": 163,
             "15": 168
-        }
+        },
+        "level": 59
     },
     "12573": {
         "en": "Griffin Hide",
@@ -5312,7 +5730,8 @@ const itemData = {
             "10": 158,
             "12": 163,
             "15": 168
-        }
+        },
+        "level": 59
     },
     "12575": {
         "en": "Yeti Fang",
@@ -5325,7 +5744,8 @@ const itemData = {
             "10": 135,
             "12": 140,
             "15": 145
-        }
+        },
+        "level": 52
     },
     "12576": {
         "en": "Dragon Fang",
@@ -5338,7 +5758,8 @@ const itemData = {
             "10": 152,
             "12": 157,
             "15": 162
-        }
+        },
+        "level": 57
     },
     "12577": {
         "en": "Griffin Talon",
@@ -5351,7 +5772,8 @@ const itemData = {
             "10": 158,
             "12": 163,
             "15": 168
-        }
+        },
+        "level": 59
     },
     "12578": {
         "en": "Dark Chestnut Log",
@@ -5364,7 +5786,8 @@ const itemData = {
             "30": 550,
             "40": 605,
             "50": 660
-        }
+        },
+        "level": 54
     },
     "12579": {
         "en": "Birch Log",
@@ -5377,7 +5800,8 @@ const itemData = {
             "20": 618,
             "25": 680,
             "30": 742
-        }
+        },
+        "level": 58
     },
     "12585": {
         "en": "Dark Chestnut Branch",
@@ -5390,7 +5814,8 @@ const itemData = {
             "30": 585,
             "40": 644,
             "50": 702
-        }
+        },
+        "level": 55
     },
     "12586": {
         "en": "Birch Branch",
@@ -5403,7 +5828,8 @@ const itemData = {
             "30": 618,
             "40": 680,
             "50": 742
-        }
+        },
+        "level": 58
     },
     "12587": {
         "en": "Wattle Bark",
@@ -5416,7 +5842,8 @@ const itemData = {
             "7": 860,
             "8": 946,
             "9": 1032
-        }
+        },
+        "level": 60
     },
     "12597": {
         "en": "Rainbow Cotton Boll",
@@ -5429,7 +5856,8 @@ const itemData = {
             "30": 419,
             "40": 461,
             "50": 503
-        }
+        },
+        "level": 51
     },
     "12598": {
         "en": "Stalk of Ramie",
@@ -5442,7 +5870,8 @@ const itemData = {
             "30": 550,
             "40": 605,
             "50": 660
-        }
+        },
+        "level": 54
     },
     "12599": {
         "en": "Chimera Mane",
@@ -5455,7 +5884,8 @@ const itemData = {
             "10": 160,
             "12": 165,
             "15": 170
-        }
+        },
+        "level": 60
     },
     "12600": {
         "en": "Crawler Cocoon",
@@ -5468,7 +5898,8 @@ const itemData = {
             "10": 155,
             "12": 160,
             "15": 165
-        }
+        },
+        "level": 58
     },
     "12609": {
         "en": "Bear Fat",
@@ -5481,7 +5912,8 @@ const itemData = {
             "10": 135,
             "12": 140,
             "15": 145
-        }
+        },
+        "level": 52
     },
     "12627": {
         "en": "Dragon Scale",
@@ -5494,7 +5926,8 @@ const itemData = {
             "10": 155,
             "12": 160,
             "15": 165
-        }
+        },
+        "level": 58
     },
     "12628": {
         "en": "Deepeye Tears",
@@ -5507,7 +5940,8 @@ const itemData = {
             "10": 135,
             "12": 140,
             "15": 145
-        }
+        },
+        "level": 52
     },
     "12629": {
         "en": "Dhalmel Saliva",
@@ -5520,7 +5954,8 @@ const itemData = {
             "10": 149,
             "12": 154,
             "15": 159
-        }
+        },
+        "level": 56
     },
     "12630": {
         "en": "Dragon Blood",
@@ -5533,7 +5968,8 @@ const itemData = {
             "10": 155,
             "12": 160,
             "15": 165
-        }
+        },
+        "level": 58
     },
     "12631": {
         "en": "Dravanian Spring Water",
@@ -5546,7 +5982,8 @@ const itemData = {
             "30": 550,
             "40": 605,
             "50": 660
-        }
+        },
+        "level": 54
     },
     "12632": {
         "en": "Abalathian Spring Water",
@@ -5559,7 +5996,8 @@ const itemData = {
             "30": 593,
             "40": 652,
             "50": 712
-        }
+        },
+        "level": 57
     },
     "12634": {
         "en": "Seventh Heaven",
@@ -5572,7 +6010,8 @@ const itemData = {
             "7": 860,
             "8": 946,
             "9": 1032
-        }
+        },
+        "level": 60
     },
     "12635": {
         "en": "Gelato Flesh",
@@ -5585,7 +6024,8 @@ const itemData = {
             "10": 130,
             "12": 135,
             "15": 140
-        }
+        },
+        "level": 51
     },
     "12636": {
         "en": "Wyvern Wing",
@@ -5598,7 +6038,8 @@ const itemData = {
             "10": 140,
             "12": 145,
             "15": 150
-        }
+        },
+        "level": 53
     },
     "12637": {
         "en": "Icetrap Leaf",
@@ -5611,7 +6052,8 @@ const itemData = {
             "10": 130,
             "12": 135,
             "15": 140
-        }
+        },
+        "level": 51
     },
     "12638": {
         "en": "Coneflower",
@@ -5624,7 +6066,8 @@ const itemData = {
             "30": 588,
             "40": 647,
             "50": 706
-        }
+        },
+        "level": 56
     },
     "12639": {
         "en": "Cow Bitter",
@@ -5637,7 +6080,8 @@ const itemData = {
             "30": 593,
             "40": 652,
             "50": 712
-        }
+        },
+        "level": 57
     },
     "12640": {
         "en": "Dandelion",
@@ -5650,7 +6094,8 @@ const itemData = {
             "30": 640,
             "40": 704,
             "50": 768
-        }
+        },
+        "level": 59
     },
     "12641": {
         "en": "Gaelicatnip",
@@ -5663,7 +6108,8 @@ const itemData = {
             "30": 680,
             "40": 748,
             "50": 816
-        }
+        },
+        "level": 60
     },
     "12642": {
         "en": "Rue",
@@ -5676,7 +6122,8 @@ const itemData = {
             "30": 618,
             "40": 680,
             "50": 742
-        }
+        },
+        "level": 58
     },
     "12643": {
         "en": "Coriander",
@@ -5689,7 +6136,8 @@ const itemData = {
             "30": 640,
             "40": 704,
             "50": 768
-        }
+        },
+        "level": 59
     },
     "12715": {
         "en": "Ice Faerie",
@@ -5702,7 +6150,8 @@ const itemData = {
             "10": 272,
             "11": 300,
             "12": 327
-        }
+        },
+        "level": 51
     },
     "12719": {
         "en": "Fanged Clam",
@@ -5715,7 +6164,8 @@ const itemData = {
             "10": 295,
             "11": 324,
             "12": 354
-        }
+        },
+        "level": 52
     },
     "12721": {
         "en": "Whilom Catfish",
@@ -5728,7 +6178,8 @@ const itemData = {
             "10": 295,
             "11": 324,
             "12": 354
-        }
+        },
+        "level": 52
     },
     "12722": {
         "en": "Blueclaw Shrimp",
@@ -5741,7 +6192,8 @@ const itemData = {
             "10": 295,
             "11": 324,
             "12": 354
-        }
+        },
+        "level": 52
     },
     "12725": {
         "en": "Ogre Horn Snail",
@@ -5754,7 +6206,8 @@ const itemData = {
             "10": 295,
             "11": 324,
             "12": 354
-        }
+        },
+        "level": 52
     },
     "12728": {
         "en": "Maiboi",
@@ -5767,7 +6220,8 @@ const itemData = {
             "10": 348,
             "11": 383,
             "12": 417
-        }
+        },
+        "level": 53
     },
     "12733": {
         "en": "Rock Mussel",
@@ -5780,7 +6234,8 @@ const itemData = {
             "10": 380,
             "11": 419,
             "12": 456
-        }
+        },
+        "level": 55
     },
     "12736": {
         "en": "Blue Cloud Coral",
@@ -5793,7 +6248,8 @@ const itemData = {
             "10": 358,
             "11": 393,
             "12": 429
-        }
+        },
+        "level": 54
     },
     "12737": {
         "en": "Seema Patrician",
@@ -5806,7 +6262,8 @@ const itemData = {
             "10": 348,
             "11": 383,
             "12": 417
-        }
+        },
+        "level": 53
     },
     "12739": {
         "en": "Bubble Eye",
@@ -5819,7 +6276,8 @@ const itemData = {
             "10": 358,
             "11": 393,
             "12": 429
-        }
+        },
+        "level": 54
     },
     "12747": {
         "en": "Scholar Sculpin",
@@ -5832,7 +6290,8 @@ const itemData = {
             "10": 358,
             "11": 393,
             "12": 429
-        }
+        },
+        "level": 54
     },
     "12749": {
         "en": "Vanuhead",
@@ -5845,7 +6304,8 @@ const itemData = {
             "10": 380,
             "11": 419,
             "12": 456
-        }
+        },
+        "level": 55
     },
     "12750": {
         "en": "Marble Oscar",
@@ -5858,7 +6318,8 @@ const itemData = {
             "10": 380,
             "11": 419,
             "12": 456
-        }
+        },
+        "level": 55
     },
     "12758": {
         "en": "Mogpom",
@@ -5871,7 +6332,8 @@ const itemData = {
             "10": 380,
             "11": 419,
             "12": 456
-        }
+        },
+        "level": 55
     },
     "12765": {
         "en": "Mercy Staff",
@@ -5884,7 +6346,8 @@ const itemData = {
             "10": 380,
             "11": 419,
             "12": 456
-        }
+        },
+        "level": 55
     },
     "12767": {
         "en": "Warmwater Bichir",
@@ -5897,7 +6360,8 @@ const itemData = {
             "10": 382,
             "11": 421,
             "12": 459
-        }
+        },
+        "level": 56
     },
     "12780": {
         "en": "Sweetfish",
@@ -5910,7 +6374,8 @@ const itemData = {
             "10": 380,
             "11": 419,
             "12": 456
-        }
+        },
+        "level": 55
     },
     "12781": {
         "en": "Orn Butterfly",
@@ -5923,7 +6388,8 @@ const itemData = {
             "10": 385,
             "11": 424,
             "12": 463
-        }
+        },
+        "level": 57
     },
     "12790": {
         "en": "Philosopher's Stone",
@@ -5936,7 +6402,8 @@ const itemData = {
             "10": 385,
             "11": 424,
             "12": 463
-        }
+        },
+        "level": 57
     },
     "12809": {
         "en": "Hospitalier Fish",
@@ -5949,7 +6416,8 @@ const itemData = {
             "10": 402,
             "11": 442,
             "12": 482
-        }
+        },
+        "level": 58
     },
     "12811": {
         "en": "Rockclimber",
@@ -5962,7 +6430,8 @@ const itemData = {
             "10": 402,
             "11": 442,
             "12": 482
-        }
+        },
+        "level": 58
     },
     "12817": {
         "en": "Battle Galley",
@@ -5975,7 +6444,8 @@ const itemData = {
             "10": 416,
             "11": 458,
             "12": 499
-        }
+        },
+        "level": 59
     },
     "12819": {
         "en": "Hinterlands Perch",
@@ -5988,7 +6458,8 @@ const itemData = {
             "10": 442,
             "11": 486,
             "12": 530
-        }
+        },
+        "level": 60
     },
     "12824": {
         "en": "Cherry Trout",
@@ -6001,7 +6472,8 @@ const itemData = {
             "10": 416,
             "11": 458,
             "12": 499
-        }
+        },
+        "level": 59
     },
     "12828": {
         "en": "Thunderbolt Eel",
@@ -6014,7 +6486,8 @@ const itemData = {
             "10": 442,
             "11": 486,
             "12": 530
-        }
+        },
+        "level": 60
     },
     "12871": {
         "en": "Gastornis Egg",
@@ -6027,7 +6500,8 @@ const itemData = {
             "10": 130,
             "12": 135,
             "15": 140
-        }
+        },
+        "level": 51
     },
     "12872": {
         "en": "Okeanis Egg",
@@ -6040,7 +6514,8 @@ const itemData = {
             "10": 152,
             "12": 157,
             "15": 162
-        }
+        },
+        "level": 57
     },
     "12873": {
         "en": "Loaghtan Chump",
@@ -6053,7 +6528,8 @@ const itemData = {
             "10": 135,
             "12": 140,
             "15": 145
-        }
+        },
+        "level": 52
     },
     "12874": {
         "en": "Dhalmel Meat",
@@ -6066,7 +6542,8 @@ const itemData = {
             "10": 146,
             "12": 151,
             "15": 156
-        }
+        },
+        "level": 55
     },
     "12875": {
         "en": "Okeanis Tail",
@@ -6079,7 +6556,8 @@ const itemData = {
             "10": 155,
             "12": 160,
             "15": 165
-        }
+        },
+        "level": 58
     },
     "12876": {
         "en": "Cockatrice Thigh",
@@ -6092,7 +6570,8 @@ const itemData = {
             "10": 155,
             "12": 160,
             "15": 165
-        }
+        },
+        "level": 58
     },
     "12877": {
         "en": "Pearl Sprouts",
@@ -6105,7 +6584,8 @@ const itemData = {
             "7": 454,
             "8": 499,
             "9": 545
-        }
+        },
+        "level": 52
     },
     "12878": {
         "en": "Cyclops Onion",
@@ -6118,7 +6598,8 @@ const itemData = {
             "20": 535,
             "25": 589,
             "30": 642
-        }
+        },
+        "level": 53
     },
     "12879": {
         "en": "Emerald Beans",
@@ -6131,7 +6612,8 @@ const itemData = {
             "20": 585,
             "25": 644,
             "30": 702
-        }
+        },
+        "level": 55
     },
     "12880": {
         "en": "Highland Wheat",
@@ -6144,7 +6626,8 @@ const itemData = {
             "30": 535,
             "40": 589,
             "50": 642
-        }
+        },
+        "level": 53
     },
     "12882": {
         "en": "Coerthan Tea Leaves",
@@ -6157,7 +6640,8 @@ const itemData = {
             "7": 535,
             "8": 589,
             "9": 642
-        }
+        },
+        "level": 53
     },
     "12883": {
         "en": "Mist Dill",
@@ -6170,7 +6654,8 @@ const itemData = {
             "30": 454,
             "40": 499,
             "50": 545
-        }
+        },
+        "level": 52
     },
     "12884": {
         "en": "Chives",
@@ -6183,7 +6668,8 @@ const itemData = {
             "7": 585,
             "8": 644,
             "9": 702
-        }
+        },
+        "level": 55
     },
     "12885": {
         "en": "Magma Beet",
@@ -6196,7 +6682,8 @@ const itemData = {
             "30": 585,
             "40": 644,
             "50": 702
-        }
+        },
+        "level": 55
     },
     "12887": {
         "en": "Sesame Seeds",
@@ -6209,7 +6696,8 @@ const itemData = {
             "30": 593,
             "40": 652,
             "50": 712
-        }
+        },
+        "level": 57
     },
     "12888": {
         "en": "Yak Milk",
@@ -6222,7 +6710,8 @@ const itemData = {
             "10": 130,
             "12": 135,
             "15": 140
-        }
+        },
+        "level": 51
     },
     "12889": {
         "en": "Heavens Lemon",
@@ -6235,7 +6724,8 @@ const itemData = {
             "7": 588,
             "8": 647,
             "9": 706
-        }
+        },
+        "level": 56
     },
     "12891": {
         "en": "Birch Sap",
@@ -6248,7 +6738,8 @@ const itemData = {
             "30": 640,
             "40": 704,
             "50": 768
-        }
+        },
+        "level": 59
     },
     "12893": {
         "en": "Dark Chestnut",
@@ -6261,7 +6752,8 @@ const itemData = {
             "20": 585,
             "25": 644,
             "30": 702
-        }
+        },
+        "level": 55
     },
     "12896": {
         "en": "Old World Fig",
@@ -6274,7 +6766,8 @@ const itemData = {
             "7": 366,
             "8": 403,
             "9": 439
-        }
+        },
+        "level": 50
     },
     "12897": {
         "en": "Cloud Banana",
@@ -6287,7 +6780,8 @@ const itemData = {
             "7": 593,
             "8": 652,
             "9": 712
-        }
+        },
+        "level": 57
     },
     "12898": {
         "en": "Morel",
@@ -6300,7 +6794,8 @@ const itemData = {
             "7": 640,
             "8": 704,
             "9": 768
-        }
+        },
+        "level": 59
     },
     "12899": {
         "en": "Porcini",
@@ -6313,7 +6808,8 @@ const itemData = {
             "7": 419,
             "8": 461,
             "9": 503
-        }
+        },
+        "level": 51
     },
     "12900": {
         "en": "Chysahl Greens",
@@ -6326,7 +6822,8 @@ const itemData = {
             "7": 680,
             "8": 748,
             "9": 816
-        }
+        },
+        "level": 60
     },
     "12901": {
         "en": "Abalathian Rock Salt",
@@ -6339,7 +6836,8 @@ const itemData = {
             "7": 588,
             "8": 647,
             "9": 706
-        }
+        },
+        "level": 56
     },
     "12902": {
         "en": "Honeydew Almonds",
@@ -6352,7 +6850,8 @@ const itemData = {
             "7": 860,
             "8": 946,
             "9": 1032
-        }
+        },
+        "level": 60
     },
     "12903": {
         "en": "Dravanian Paprika",
@@ -6365,7 +6864,8 @@ const itemData = {
             "7": 860,
             "8": 946,
             "9": 1032
-        }
+        },
+        "level": 60
     },
     "12904": {
         "en": "Snurbleberry",
@@ -6378,7 +6878,8 @@ const itemData = {
             "7": 860,
             "8": 946,
             "9": 1032
-        }
+        },
+        "level": 60
     },
     "12941": {
         "en": "Chalcocite",
@@ -6391,7 +6892,8 @@ const itemData = {
             "30": 535,
             "40": 589,
             "50": 642
-        }
+        },
+        "level": 53
     },
     "12942": {
         "en": "Cuprite",
@@ -6404,7 +6906,8 @@ const itemData = {
             "30": 640,
             "40": 704,
             "50": 768
-        }
+        },
+        "level": 59
     },
     "12943": {
         "en": "Dravanian Mistletoe",
@@ -6417,7 +6920,8 @@ const itemData = {
             "7": 550,
             "8": 605,
             "9": 660
-        }
+        },
+        "level": 54
     },
     "12944": {
         "en": "Abalathian Mistletoe",
@@ -6430,7 +6934,8 @@ const itemData = {
             "7": 618,
             "8": 680,
             "9": 742
-        }
+        },
+        "level": 58
     },
     "12945": {
         "en": "Red Alumen",
@@ -6443,7 +6948,8 @@ const itemData = {
             "7": 680,
             "8": 748,
             "9": 816
-        }
+        },
+        "level": 60
     },
     "13759": {
         "en": "Tektite",
@@ -6456,7 +6962,8 @@ const itemData = {
             "30": 640,
             "40": 704,
             "50": 768
-        }
+        },
+        "level": 59
     },
     "13760": {
         "en": "Eventide Jade",
@@ -6469,7 +6976,8 @@ const itemData = {
             "30": 680,
             "40": 748,
             "50": 816
-        }
+        },
+        "level": 60
     },
     "13761": {
         "en": "Fossilized Dragon Bone",
@@ -6482,7 +6990,8 @@ const itemData = {
             "30": 588,
             "40": 647,
             "50": 706
-        }
+        },
+        "level": 56
     },
     "13762": {
         "en": "Periwinkle",
@@ -6495,7 +7004,8 @@ const itemData = {
             "30": 680,
             "40": 748,
             "50": 816
-        }
+        },
+        "level": 60
     },
     "13763": {
         "en": "Cloud Mushroom",
@@ -6508,7 +7018,8 @@ const itemData = {
             "30": 640,
             "40": 704,
             "50": 768
-        }
+        },
+        "level": 59
     },
     "13764": {
         "en": "Wind Widow",
@@ -6521,7 +7032,8 @@ const itemData = {
             "30": 588,
             "40": 647,
             "50": 706
-        }
+        },
+        "level": 56
     },
     "13765": {
         "en": "Old World Fig Seeds",
@@ -6534,7 +7046,8 @@ const itemData = {
             "7": 366,
             "8": 403,
             "9": 439
-        }
+        },
+        "level": 50
     },
     "13767": {
         "en": "Pearl Sprout Seeds",
@@ -6547,7 +7060,8 @@ const itemData = {
             "7": 454,
             "8": 499,
             "9": 545
-        }
+        },
+        "level": 52
     },
     "13768": {
         "en": "Coerthan Tea Seeds",
@@ -6560,7 +7074,8 @@ const itemData = {
             "7": 535,
             "8": 589,
             "9": 642
-        }
+        },
+        "level": 53
     },
     "14148": {
         "en": "Lumythrite Ore",
@@ -6573,7 +7088,8 @@ const itemData = {
             "7": 860,
             "8": 946,
             "9": 1032
-        }
+        },
+        "level": 60
     },
     "14151": {
         "en": "Smithsonite Ore",
@@ -6586,7 +7102,8 @@ const itemData = {
             "7": 860,
             "8": 946,
             "9": 1032
-        }
+        },
+        "level": 60
     },
     "14154": {
         "en": "Frost Cotton Boll",
@@ -6599,7 +7116,8 @@ const itemData = {
             "7": 860,
             "8": 946,
             "9": 1032
-        }
+        },
+        "level": 60
     },
     "14159": {
         "en": "Camphorwood Log",
@@ -6612,7 +7130,8 @@ const itemData = {
             "30": 860,
             "40": 946,
             "50": 1032
-        }
+        },
+        "level": 60
     },
     "14160": {
         "en": "Camphorwood Branch",
@@ -6625,7 +7144,8 @@ const itemData = {
             "30": 860,
             "40": 946,
             "50": 1032
-        }
+        },
+        "level": 60
     },
     "14190": {
         "en": "Beastkin Horn",
@@ -6638,7 +7158,8 @@ const itemData = {
             "30": 860,
             "40": 946,
             "50": 1032
-        }
+        },
+        "level": 60
     },
     "14955": {
         "en": "Lumythrite Sand",
@@ -6651,7 +7172,8 @@ const itemData = {
             "30": 860,
             "40": 946,
             "50": 1032
-        }
+        },
+        "level": 60
     },
     "14956": {
         "en": "Whitefrost Cotton Boll",
@@ -6664,7 +7186,8 @@ const itemData = {
             "30": 860,
             "40": 946,
             "50": 1032
-        }
+        },
+        "level": 60
     },
     "14957": {
         "en": "Old-growth Camphorwood Log",
@@ -6677,7 +7200,8 @@ const itemData = {
             "7": 860,
             "8": 946,
             "9": 1032
-        }
+        },
+        "level": 60
     },
     "15646": {
         "en": "Meteorite",
@@ -6690,7 +7214,8 @@ const itemData = {
             "7": 860,
             "8": 946,
             "9": 1032
-        }
+        },
+        "level": 60
     },
     "15647": {
         "en": "Crystallized Sap",
@@ -6703,7 +7228,8 @@ const itemData = {
             "7": 860,
             "8": 946,
             "9": 1032
-        }
+        },
+        "level": 60
     },
     "15865": {
         "en": "Firelight Seeds",
@@ -6716,7 +7242,8 @@ const itemData = {
             "30": 108,
             "40": 119,
             "50": 130
-        }
+        },
+        "level": 20
     },
     "15866": {
         "en": "Icelight Seeds",
@@ -6729,7 +7256,8 @@ const itemData = {
             "30": 108,
             "40": 119,
             "50": 130
-        }
+        },
+        "level": 20
     },
     "15867": {
         "en": "Windlight Seeds",
@@ -6742,7 +7270,8 @@ const itemData = {
             "30": 108,
             "40": 119,
             "50": 130
-        }
+        },
+        "level": 20
     },
     "15868": {
         "en": "Earthlight Seeds",
@@ -6755,7 +7284,8 @@ const itemData = {
             "30": 108,
             "40": 119,
             "50": 130
-        }
+        },
+        "level": 20
     },
     "15869": {
         "en": "Levinlight Seeds",
@@ -6768,7 +7298,8 @@ const itemData = {
             "30": 108,
             "40": 119,
             "50": 130
-        }
+        },
+        "level": 20
     },
     "15870": {
         "en": "Waterlight Seeds",
@@ -6781,7 +7312,8 @@ const itemData = {
             "30": 108,
             "40": 119,
             "50": 130
-        }
+        },
+        "level": 20
     },
     "16721": {
         "en": "Star Cotton Boll",
@@ -6794,7 +7326,8 @@ const itemData = {
             "7": 980,
             "8": 1078,
             "9": 1176
-        }
+        },
+        "level": 60
     },
     "16722": {
         "en": "Brown Mushroom",
@@ -6807,7 +7340,8 @@ const itemData = {
             "7": 980,
             "8": 1078,
             "9": 1176
-        }
+        },
+        "level": 60
     },
     "16723": {
         "en": "Noble Sage",
@@ -6820,7 +7354,8 @@ const itemData = {
             "7": 980,
             "8": 1078,
             "9": 1176
-        }
+        },
+        "level": 60
     },
     "16724": {
         "en": "Tungstite",
@@ -6833,7 +7368,8 @@ const itemData = {
             "7": 980,
             "8": 1078,
             "9": 1176
-        }
+        },
+        "level": 60
     },
     "16725": {
         "en": "Luminium Ore",
@@ -6846,7 +7382,8 @@ const itemData = {
             "7": 980,
             "8": 1078,
             "9": 1176
-        }
+        },
+        "level": 60
     },
     "16726": {
         "en": "Zeolite Ore",
@@ -6859,7 +7396,8 @@ const itemData = {
             "7": 980,
             "8": 1078,
             "9": 1176
-        }
+        },
+        "level": 60
     },
     "19850": {
         "en": "Buckwheat Kernels",
@@ -6872,7 +7410,8 @@ const itemData = {
             "30": 1020,
             "40": 1122,
             "50": 1224
-        }
+        },
+        "level": 62
     },
     "19851": {
         "en": "Loquat",
@@ -6885,7 +7424,8 @@ const itemData = {
             "30": 1000,
             "40": 1100,
             "50": 1200
-        }
+        },
+        "level": 61
     },
     "19852": {
         "en": "Othardian Plum",
@@ -6898,7 +7438,8 @@ const itemData = {
             "7": 1150,
             "8": 1265,
             "9": 1380
-        }
+        },
+        "level": 70
     },
     "19853": {
         "en": "Kudzu Root",
@@ -6911,7 +7452,8 @@ const itemData = {
             "30": 1055,
             "40": 1161,
             "50": 1266
-        }
+        },
+        "level": 65
     },
     "19854": {
         "en": "Doman Eggplant",
@@ -6924,7 +7466,8 @@ const itemData = {
             "30": 1128,
             "40": 1241,
             "50": 1354
-        }
+        },
+        "level": 69
     },
     "19855": {
         "en": "Daikon Radish",
@@ -6937,7 +7480,8 @@ const itemData = {
             "30": 1062,
             "40": 1168,
             "50": 1274
-        }
+        },
+        "level": 66
     },
     "19856": {
         "en": "Sugar Beet",
@@ -6950,7 +7494,8 @@ const itemData = {
             "30": 1048,
             "40": 1153,
             "50": 1258
-        }
+        },
+        "level": 64
     },
     "19857": {
         "en": "Jhammel Ginger",
@@ -6963,7 +7508,8 @@ const itemData = {
             "7": 1106,
             "8": 1217,
             "9": 1327
-        }
+        },
+        "level": 68
     },
     "19858": {
         "en": "Gyr Abanian Carrot",
@@ -6976,7 +7522,8 @@ const itemData = {
             "30": 1062,
             "40": 1168,
             "50": 1274
-        }
+        },
+        "level": 66
     },
     "19859": {
         "en": "Green Leek",
@@ -6989,7 +7536,8 @@ const itemData = {
             "30": 1048,
             "40": 1153,
             "50": 1258
-        }
+        },
+        "level": 64
     },
     "19860": {
         "en": "Bamboo Shoot",
@@ -7002,7 +7550,8 @@ const itemData = {
             "7": 1055,
             "8": 1161,
             "9": 1266
-        }
+        },
+        "level": 65
     },
     "19861": {
         "en": "Mountain Popoto",
@@ -7015,7 +7564,8 @@ const itemData = {
             "30": 1020,
             "40": 1122,
             "50": 1224
-        }
+        },
+        "level": 62
     },
     "19862": {
         "en": "Soybeans",
@@ -7028,7 +7578,8 @@ const itemData = {
             "30": 1048,
             "40": 1153,
             "50": 1258
-        }
+        },
+        "level": 64
     },
     "19863": {
         "en": "Shiitake Mushroom",
@@ -7041,7 +7592,8 @@ const itemData = {
             "30": 1055,
             "40": 1161,
             "50": 1266
-        }
+        },
+        "level": 65
     },
     "19864": {
         "en": "Cumin Seeds",
@@ -7054,7 +7606,8 @@ const itemData = {
             "30": 1055,
             "40": 1161,
             "50": 1266
-        }
+        },
+        "level": 65
     },
     "19865": {
         "en": "Lotus Root",
@@ -7067,7 +7620,8 @@ const itemData = {
             "7": 1062,
             "8": 1168,
             "9": 1274
-        }
+        },
+        "level": 66
     },
     "19866": {
         "en": "Sun Cabbage",
@@ -7080,7 +7634,8 @@ const itemData = {
             "30": 1062,
             "40": 1168,
             "50": 1274
-        }
+        },
+        "level": 66
     },
     "19867": {
         "en": "Fennel",
@@ -7093,7 +7648,8 @@ const itemData = {
             "30": 1062,
             "40": 1168,
             "50": 1274
-        }
+        },
+        "level": 66
     },
     "19868": {
         "en": "Gyr Abanian Wheat",
@@ -7106,7 +7662,8 @@ const itemData = {
             "30": 920,
             "40": 1012,
             "50": 1104
-        }
+        },
+        "level": 60
     },
     "19869": {
         "en": "Persimmon",
@@ -7119,7 +7676,8 @@ const itemData = {
             "30": 1084,
             "40": 1192,
             "50": 1301
-        }
+        },
+        "level": 67
     },
     "19870": {
         "en": "Persimmon Leaf",
@@ -7132,7 +7690,8 @@ const itemData = {
             "30": 1062,
             "40": 1168,
             "50": 1274
-        }
+        },
+        "level": 66
     },
     "19871": {
         "en": "Gyr Abanian Mineral Water",
@@ -7145,7 +7704,8 @@ const itemData = {
             "30": 1000,
             "40": 1100,
             "50": 1200
-        }
+        },
+        "level": 61
     },
     "19872": {
         "en": "Crescent Spring Water",
@@ -7158,7 +7718,8 @@ const itemData = {
             "30": 1048,
             "40": 1153,
             "50": 1258
-        }
+        },
+        "level": 64
     },
     "19873": {
         "en": "Dzo Chuck",
@@ -7171,7 +7732,8 @@ const itemData = {
             "10": 289,
             "12": 294,
             "15": 299
-        }
+        },
+        "level": 66
     },
     "19874": {
         "en": "Hornbill Tenderloin",
@@ -7184,7 +7746,8 @@ const itemData = {
             "10": 280,
             "12": 285,
             "15": 290
-        }
+        },
+        "level": 63
     },
     "19875": {
         "en": "Jhammel Haunch",
@@ -7197,7 +7760,8 @@ const itemData = {
             "10": 298,
             "12": 303,
             "15": 308
-        }
+        },
+        "level": 69
     },
     "19877": {
         "en": "Gagana Egg",
@@ -7210,7 +7774,8 @@ const itemData = {
             "10": 265,
             "12": 270,
             "15": 275
-        }
+        },
+        "level": 61
     },
     "19878": {
         "en": "Steppe Milk",
@@ -7223,7 +7788,8 @@ const itemData = {
             "10": 289,
             "12": 294,
             "15": 299
-        }
+        },
+        "level": 66
     },
     "19879": {
         "en": "Ama Nori",
@@ -7236,7 +7802,8 @@ const itemData = {
             "30": 1048,
             "40": 1153,
             "50": 1258
-        }
+        },
+        "level": 64
     },
     "19880": {
         "en": "Ruby Tide Kelp",
@@ -7249,7 +7816,8 @@ const itemData = {
             "30": 1084,
             "40": 1192,
             "50": 1301
-        }
+        },
+        "level": 67
     },
     "19881": {
         "en": "Gem Algae",
@@ -7262,7 +7830,8 @@ const itemData = {
             "30": 1020,
             "40": 1122,
             "50": 1224
-        }
+        },
+        "level": 62
     },
     "19907": {
         "en": "Ala Mhigan Salt Crystal",
@@ -7275,7 +7844,8 @@ const itemData = {
             "7": 1128,
             "8": 1241,
             "9": 1354
-        }
+        },
+        "level": 69
     },
     "19908": {
         "en": "Pine Resin",
@@ -7288,7 +7858,8 @@ const itemData = {
             "30": 1048,
             "40": 1153,
             "50": 1258
-        }
+        },
+        "level": 64
     },
     "19910": {
         "en": "Gyr Abanian Alumen",
@@ -7301,7 +7872,8 @@ const itemData = {
             "30": 920,
             "40": 1012,
             "50": 1104
-        }
+        },
+        "level": 60
     },
     "19911": {
         "en": "Yanxian Parsley",
@@ -7314,7 +7886,8 @@ const itemData = {
             "30": 1106,
             "40": 1217,
             "50": 1327
-        }
+        },
+        "level": 68
     },
     "19912": {
         "en": "Alyssum",
@@ -7327,7 +7900,8 @@ const itemData = {
             "30": 1106,
             "40": 1217,
             "50": 1327
-        }
+        },
+        "level": 68
     },
     "19913": {
         "en": "Nagxian Cudweed",
@@ -7340,7 +7914,8 @@ const itemData = {
             "30": 1106,
             "40": 1217,
             "50": 1327
-        }
+        },
+        "level": 68
     },
     "19914": {
         "en": "Chickweed",
@@ -7353,7 +7928,8 @@ const itemData = {
             "30": 1106,
             "40": 1217,
             "50": 1327
-        }
+        },
+        "level": 68
     },
     "19915": {
         "en": "Nipplewort",
@@ -7366,7 +7942,8 @@ const itemData = {
             "30": 1106,
             "40": 1217,
             "50": 1327
-        }
+        },
+        "level": 68
     },
     "19917": {
         "en": "Holy Basil",
@@ -7379,7 +7956,8 @@ const itemData = {
             "30": 1040,
             "40": 1144,
             "50": 1248
-        }
+        },
+        "level": 63
     },
     "19918": {
         "en": "Hallowed Basil",
@@ -7392,7 +7970,8 @@ const itemData = {
             "7": 1250,
             "8": 1375,
             "9": 1500
-        }
+        },
+        "level": 70
     },
     "19919": {
         "en": "Muud Suud Horn",
@@ -7405,7 +7984,8 @@ const itemData = {
             "10": 265,
             "12": 270,
             "15": 275
-        }
+        },
+        "level": 61
     },
     "19920": {
         "en": "Gazelle Horn",
@@ -7418,7 +7998,8 @@ const itemData = {
             "10": 292,
             "12": 297,
             "15": 302
-        }
+        },
+        "level": 67
     },
     "19921": {
         "en": "Dzo Horn",
@@ -7431,7 +8012,8 @@ const itemData = {
             "10": 286,
             "12": 291,
             "15": 296
-        }
+        },
+        "level": 65
     },
     "19922": {
         "en": "Moth Scales",
@@ -7444,7 +8026,8 @@ const itemData = {
             "10": 275,
             "12": 280,
             "15": 285
-        }
+        },
+        "level": 62
     },
     "19923": {
         "en": "Bombfish Spine",
@@ -7457,7 +8040,8 @@ const itemData = {
             "10": 280,
             "12": 285,
             "15": 290
-        }
+        },
+        "level": 63
     },
     "19924": {
         "en": "Rhino Beetle Carapace",
@@ -7470,7 +8054,8 @@ const itemData = {
             "10": 275,
             "12": 280,
             "15": 285
-        }
+        },
+        "level": 62
     },
     "19930": {
         "en": "Beech Log",
@@ -7483,7 +8068,8 @@ const itemData = {
             "30": 1000,
             "40": 1100,
             "50": 1200
-        }
+        },
+        "level": 61
     },
     "19931": {
         "en": "Larch Log",
@@ -7496,7 +8082,8 @@ const itemData = {
             "30": 1040,
             "40": 1144,
             "50": 1248
-        }
+        },
+        "level": 63
     },
     "19932": {
         "en": "Persimmon Log",
@@ -7509,7 +8096,8 @@ const itemData = {
             "30": 1084,
             "40": 1192,
             "50": 1301
-        }
+        },
+        "level": 67
     },
     "19933": {
         "en": "Zelkova Log",
@@ -7522,7 +8110,8 @@ const itemData = {
             "30": 1150,
             "40": 1265,
             "50": 1380
-        }
+        },
+        "level": 70
     },
     "19934": {
         "en": "Torreya Log",
@@ -7535,7 +8124,8 @@ const itemData = {
             "7": 1250,
             "8": 1375,
             "9": 1500
-        }
+        },
+        "level": 70
     },
     "19936": {
         "en": "Beech Branch",
@@ -7548,7 +8138,8 @@ const itemData = {
             "30": 1000,
             "40": 1100,
             "50": 1200
-        }
+        },
+        "level": 61
     },
     "19950": {
         "en": "Koppranickel Sand",
@@ -7561,7 +8152,8 @@ const itemData = {
             "30": 1000,
             "40": 1100,
             "50": 1200
-        }
+        },
+        "level": 61
     },
     "19951": {
         "en": "Koppranickel Ore",
@@ -7574,7 +8166,8 @@ const itemData = {
             "30": 1040,
             "40": 1144,
             "50": 1248
-        }
+        },
+        "level": 63
     },
     "19952": {
         "en": "Durium Sand",
@@ -7587,7 +8180,8 @@ const itemData = {
             "30": 1062,
             "40": 1168,
             "50": 1274
-        }
+        },
+        "level": 66
     },
     "19953": {
         "en": "Doman Iron Ore",
@@ -7600,7 +8194,8 @@ const itemData = {
             "30": 1055,
             "40": 1161,
             "50": 1266
-        }
+        },
+        "level": 65
     },
     "19954": {
         "en": "Durium Ore",
@@ -7613,7 +8208,8 @@ const itemData = {
             "30": 1106,
             "40": 1217,
             "50": 1327
-        }
+        },
+        "level": 68
     },
     "19955": {
         "en": "Doman Iron Sand",
@@ -7626,7 +8222,8 @@ const itemData = {
             "30": 1084,
             "40": 1192,
             "50": 1301
-        }
+        },
+        "level": 67
     },
     "19956": {
         "en": "Palladium Sand",
@@ -7639,7 +8236,8 @@ const itemData = {
             "30": 1128,
             "40": 1241,
             "50": 1354
-        }
+        },
+        "level": 69
     },
     "19957": {
         "en": "Molybdenum Ore",
@@ -7652,7 +8250,8 @@ const itemData = {
             "30": 1150,
             "40": 1265,
             "50": 1380
-        }
+        },
+        "level": 70
     },
     "19958": {
         "en": "Palladium Ore",
@@ -7665,7 +8264,8 @@ const itemData = {
             "7": 1250,
             "8": 1375,
             "9": 1500
-        }
+        },
+        "level": 70
     },
     "19959": {
         "en": "Chromite Ore",
@@ -7678,7 +8278,8 @@ const itemData = {
             "7": 1250,
             "8": 1375,
             "9": 1500
-        }
+        },
+        "level": 70
     },
     "19968": {
         "en": "Raw Triphane",
@@ -7691,7 +8292,8 @@ const itemData = {
             "7": 920,
             "8": 1012,
             "9": 1104
-        }
+        },
+        "level": 60
     },
     "19969": {
         "en": "Raw Kyanite",
@@ -7704,7 +8306,8 @@ const itemData = {
             "30": 1020,
             "40": 1122,
             "50": 1224
-        }
+        },
+        "level": 62
     },
     "19970": {
         "en": "Raw Star Spinel",
@@ -7717,7 +8320,8 @@ const itemData = {
             "7": 1055,
             "8": 1161,
             "9": 1266
-        }
+        },
+        "level": 65
     },
     "19971": {
         "en": "Raw Azurite",
@@ -7730,7 +8334,8 @@ const itemData = {
             "7": 1062,
             "8": 1168,
             "9": 1274
-        }
+        },
+        "level": 66
     },
     "19972": {
         "en": "Raw Imperial Jade",
@@ -7743,7 +8348,8 @@ const itemData = {
             "7": 1106,
             "8": 1217,
             "9": 1327
-        }
+        },
+        "level": 68
     },
     "19973": {
         "en": "Raw Rhodonite",
@@ -7756,7 +8362,8 @@ const itemData = {
             "7": 1150,
             "8": 1265,
             "9": 1380
-        }
+        },
+        "level": 70
     },
     "19976": {
         "en": "Bloodhemp",
@@ -7769,7 +8376,8 @@ const itemData = {
             "30": 920,
             "40": 1012,
             "50": 1104
-        }
+        },
+        "level": 60
     },
     "19979": {
         "en": "Ruby Cotton Boll",
@@ -7782,7 +8390,8 @@ const itemData = {
             "30": 1040,
             "40": 1144,
             "50": 1248
-        }
+        },
+        "level": 63
     },
     "19982": {
         "en": "Kudzu Vine",
@@ -7795,7 +8404,8 @@ const itemData = {
             "30": 1055,
             "40": 1161,
             "50": 1266
-        }
+        },
+        "level": 65
     },
     "19985": {
         "en": "Halgai Mane",
@@ -7808,7 +8418,8 @@ const itemData = {
             "10": 292,
             "12": 297,
             "15": 302
-        }
+        },
+        "level": 67
     },
     "19986": {
         "en": "Manzasiri Hair",
@@ -7821,7 +8432,8 @@ const itemData = {
             "10": 295,
             "12": 300,
             "15": 305
-        }
+        },
+        "level": 68
     },
     "19989": {
         "en": "Twincoon",
@@ -7834,7 +8446,8 @@ const itemData = {
             "30": 1128,
             "40": 1241,
             "50": 1354
-        }
+        },
+        "level": 69
     },
     "19991": {
         "en": "Rhea",
@@ -7847,7 +8460,8 @@ const itemData = {
             "7": 1250,
             "8": 1375,
             "9": 1500
-        }
+        },
+        "level": 70
     },
     "19999": {
         "en": "Gagana Skin",
@@ -7860,7 +8474,8 @@ const itemData = {
             "10": 275,
             "12": 280,
             "15": 285
-        }
+        },
+        "level": 62
     },
     "20000": {
         "en": "Gyuki Hide",
@@ -7873,7 +8488,8 @@ const itemData = {
             "10": 283,
             "12": 288,
             "15": 293
-        }
+        },
+        "level": 64
     },
     "20001": {
         "en": "Tiger Skin",
@@ -7886,7 +8502,8 @@ const itemData = {
             "10": 289,
             "12": 294,
             "15": 299
-        }
+        },
+        "level": 66
     },
     "20002": {
         "en": "Marid Hide",
@@ -7899,7 +8516,8 @@ const itemData = {
             "10": 295,
             "12": 300,
             "15": 305
-        }
+        },
+        "level": 68
     },
     "20003": {
         "en": "Gazelle Hide",
@@ -7912,7 +8530,8 @@ const itemData = {
             "10": 300,
             "12": 305,
             "15": 310
-        }
+        },
+        "level": 70
     },
     "20004": {
         "en": "True Griffin Hide",
@@ -7925,7 +8544,8 @@ const itemData = {
             "10": 300,
             "12": 305,
             "15": 310
-        }
+        },
+        "level": 70
     },
     "20006": {
         "en": "Diatomite",
@@ -7938,7 +8558,8 @@ const itemData = {
             "30": 1040,
             "40": 1144,
             "50": 1248
-        }
+        },
+        "level": 63
     },
     "20007": {
         "en": "Slate",
@@ -7951,7 +8572,8 @@ const itemData = {
             "30": 1020,
             "40": 1122,
             "50": 1224
-        }
+        },
+        "level": 62
     },
     "20050": {
         "en": "Heather Charr",
@@ -7964,7 +8586,8 @@ const itemData = {
             "10": 663,
             "11": 729,
             "12": 796
-        }
+        },
+        "level": 62
     },
     "20090": {
         "en": "Highland Perch",
@@ -7977,7 +8600,8 @@ const itemData = {
             "7": 650,
             "8": 715,
             "9": 780
-        }
+        },
+        "level": 61
     },
     "20105": {
         "en": "Koromo Octopus",
@@ -7990,7 +8614,8 @@ const itemData = {
             "7": 733,
             "8": 807,
             "9": 880
-        }
+        },
+        "level": 69
     },
     "20138": {
         "en": "Curtain Pleco",
@@ -8003,7 +8628,8 @@ const itemData = {
             "3": 686,
             "4": 755,
             "5": 823
-        }
+        },
+        "level": 65
     },
     "20165": {
         "en": "Eastern Sea Pickle",
@@ -8016,7 +8642,8 @@ const itemData = {
             "20": 676,
             "22": 744,
             "25": 811
-        }
+        },
+        "level": 63
     },
     "20176": {
         "en": "Gauntlet Crab",
@@ -8029,7 +8656,8 @@ const itemData = {
             "20": 681,
             "22": 749,
             "25": 818
-        }
+        },
+        "level": 64
     },
     "20191": {
         "en": "Steppe Bullfrog",
@@ -8042,7 +8670,8 @@ const itemData = {
             "20": 690,
             "22": 759,
             "25": 828
-        }
+        },
+        "level": 66
     },
     "20198": {
         "en": "Sea Lamp",
@@ -8055,7 +8684,8 @@ const itemData = {
             "20": 705,
             "22": 775,
             "25": 846
-        }
+        },
+        "level": 67
     },
     "20209": {
         "en": "Spiny Lobster",
@@ -8068,7 +8698,8 @@ const itemData = {
             "10": 719,
             "11": 791,
             "12": 863
-        }
+        },
+        "level": 68
     },
     "20226": {
         "en": "Motley Beakfish",
@@ -8081,7 +8712,8 @@ const itemData = {
             "10": 748,
             "11": 822,
             "12": 897
-        }
+        },
+        "level": 70
     },
     "21085": {
         "en": "Gyr Abanian Spring Water",
@@ -8094,7 +8726,8 @@ const itemData = {
             "7": 1250,
             "8": 1375,
             "9": 1500
-        }
+        },
+        "level": 70
     },
     "21086": {
         "en": "Azim Cotton Boll",
@@ -8107,7 +8740,8 @@ const itemData = {
             "7": 1250,
             "8": 1375,
             "9": 1500
-        }
+        },
+        "level": 70
     },
     "21180": {
         "en": "Snailfish",
@@ -8120,7 +8754,8 @@ const itemData = {
             "10": 813,
             "11": 894,
             "12": 975
-        }
+        },
+        "level": 70
     },
     "22393": {
         "en": "Usuginu Octopus",
@@ -8133,7 +8768,8 @@ const itemData = {
             "7": 943,
             "8": 1037,
             "9": 1131
-        }
+        },
+        "level": 70
     },
     "22417": {
         "en": "Nightsteel Ore",
@@ -8146,7 +8782,8 @@ const itemData = {
             "7": 1450,
             "8": 1595,
             "9": 1740
-        }
+        },
+        "level": 70
     },
     "22418": {
         "en": "Silvergrace Ore",
@@ -8159,7 +8796,8 @@ const itemData = {
             "7": 1450,
             "8": 1595,
             "9": 1740
-        }
+        },
+        "level": 70
     },
     "22419": {
         "en": "Black Willow Log",
@@ -8172,7 +8810,8 @@ const itemData = {
             "7": 1450,
             "8": 1595,
             "9": 1740
-        }
+        },
+        "level": 70
     },
     "22420": {
         "en": "Hingan Flax",
@@ -8185,7 +8824,8 @@ const itemData = {
             "7": 1450,
             "8": 1595,
             "9": 1740
-        }
+        },
+        "level": 70
     },
     "23179": {
         "en": "Hawk's Eye",
@@ -8198,7 +8838,8 @@ const itemData = {
             "7": 1450,
             "8": 1595,
             "9": 1740
-        }
+        },
+        "level": 70
     },
     "23180": {
         "en": "Hardened Veteran Tree Sap",
@@ -8211,7 +8852,8 @@ const itemData = {
             "7": 1450,
             "8": 1595,
             "9": 1740
-        }
+        },
+        "level": 70
     },
     "24240": {
         "en": "Gyr Abanian Ore",
@@ -8224,7 +8866,8 @@ const itemData = {
             "7": 1750,
             "8": 1925,
             "9": 2100
-        }
+        },
+        "level": 70
     },
     "24241": {
         "en": "Evergleam Ore",
@@ -8237,7 +8880,8 @@ const itemData = {
             "7": 1763,
             "8": 1939,
             "9": 2116
-        }
+        },
+        "level": 70
     },
     "24242": {
         "en": "Urunday Log",
@@ -8250,7 +8894,8 @@ const itemData = {
             "7": 1800,
             "8": 1980,
             "9": 2160
-        }
+        },
+        "level": 70
     },
     "24243": {
         "en": "Yanxian Cotton Boll",
@@ -8263,7 +8908,8 @@ const itemData = {
             "7": 1800,
             "8": 1980,
             "9": 2160
-        }
+        },
+        "level": 70
     },
     "24255": {
         "en": "Azim Spring Water",
@@ -8276,7 +8922,8 @@ const itemData = {
             "7": 1750,
             "8": 1925,
             "9": 2100
-        }
+        },
+        "level": 70
     },
     "27451": {
         "en": "Rose Shrimp",
@@ -8289,7 +8936,8 @@ const itemData = {
             "10": 1293,
             "11": 1422,
             "12": 1552
-        }
+        },
+        "level": 78
     },
     "27457": {
         "en": "Spearhead Squid",
@@ -8302,7 +8950,8 @@ const itemData = {
             "10": 1138,
             "11": 1251,
             "12": 1365
-        }
+        },
+        "level": 72
     },
     "27462": {
         "en": "Sand Egg",
@@ -8315,7 +8964,8 @@ const itemData = {
             "10": 1105,
             "11": 1216,
             "12": 1326
-        }
+        },
+        "level": 71
     },
     "27473": {
         "en": "Cherry Herring",
@@ -8328,7 +8978,8 @@ const itemData = {
             "10": 1146,
             "11": 1260,
             "12": 1375
-        }
+        },
+        "level": 73
     },
     "27475": {
         "en": "Lemonfish",
@@ -8341,7 +8992,8 @@ const itemData = {
             "10": 1170,
             "11": 1287,
             "12": 1404
-        }
+        },
+        "level": 74
     },
     "27483": {
         "en": "Black Tri-star",
@@ -8354,7 +9006,8 @@ const itemData = {
             "10": 1262,
             "11": 1388,
             "12": 1515
-        }
+        },
+        "level": 77
     },
     "27513": {
         "en": "Sweetflesh Oyster",
@@ -8367,7 +9020,8 @@ const itemData = {
             "10": 1323,
             "11": 1456,
             "12": 1588
-        }
+        },
+        "level": 79
     },
     "27540": {
         "en": "Little Flirt",
@@ -8380,7 +9034,8 @@ const itemData = {
             "20": 1170,
             "22": 1287,
             "25": 1404
-        }
+        },
+        "level": 74
     },
     "27571": {
         "en": "Gourmand Crab",
@@ -8393,7 +9048,8 @@ const itemData = {
             "20": 1232,
             "22": 1355,
             "25": 1478
-        }
+        },
+        "level": 76
     },
     "27576": {
         "en": "Megapiranha",
@@ -8406,7 +9062,8 @@ const itemData = {
             "20": 1293,
             "22": 1422,
             "25": 1552
-        }
+        },
+        "level": 78
     },
     "27683": {
         "en": "White Oak Log",
@@ -8419,7 +9076,8 @@ const itemData = {
             "30": 1700,
             "40": 1870,
             "50": 2040
-        }
+        },
+        "level": 71
     },
     "27684": {
         "en": "Miracle Apple Log",
@@ -8432,7 +9090,8 @@ const itemData = {
             "30": 1750,
             "40": 1925,
             "50": 2100
-        }
+        },
+        "level": 72
     },
     "27685": {
         "en": "White Ash Log",
@@ -8445,7 +9104,8 @@ const itemData = {
             "30": 1800,
             "40": 1980,
             "50": 2160
-        }
+        },
+        "level": 74
     },
     "27686": {
         "en": "Sandteak Log",
@@ -8458,7 +9118,8 @@ const itemData = {
             "30": 1895,
             "40": 2085,
             "50": 2274
-        }
+        },
+        "level": 76
     },
     "27687": {
         "en": "Lignum Vitae Log",
@@ -8471,7 +9132,8 @@ const itemData = {
             "30": 2083,
             "40": 2291,
             "50": 2500
-        }
+        },
+        "level": 80
     },
     "27688": {
         "en": "Sandalwood Log",
@@ -8484,7 +9146,8 @@ const itemData = {
             "7": 2182,
             "8": 2400,
             "9": 2618
-        }
+        },
+        "level": 80
     },
     "27696": {
         "en": "Truegold Sand",
@@ -8497,7 +9160,8 @@ const itemData = {
             "30": 1700,
             "40": 1870,
             "50": 2040
-        }
+        },
+        "level": 71
     },
     "27697": {
         "en": "Truegold Ore",
@@ -8510,7 +9174,8 @@ const itemData = {
             "30": 1750,
             "40": 1925,
             "50": 2100
-        }
+        },
+        "level": 72
     },
     "27698": {
         "en": "Bluespirit Ore",
@@ -8523,7 +9188,8 @@ const itemData = {
             "30": 1800,
             "40": 1980,
             "50": 2160
-        }
+        },
+        "level": 74
     },
     "27699": {
         "en": "Manasilver Sand",
@@ -8536,7 +9202,8 @@ const itemData = {
             "30": 1848,
             "40": 2033,
             "50": 2218
-        }
+        },
+        "level": 75
     },
     "27700": {
         "en": "Titancopper Sand",
@@ -8549,7 +9216,8 @@ const itemData = {
             "30": 1895,
             "40": 2085,
             "50": 2274
-        }
+        },
+        "level": 76
     },
     "27701": {
         "en": "Titancopper Ore",
@@ -8562,7 +9230,8 @@ const itemData = {
             "30": 1942,
             "40": 2136,
             "50": 2330
-        }
+        },
+        "level": 77
     },
     "27702": {
         "en": "Dimythrite Sand",
@@ -8575,7 +9244,8 @@ const itemData = {
             "30": 2036,
             "40": 2240,
             "50": 2443
-        }
+        },
+        "level": 79
     },
     "27703": {
         "en": "Dimythrite Ore",
@@ -8588,7 +9258,8 @@ const itemData = {
             "30": 2083,
             "40": 2291,
             "50": 2500
-        }
+        },
+        "level": 80
     },
     "27704": {
         "en": "Tungsten Ore",
@@ -8601,7 +9272,8 @@ const itemData = {
             "7": 2182,
             "8": 2400,
             "9": 2618
-        }
+        },
+        "level": 80
     },
     "27705": {
         "en": "Prismstone",
@@ -8614,7 +9286,8 @@ const itemData = {
             "7": 2182,
             "8": 2400,
             "9": 2618
-        }
+        },
+        "level": 80
     },
     "27726": {
         "en": "Raw Hematite",
@@ -8627,7 +9300,8 @@ const itemData = {
             "7": 1450,
             "8": 1595,
             "9": 1740
-        }
+        },
+        "level": 70
     },
     "27727": {
         "en": "Raw Diaspore",
@@ -8640,7 +9314,8 @@ const itemData = {
             "7": 1750,
             "8": 1925,
             "9": 2100
-        }
+        },
+        "level": 72
     },
     "27728": {
         "en": "Raw Lazurite",
@@ -8653,7 +9328,8 @@ const itemData = {
             "7": 1800,
             "8": 1980,
             "9": 2160
-        }
+        },
+        "level": 74
     },
     "27729": {
         "en": "Raw Triplite",
@@ -8666,7 +9342,8 @@ const itemData = {
             "7": 1895,
             "8": 2085,
             "9": 2274
-        }
+        },
+        "level": 76
     },
     "27730": {
         "en": "Raw Petalite",
@@ -8679,7 +9356,8 @@ const itemData = {
             "7": 1989,
             "8": 2188,
             "9": 2387
-        }
+        },
+        "level": 78
     },
     "27731": {
         "en": "Raw Onyx",
@@ -8692,7 +9370,8 @@ const itemData = {
             "7": 2083,
             "8": 2291,
             "9": 2500
-        }
+        },
+        "level": 80
     },
     "27732": {
         "en": "Smilodon Skin",
@@ -8705,7 +9384,8 @@ const itemData = {
             "10": 400,
             "12": 405,
             "15": 410
-        }
+        },
+        "level": 71
     },
     "27733": {
         "en": "Green Glider Skin",
@@ -8718,7 +9398,8 @@ const itemData = {
             "10": 410,
             "12": 415,
             "15": 420
-        }
+        },
+        "level": 72
     },
     "27734": {
         "en": "Atrociraptor Skin",
@@ -8731,7 +9412,8 @@ const itemData = {
             "10": 416,
             "12": 421,
             "15": 426
-        }
+        },
+        "level": 74
     },
     "27735": {
         "en": "Zonure Skin",
@@ -8744,7 +9426,8 @@ const itemData = {
             "10": 422,
             "12": 427,
             "15": 432
-        }
+        },
+        "level": 77
     },
     "27736": {
         "en": "Sea Swallow Skin",
@@ -8757,7 +9440,8 @@ const itemData = {
             "10": 425,
             "12": 430,
             "15": 435
-        }
+        },
+        "level": 78
     },
     "27747": {
         "en": "Bright Flax",
@@ -8770,7 +9454,8 @@ const itemData = {
             "30": 1700,
             "40": 1870,
             "50": 2040
-        }
+        },
+        "level": 71
     },
     "27750": {
         "en": "Iridescent Cocoon",
@@ -8783,7 +9468,8 @@ const itemData = {
             "30": 1750,
             "40": 1925,
             "50": 2100
-        }
+        },
+        "level": 72
     },
     "27753": {
         "en": "Pixie Floss Boll",
@@ -8796,7 +9482,8 @@ const itemData = {
             "30": 1800,
             "40": 1980,
             "50": 2160
-        }
+        },
+        "level": 74
     },
     "27756": {
         "en": "Ovim Fleece",
@@ -8809,7 +9496,8 @@ const itemData = {
             "10": 422,
             "12": 427,
             "15": 432
-        }
+        },
+        "level": 77
     },
     "27759": {
         "en": "Dwarven Cotton Boll",
@@ -8822,7 +9510,8 @@ const itemData = {
             "30": 2036,
             "40": 2240,
             "50": 2443
-        }
+        },
+        "level": 79
     },
     "27761": {
         "en": "Ethereal Cocoon",
@@ -8835,7 +9524,8 @@ const itemData = {
             "7": 2182,
             "8": 2400,
             "9": 2618
-        }
+        },
+        "level": 80
     },
     "27763": {
         "en": "Hoptrap Leaf",
@@ -8848,7 +9538,8 @@ const itemData = {
             "10": 400,
             "12": 405,
             "15": 410
-        }
+        },
+        "level": 71
     },
     "27764": {
         "en": "Silkmoth Scales",
@@ -8861,7 +9552,8 @@ const itemData = {
             "10": 400,
             "12": 405,
             "15": 410
-        }
+        },
+        "level": 71
     },
     "27773": {
         "en": "Vampire Cup Vine",
@@ -8874,7 +9566,8 @@ const itemData = {
             "10": 416,
             "12": 421,
             "15": 426
-        }
+        },
+        "level": 75
     },
     "27774": {
         "en": "Vampire Vine Sap",
@@ -8887,7 +9580,8 @@ const itemData = {
             "10": 416,
             "12": 421,
             "15": 426
-        }
+        },
+        "level": 75
     },
     "27776": {
         "en": "Extra Effervescent Water",
@@ -8900,7 +9594,8 @@ const itemData = {
             "30": 1895,
             "40": 2085,
             "50": 2274
-        }
+        },
+        "level": 76
     },
     "27779": {
         "en": "Sweet Alyssum",
@@ -8913,7 +9608,8 @@ const itemData = {
             "30": 1895,
             "40": 2085,
             "50": 2274
-        }
+        },
+        "level": 76
     },
     "27780": {
         "en": "Fernleaf Lavender",
@@ -8926,7 +9622,8 @@ const itemData = {
             "30": 1942,
             "40": 2136,
             "50": 2330
-        }
+        },
+        "level": 77
     },
     "27782": {
         "en": "Underground Spring Water",
@@ -8939,7 +9636,8 @@ const itemData = {
             "30": 1989,
             "40": 2188,
             "50": 2387
-        }
+        },
+        "level": 78
     },
     "27783": {
         "en": "Lime Basil",
@@ -8952,7 +9650,8 @@ const itemData = {
             "30": 1989,
             "40": 2188,
             "50": 2387
-        }
+        },
+        "level": 78
     },
     "27784": {
         "en": "Tiger Lily",
@@ -8965,7 +9664,8 @@ const itemData = {
             "30": 2036,
             "40": 2240,
             "50": 2443
-        }
+        },
+        "level": 79
     },
     "27785": {
         "en": "Light Gerbera",
@@ -8978,7 +9678,8 @@ const itemData = {
             "30": 2036,
             "40": 2240,
             "50": 2443
-        }
+        },
+        "level": 79
     },
     "27797": {
         "en": "Lorikeet Down",
@@ -8991,7 +9692,8 @@ const itemData = {
             "10": 410,
             "12": 415,
             "15": 420
-        }
+        },
+        "level": 73
     },
     "27798": {
         "en": "Island Wolf Fang",
@@ -9004,7 +9706,8 @@ const itemData = {
             "10": 300,
             "12": 305,
             "15": 310
-        }
+        },
+        "level": 70
     },
     "27799": {
         "en": "Cubus Flesh",
@@ -9017,7 +9720,8 @@ const itemData = {
             "10": 428,
             "12": 433,
             "15": 438
-        }
+        },
+        "level": 79
     },
     "27800": {
         "en": "Hydrozoan Umbrella",
@@ -9030,7 +9734,8 @@ const itemData = {
             "10": 428,
             "12": 433,
             "15": 438
-        }
+        },
+        "level": 79
     },
     "27801": {
         "en": "Hard Mudstone",
@@ -9043,7 +9748,8 @@ const itemData = {
             "30": 1700,
             "40": 1870,
             "50": 2040
-        }
+        },
+        "level": 71
     },
     "27803": {
         "en": "Volcanic Tuff",
@@ -9056,7 +9762,8 @@ const itemData = {
             "30": 1895,
             "40": 2085,
             "50": 2274
-        }
+        },
+        "level": 76
     },
     "27816": {
         "en": "White Oak Branch",
@@ -9069,7 +9776,8 @@ const itemData = {
             "30": 1700,
             "40": 1870,
             "50": 2040
-        }
+        },
+        "level": 71
     },
     "27817": {
         "en": "Yellow Alumen",
@@ -9082,7 +9790,8 @@ const itemData = {
             "30": 1450,
             "40": 1595,
             "50": 1740
-        }
+        },
+        "level": 70
     },
     "27818": {
         "en": "Purple Carrot",
@@ -9095,7 +9804,8 @@ const itemData = {
             "30": 1700,
             "40": 1870,
             "50": 2040
-        }
+        },
+        "level": 71
     },
     "27819": {
         "en": "Harcot",
@@ -9108,7 +9818,8 @@ const itemData = {
             "30": 1989,
             "40": 2188,
             "50": 2387
-        }
+        },
+        "level": 78
     },
     "27820": {
         "en": "Frantoio",
@@ -9121,7 +9832,8 @@ const itemData = {
             "30": 1700,
             "40": 1870,
             "50": 2040
-        }
+        },
+        "level": 71
     },
     "27821": {
         "en": "Amber Cloves",
@@ -9134,7 +9846,8 @@ const itemData = {
             "30": 1895,
             "40": 2085,
             "50": 2274
-        }
+        },
+        "level": 76
     },
     "27822": {
         "en": "Russet Popoto",
@@ -9147,7 +9860,8 @@ const itemData = {
             "7": 1895,
             "8": 2085,
             "9": 2274
-        }
+        },
+        "level": 76
     },
     "27823": {
         "en": "Curly Parsley",
@@ -9160,7 +9874,8 @@ const itemData = {
             "30": 1700,
             "40": 1870,
             "50": 2040
-        }
+        },
+        "level": 71
     },
     "27824": {
         "en": "Garden Beet",
@@ -9173,7 +9888,8 @@ const itemData = {
             "30": 1750,
             "40": 1925,
             "50": 2100
-        }
+        },
+        "level": 72
     },
     "27825": {
         "en": "Blood Tomato",
@@ -9186,7 +9902,8 @@ const itemData = {
             "30": 1700,
             "40": 1870,
             "50": 2040
-        }
+        },
+        "level": 71
     },
     "27826": {
         "en": "Royal Grapes",
@@ -9199,7 +9916,8 @@ const itemData = {
             "30": 1848,
             "40": 2033,
             "50": 2218
-        }
+        },
+        "level": 75
     },
     "27827": {
         "en": "Night Pepper",
@@ -9212,7 +9930,8 @@ const itemData = {
             "30": 1450,
             "40": 1595,
             "50": 1740
-        }
+        },
+        "level": 70
     },
     "27828": {
         "en": "Mist Spinach",
@@ -9225,7 +9944,8 @@ const itemData = {
             "7": 1989,
             "8": 2188,
             "9": 2387
-        }
+        },
+        "level": 78
     },
     "27829": {
         "en": "Creamtop Mushroom",
@@ -9238,7 +9958,8 @@ const itemData = {
             "30": 1848,
             "40": 2033,
             "50": 2218
-        }
+        },
+        "level": 75
     },
     "27830": {
         "en": "Bomba Rice",
@@ -9251,7 +9972,8 @@ const itemData = {
             "30": 1989,
             "40": 2188,
             "50": 2387
-        }
+        },
+        "level": 78
     },
     "27831": {
         "en": "Pixie Apple",
@@ -9264,7 +9986,8 @@ const itemData = {
             "30": 1700,
             "40": 1870,
             "50": 2040
-        }
+        },
+        "level": 71
     },
     "27832": {
         "en": "Upland Wheat",
@@ -9277,7 +10000,8 @@ const itemData = {
             "30": 1763,
             "40": 1939,
             "50": 2116
-        }
+        },
+        "level": 73
     },
     "27833": {
         "en": "Broad Beans",
@@ -9290,7 +10014,8 @@ const itemData = {
             "7": 1750,
             "8": 1925,
             "9": 2100
-        }
+        },
+        "level": 72
     },
     "27834": {
         "en": "Gianthive Chip",
@@ -9303,7 +10028,8 @@ const itemData = {
             "30": 1848,
             "40": 2033,
             "50": 2218
-        }
+        },
+        "level": 75
     },
     "27835": {
         "en": "Lemonette",
@@ -9316,7 +10042,8 @@ const itemData = {
             "7": 2083,
             "8": 2291,
             "9": 2500
-        }
+        },
+        "level": 80
     },
     "27836": {
         "en": "Peppermint",
@@ -9329,7 +10056,8 @@ const itemData = {
             "7": 1800,
             "8": 1980,
             "9": 2160
-        }
+        },
+        "level": 74
     },
     "27837": {
         "en": "Coffee Beans",
@@ -9342,7 +10070,8 @@ const itemData = {
             "30": 1989,
             "40": 2188,
             "50": 2387
-        }
+        },
+        "level": 78
     },
     "27850": {
         "en": "Rail Tenderloin",
@@ -9355,7 +10084,8 @@ const itemData = {
             "10": 400,
             "12": 405,
             "15": 410
-        }
+        },
+        "level": 71
     },
     "27851": {
         "en": "Lorikeet Egg",
@@ -9368,7 +10098,8 @@ const itemData = {
             "10": 410,
             "12": 415,
             "15": 420
-        }
+        },
+        "level": 73
     },
     "27852": {
         "en": "Ovim Meat",
@@ -9381,7 +10112,8 @@ const itemData = {
             "10": 419,
             "12": 424,
             "15": 429
-        }
+        },
+        "level": 76
     },
     "27954": {
         "en": "Coarse Saltpeter",
@@ -9394,7 +10126,8 @@ const itemData = {
             "30": 1450,
             "40": 1595,
             "50": 1740
-        }
+        },
+        "level": 70
     },
     "27968": {
         "en": "Highland Spring Water",
@@ -9407,7 +10140,8 @@ const itemData = {
             "30": 1763,
             "40": 1939,
             "50": 2116
-        }
+        },
+        "level": 73
     },
     "28716": {
         "en": "Sandalwood Sap",
@@ -9420,7 +10154,8 @@ const itemData = {
             "7": 2182,
             "8": 2400,
             "9": 2618
-        }
+        },
+        "level": 80
     },
     "28717": {
         "en": "Beryllium Ore",
@@ -9433,7 +10168,8 @@ const itemData = {
             "7": 2182,
             "8": 2400,
             "9": 2618
-        }
+        },
+        "level": 80
     },
     "28719": {
         "en": "Sweetmeat Mussel",
@@ -9446,7 +10182,8 @@ const itemData = {
             "3": 1418,
             "4": 1560,
             "5": 1702
-        }
+        },
+        "level": 80
     },
     "29968": {
         "en": "Fireheart Cobalt",
@@ -9459,7 +10196,8 @@ const itemData = {
             "7": 2400,
             "8": 2640,
             "9": 2880
-        }
+        },
+        "level": 80
     },
     "29970": {
         "en": "Purpure Shell Chip",
@@ -9472,7 +10210,8 @@ const itemData = {
             "7": 2400,
             "8": 2640,
             "9": 2880
-        }
+        },
+        "level": 80
     },
     "29972": {
         "en": "Merbau Log",
@@ -9485,7 +10224,8 @@ const itemData = {
             "7": 2400,
             "8": 2640,
             "9": 2880
-        }
+        },
+        "level": 80
     },
     "29974": {
         "en": "Duskblooms",
@@ -9498,7 +10238,8 @@ const itemData = {
             "7": 2400,
             "8": 2640,
             "9": 2880
-        }
+        },
+        "level": 80
     },
     "29976": {
         "en": "Ashen Alumen",
@@ -9511,7 +10252,8 @@ const itemData = {
             "7": 2400,
             "8": 2640,
             "9": 2880
-        }
+        },
+        "level": 80
     },
     "29978": {
         "en": "Imperial Fern",
@@ -9524,7 +10266,8 @@ const itemData = {
             "7": 2400,
             "8": 2640,
             "9": 2880
-        }
+        },
+        "level": 80
     },
     "30485": {
         "en": "Tender Dill",
@@ -9537,7 +10280,8 @@ const itemData = {
             "7": 2400,
             "8": 2640,
             "9": 2880
-        }
+        },
+        "level": 80
     },
     "30486": {
         "en": "Brashgold Ore",
@@ -9550,7 +10294,8 @@ const itemData = {
             "7": 2400,
             "8": 2640,
             "9": 2880
-        }
+        },
+        "level": 80
     },
     "30487": {
         "en": "Blue Crab",
@@ -9563,7 +10308,8 @@ const itemData = {
             "3": 1560,
             "4": 1716,
             "5": 1872
-        }
+        },
+        "level": 80
     },
     "32950": {
         "en": "Silver Beech Log",
@@ -9576,7 +10322,8 @@ const itemData = {
             "7": 2700,
             "8": 2970,
             "9": 3240
-        }
+        },
+        "level": 80
     },
     "32951": {
         "en": "Dolomite",
@@ -9589,7 +10336,8 @@ const itemData = {
             "7": 2700,
             "8": 2970,
             "9": 3240
-        }
+        },
+        "level": 80
     },
     "32952": {
         "en": "Solstice Stone",
@@ -9602,7 +10350,8 @@ const itemData = {
             "7": 2700,
             "8": 2970,
             "9": 3240
-        }
+        },
+        "level": 80
     },
     "32953": {
         "en": "Raindrop Cotton Boll",
@@ -9615,7 +10364,8 @@ const itemData = {
             "7": 2700,
             "8": 2970,
             "9": 3240
-        }
+        },
+        "level": 80
     },
     "32954": {
         "en": "Wattle Petribark",
@@ -9628,7 +10378,8 @@ const itemData = {
             "7": 2700,
             "8": 2970,
             "9": 3240
-        }
+        },
+        "level": 80
     },
     "32955": {
         "en": "Hard Water",
@@ -9641,7 +10392,8 @@ const itemData = {
             "7": 2700,
             "8": 2970,
             "9": 3240
-        }
+        },
+        "level": 80
     },
     "36083": {
         "en": "Dark Rye",
@@ -9654,7 +10406,8 @@ const itemData = {
             "30": 2750,
             "40": 3025,
             "50": 3300
-        }
+        },
+        "level": 81
     },
     "36084": {
         "en": "Sharlayan Rock Salt",
@@ -9667,7 +10420,8 @@ const itemData = {
             "30": 2750,
             "40": 3025,
             "50": 3300
-        }
+        },
+        "level": 81
     },
     "36085": {
         "en": "Thavnairian Perilla Leaf",
@@ -9680,7 +10434,8 @@ const itemData = {
             "30": 2800,
             "40": 3080,
             "50": 3360
-        }
+        },
+        "level": 82
     },
     "36086": {
         "en": "Palm Syrup",
@@ -9693,7 +10448,8 @@ const itemData = {
             "30": 2800,
             "40": 3080,
             "50": 3360
-        }
+        },
+        "level": 82
     },
     "36087": {
         "en": "Coconut",
@@ -9706,7 +10462,8 @@ const itemData = {
             "30": 2800,
             "40": 3080,
             "50": 3360
-        }
+        },
+        "level": 82
     },
     "36088": {
         "en": "Iceberg Lettuce",
@@ -9719,7 +10476,8 @@ const itemData = {
             "30": 2750,
             "40": 3025,
             "50": 3300
-        }
+        },
+        "level": 81
     },
     "36089": {
         "en": "Giant Popoto",
@@ -9732,7 +10490,8 @@ const itemData = {
             "30": 3210,
             "40": 3531,
             "50": 3852
-        }
+        },
+        "level": 87
     },
     "36090": {
         "en": "Carrot of Happiness",
@@ -9745,7 +10504,8 @@ const itemData = {
             "30": 3070,
             "40": 3377,
             "50": 3684
-        }
+        },
+        "level": 85
     },
     "36091": {
         "en": "Cucumber",
@@ -9758,7 +10518,8 @@ const itemData = {
             "30": 2900,
             "40": 3190,
             "50": 3480
-        }
+        },
+        "level": 83
     },
     "36092": {
         "en": "Eblan Lentils",
@@ -9771,7 +10532,8 @@ const itemData = {
             "30": 2900,
             "40": 3190,
             "50": 3480
-        }
+        },
+        "level": 83
     },
     "36093": {
         "en": "Beet",
@@ -9784,7 +10546,8 @@ const itemData = {
             "30": 3000,
             "40": 3300,
             "50": 3600
-        }
+        },
+        "level": 84
     },
     "36094": {
         "en": "Sideritis Leaves",
@@ -9797,7 +10560,8 @@ const itemData = {
             "30": 3280,
             "40": 3608,
             "50": 3936
-        }
+        },
+        "level": 88
     },
     "36095": {
         "en": "Elder Nutmeg Seeds",
@@ -9810,7 +10574,8 @@ const itemData = {
             "30": 3280,
             "40": 3608,
             "50": 3936
-        }
+        },
+        "level": 88
     },
     "36096": {
         "en": "Sykon",
@@ -9823,7 +10588,8 @@ const itemData = {
             "30": 3210,
             "40": 3531,
             "50": 3852
-        }
+        },
+        "level": 87
     },
     "36097": {
         "en": "Alien Onion",
@@ -9836,7 +10602,8 @@ const itemData = {
             "30": 3420,
             "40": 3762,
             "50": 4104
-        }
+        },
+        "level": 90
     },
     "36098": {
         "en": "Thavnairian Paprika",
@@ -9849,7 +10616,8 @@ const itemData = {
             "30": 2800,
             "40": 3080,
             "50": 3360
-        }
+        },
+        "level": 82
     },
     "36162": {
         "en": "High Durium Sand",
@@ -9862,7 +10630,8 @@ const itemData = {
             "30": 2750,
             "40": 3025,
             "50": 3300
-        }
+        },
+        "level": 81
     },
     "36163": {
         "en": "High Durium Ore",
@@ -9875,7 +10644,8 @@ const itemData = {
             "30": 2800,
             "40": 3080,
             "50": 3360
-        }
+        },
+        "level": 82
     },
     "36164": {
         "en": "Bismuth Ore",
@@ -9888,7 +10658,8 @@ const itemData = {
             "30": 3070,
             "40": 3377,
             "50": 3684
-        }
+        },
+        "level": 85
     },
     "36165": {
         "en": "Manganese Ore",
@@ -9901,7 +10672,8 @@ const itemData = {
             "30": 3140,
             "40": 3454,
             "50": 3768
-        }
+        },
+        "level": 86
     },
     "36166": {
         "en": "Chondrite",
@@ -9914,7 +10686,8 @@ const itemData = {
             "30": 3350,
             "40": 3685,
             "50": 4020
-        }
+        },
+        "level": 89
     },
     "36174": {
         "en": "Raw Ametrine",
@@ -9927,7 +10700,8 @@ const itemData = {
             "30": 2750,
             "40": 3025,
             "50": 3300
-        }
+        },
+        "level": 81
     },
     "36175": {
         "en": "Pewter Ore",
@@ -9940,7 +10714,8 @@ const itemData = {
             "30": 2800,
             "40": 3080,
             "50": 3360
-        }
+        },
+        "level": 82
     },
     "36176": {
         "en": "Phrygian Gold Ore",
@@ -9953,7 +10728,8 @@ const itemData = {
             "30": 2900,
             "40": 3190,
             "50": 3480
-        }
+        },
+        "level": 83
     },
     "36177": {
         "en": "Raw Blue Zircon",
@@ -9966,7 +10742,8 @@ const itemData = {
             "30": 3140,
             "40": 3454,
             "50": 3768
-        }
+        },
+        "level": 86
     },
     "36178": {
         "en": "Raw Star Quartz",
@@ -9979,7 +10756,8 @@ const itemData = {
             "30": 3420,
             "40": 3762,
             "50": 4104
-        }
+        },
+        "level": 90
     },
     "36180": {
         "en": "Chloroschist",
@@ -9992,7 +10770,8 @@ const itemData = {
             "30": 2750,
             "40": 3025,
             "50": 3300
-        }
+        },
+        "level": 81
     },
     "36181": {
         "en": "Annite",
@@ -10005,7 +10784,8 @@ const itemData = {
             "30": 3210,
             "40": 3531,
             "50": 3852
-        }
+        },
+        "level": 87
     },
     "36190": {
         "en": "Horse Chestnut Log",
@@ -10018,7 +10798,8 @@ const itemData = {
             "30": 2750,
             "40": 3025,
             "50": 3300
-        }
+        },
+        "level": 81
     },
     "36191": {
         "en": "Palm Log",
@@ -10031,7 +10812,8 @@ const itemData = {
             "30": 2800,
             "40": 3080,
             "50": 3360
-        }
+        },
+        "level": 82
     },
     "36192": {
         "en": "Red Pine Log",
@@ -10044,7 +10826,8 @@ const itemData = {
             "30": 3000,
             "40": 3300,
             "50": 3600
-        }
+        },
+        "level": 84
     },
     "36193": {
         "en": "Ironwood Log",
@@ -10057,7 +10840,8 @@ const itemData = {
             "30": 3140,
             "40": 3454,
             "50": 3768
-        }
+        },
+        "level": 86
     },
     "36194": {
         "en": "Integral Log",
@@ -10070,7 +10854,8 @@ const itemData = {
             "30": 3350,
             "40": 3685,
             "50": 4020
-        }
+        },
+        "level": 89
     },
     "36202": {
         "en": "Dark Hemp",
@@ -10083,7 +10868,8 @@ const itemData = {
             "30": 2750,
             "40": 3025,
             "50": 3300
-        }
+        },
+        "level": 81
     },
     "36203": {
         "en": "Almasty Fur",
@@ -10096,7 +10882,8 @@ const itemData = {
             "10": 535,
             "12": 540,
             "15": 550
-        }
+        },
+        "level": 82
     },
     "36204": {
         "en": "Snow Flax",
@@ -10109,7 +10896,8 @@ const itemData = {
             "30": 3000,
             "40": 3300,
             "50": 3600
-        }
+        },
+        "level": 84
     },
     "36205": {
         "en": "Scarlet Moko Grass",
@@ -10122,7 +10910,8 @@ const itemData = {
             "30": 3140,
             "40": 3454,
             "50": 3768
-        }
+        },
+        "level": 86
     },
     "36206": {
         "en": "AR-Caean Cotton Boll",
@@ -10135,7 +10924,8 @@ const itemData = {
             "30": 3350,
             "40": 3685,
             "50": 4020
-        }
+        },
+        "level": 89
     },
     "36241": {
         "en": "Eblan Alumen",
@@ -10148,7 +10938,8 @@ const itemData = {
             "30": 3000,
             "40": 3300,
             "50": 3600
-        }
+        },
+        "level": 84
     },
     "36242": {
         "en": "Gaja Hide",
@@ -10161,7 +10952,8 @@ const itemData = {
             "10": 525,
             "12": 530,
             "15": 540
-        }
+        },
+        "level": 80
     },
     "36243": {
         "en": "Luncheon Toad Skin",
@@ -10174,7 +10966,8 @@ const itemData = {
             "10": 535,
             "12": 540,
             "15": 550
-        }
+        },
+        "level": 82
     },
     "36244": {
         "en": "Saiga Hide",
@@ -10187,7 +10980,8 @@ const itemData = {
             "10": 543,
             "12": 548,
             "15": 558
-        }
+        },
+        "level": 84
     },
     "36245": {
         "en": "Kumbhira Skin",
@@ -10200,7 +10994,8 @@ const itemData = {
             "10": 549,
             "12": 554,
             "15": 564
-        }
+        },
+        "level": 86
     },
     "36246": {
         "en": "Ophiotauros Hide",
@@ -10213,7 +11008,8 @@ const itemData = {
             "10": 555,
             "12": 560,
             "15": 570
-        }
+        },
+        "level": 88
     },
     "36253": {
         "en": "Hamsa Tenderloin",
@@ -10226,7 +11022,8 @@ const itemData = {
             "10": 525,
             "12": 530,
             "15": 540
-        }
+        },
+        "level": 80
     },
     "36254": {
         "en": "Yakow Chuck",
@@ -10239,7 +11036,8 @@ const itemData = {
             "10": 530,
             "12": 535,
             "15": 545
-        }
+        },
+        "level": 81
     },
     "36255": {
         "en": "Ovibos Milk",
@@ -10252,7 +11050,8 @@ const itemData = {
             "10": 535,
             "12": 540,
             "15": 550
-        }
+        },
+        "level": 82
     },
     "36256": {
         "en": "Egg of Elpis",
@@ -10265,7 +11064,8 @@ const itemData = {
             "10": 549,
             "12": 554,
             "15": 564
-        }
+        },
+        "level": 86
     },
     "36257": {
         "en": "Mousse Flesh",
@@ -10278,7 +11078,8 @@ const itemData = {
             "10": 543,
             "12": 548,
             "15": 558
-        }
+        },
+        "level": 84
     },
     "36258": {
         "en": "Lunatender Blossom",
@@ -10291,7 +11092,8 @@ const itemData = {
             "10": 540,
             "12": 545,
             "15": 555
-        }
+        },
+        "level": 83
     },
     "36259": {
         "en": "Dynamite Ash",
@@ -10304,7 +11106,8 @@ const itemData = {
             "10": 543,
             "12": 548,
             "15": 558
-        }
+        },
+        "level": 84
     },
     "36260": {
         "en": "Petalouda Scales",
@@ -10317,7 +11120,8 @@ const itemData = {
             "10": 549,
             "12": 554,
             "15": 564
-        }
+        },
+        "level": 86
     },
     "36261": {
         "en": "Berkanan Sap",
@@ -10330,7 +11134,8 @@ const itemData = {
             "10": 555,
             "12": 560,
             "15": 570
-        }
+        },
+        "level": 88
     },
     "36262": {
         "en": "Dynamis Crystal",
@@ -10343,7 +11148,8 @@ const itemData = {
             "10": 558,
             "12": 563,
             "15": 573
-        }
+        },
+        "level": 89
     },
     "36263": {
         "en": "Ambrosial Water",
@@ -10356,7 +11162,8 @@ const itemData = {
             "30": 3280,
             "40": 3608,
             "50": 3936
-        }
+        },
+        "level": 88
     },
     "36264": {
         "en": "Amra",
@@ -10369,7 +11176,8 @@ const itemData = {
             "10": 525,
             "12": 530,
             "15": 540
-        }
+        },
+        "level": 80
     },
     "36386": {
         "en": "Northern Herring",
@@ -10382,7 +11190,8 @@ const itemData = {
             "5": 1788,
             "7": 1966,
             "9": 2145
-        }
+        },
+        "level": 81
     },
     "36409": {
         "en": "Macrobrachium Lar",
@@ -10395,7 +11204,8 @@ const itemData = {
             "5": 1820,
             "7": 2002,
             "9": 2184
-        }
+        },
+        "level": 82
     },
     "36459": {
         "en": "Icepike",
@@ -10408,7 +11218,8 @@ const itemData = {
             "5": 1885,
             "7": 2074,
             "9": 2262
-        }
+        },
+        "level": 83
     },
     "36523": {
         "en": "Spiny King Crab",
@@ -10421,7 +11232,8 @@ const itemData = {
             "9": 1885,
             "12": 2074,
             "15": 2262
-        }
+        },
+        "level": 83
     },
     "36536": {
         "en": "Shallows Cod",
@@ -10434,7 +11246,8 @@ const itemData = {
             "9": 2132,
             "12": 2345,
             "15": 2558
-        }
+        },
+        "level": 88
     },
     "36541": {
         "en": "Rummy-nosed Tetra",
@@ -10447,7 +11260,8 @@ const itemData = {
             "9": 2132,
             "12": 2345,
             "15": 2558
-        }
+        },
+        "level": 88
     },
     "36551": {
         "en": "Ruby-spotted Crab",
@@ -10460,7 +11274,8 @@ const itemData = {
             "9": 1788,
             "12": 1966,
             "15": 2145
-        }
+        },
+        "level": 81
     },
     "36555": {
         "en": "Dream Pickle",
@@ -10473,7 +11288,8 @@ const itemData = {
             "9": 1950,
             "12": 2145,
             "15": 2340
-        }
+        },
+        "level": 84
     },
     "36569": {
         "en": "Grey Mullet",
@@ -10486,7 +11302,8 @@ const itemData = {
             "9": 2087,
             "12": 2295,
             "15": 2504
-        }
+        },
+        "level": 87
     },
     "36630": {
         "en": "Bird of Elpis Breast",
@@ -10499,7 +11316,8 @@ const itemData = {
             "10": 549,
             "12": 554,
             "15": 564
-        }
+        },
+        "level": 86
     }
 }
 

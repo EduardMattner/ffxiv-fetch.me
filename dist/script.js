@@ -14,6 +14,10 @@ function itemName(id) {
 	return itemData[id][langSelect.value];
 }
 
+function itemLvl(id) {
+	return itemData[id].level;
+}
+
 function breakpoints(data) {
 	let breakpoints = Object.entries(data);
 	let amount = breakpoints[0][0];
@@ -31,7 +35,7 @@ function updateTable(rawData) {
 		itemIDs: [],
 		items: {}
 	};
-	let html = '<tr class="sticky top-0 bg-gray-800"><th>Item &#x21c5;</th><th>min Price &#x21c5;</th></th><th>Amounts &#x21c5;</th><th>Gil/Trip &#x21c5;</th></tr>';
+	let html = '<tr class="sticky top-0 bg-gray-800"><th>Lvl &#x21c5;</th><th>Item &#x21c5;</th><th>min Price &#x21c5;</th></th><th>Amounts &#x21c5;</th><th>Gil/Trip &#x21c5;</th></tr>';
 	
 	if (rawData.length) {
 		for (var i = 0; i < rawData.length; i++) {
@@ -45,12 +49,14 @@ function updateTable(rawData) {
 
 	for (let i = Object.keys(data.itemIDs).length - 1; i >= 0; i--) {
 		let id = Object.values(data.items)[i].itemID;
+		let lvl = itemLvl(id);
 		let name = itemName(id);
 		let minPrice = Object.values(data.items)[i].minPrice;
 		let amount = breakpoints(itemData[id].breakpoints);
 		let gilPerTrip = amount * minPrice;
 
 		html += '<tr>';
+			html += `<td>${lvl}</td>`
 			html += `<td><a href="https://universalis.app/market/${id}" target="_blank" rel="noopener">${name}</a></td>`;
 			html += `<td>${minPrice}</td>`;
 			html += `<td>${amount}</td>`;
