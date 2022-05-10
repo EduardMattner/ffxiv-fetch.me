@@ -30,7 +30,6 @@ function breakpoints(data) {
 }
 
 function updateTable(rawData) {
-	// TODO: not working right now, fix the stitching together. Or rework to have it work in parts again.
 	let data = {
 		itemIDs: [],
 		items: {}
@@ -93,19 +92,17 @@ async function fetchData() {
 	}
 
 	// only 100 items at a time are permitted from the API, so chop chop
-	let itemsSlice = [];
+	const itemsSlice = [];
 	for (var i = 0; i < Math.ceil(items.length / 100); i++) {
 		itemsSlice[i] = items.slice(i * 100, (i+1) * 100);
 		itemsSlice[i] = itemsSlice[i].join(',');
 	}
+	// build the promise array, the resp.json() had to be here to work
+	const calls = itemsSlice.map(slice => fetch(`${endpoint}/${world}/${slice}/`).then(resp => resp.json()));
+	// get the promise results into new array
+	const responses = await Promise.all(calls);
+	responses.map(resp => result.push(resp));
 
-	for (var i = 0; i < itemsSlice.length; i++) {
-		await fetch(`${endpoint}/${world}/${itemsSlice[i]}/`)
-		.then(resp => resp.json())
-		.then(data => result.push(data))
-		.catch(err => console.log(err));
-	}
-	// theData = data;
 	updateTable(result);
 	body.classList.remove('loading');
 }
