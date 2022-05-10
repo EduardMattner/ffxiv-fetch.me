@@ -30,27 +30,25 @@ function breakpoints(data) {
 }
 
 function updateTable(rawData) {
-	let data = {
+	let tableData = {
 		itemIDs: [],
 		items: {}
 	};
 	let html = '<tr class="sticky top-0 bg-gray-800"><th>Lvl &#x21c5;</th><th>Item &#x21c5;</th><th>min Price &#x21c5;</th></th><th>Amounts &#x21c5;</th><th>Gil/Trip &#x21c5;</th></tr>';
 	
-	if (rawData.length) {
-		for (var i = 0; i < rawData.length; i++) {
-			data.itemIDs = data.itemIDs.concat(rawData[i].itemIDs);
-			let objKeys = Object.keys(rawData[i].items);
-			for (var q = 0; q < objKeys.length; q++) {
-				data.items[objKeys[q]] = rawData[i].items[objKeys[q]];
-			}
+	for (var i = 0; i < rawData.length; i++) {
+		tableData.itemIDs = tableData.itemIDs.concat(rawData[i].itemIDs);
+		let objKeys = Object.keys(rawData[i].items);
+		for (var q = 0; q < objKeys.length; q++) {
+			tableData.items[objKeys[q]] = rawData[i].items[objKeys[q]];
 		}
-	} 
+	}
 
-	for (let i = Object.keys(data.itemIDs).length - 1; i >= 0; i--) {
-		let id = Object.values(data.items)[i].itemID;
+	for (let i = 0; i < Object.keys(tableData.items).length; i++) {
+		let id = Object.values(tableData.items)[i].itemID;
 		let lvl = itemLvl(id);
 		let name = itemName(id);
-		let minPrice = Object.values(data.items)[i].minPrice;
+		let minPrice = Object.values(tableData.items)[i].minPrice;
 		let amount = breakpoints(itemData[id].breakpoints);
 		let gilPerTrip = amount * minPrice;
 
@@ -62,6 +60,7 @@ function updateTable(rawData) {
 			html += `<td>${gilPerTrip}</td>`;
 		html += '</tr>';
 	}
+
 	// populate table
 	table.innerHTML = html;
 	// apply sorting funcionality
