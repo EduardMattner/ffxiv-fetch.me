@@ -152,3 +152,9 @@ function loadLocalSave() {
 if(localStorage.getItem('ffFetchSave')) {
 	loadLocalSave();
 }
+
+Array.from(document.querySelectorAll('.accordion-toggle')).map(button => button.addEventListener('click', function(e) {
+	e.preventDefault;
+	console.log(this.parentNode.nextElementSibling);
+	this.parentNode.nextElementSibling.classList.toggle('hidden');
+}));
