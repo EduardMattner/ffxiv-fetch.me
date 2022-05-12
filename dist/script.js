@@ -5,10 +5,8 @@ const table = document.querySelector('.data-table');
 const langSelect = settings.querySelector('.language');
 const worldSelect = settings.querySelector('.world');
 const retainerSelect = settings.querySelector('.retainer-type');
+const retainerStatLabel = settings.querySelector('.retainer-stat-label');
 const retainerLevel = settings.querySelector('.retainer-level');
-let tempData = {};
-
-let theData = {};
 
 function itemName(id) {
 	return itemData[id][langSelect.value];
@@ -128,33 +126,41 @@ settings.querySelector('.fetch').addEventListener('click', (e) => {
 	fetchData();
 });
 
-function updateLocalSave() {
-	let saveState = {
-		lang: langSelect.value,
-		world: worldSelect.value,
-		rType: retainerSelect.value,
-		rLevel: retainerLevel.value
-	}
-
-	localStorage.setItem('ffFetchSave', JSON.stringify(saveState));
-}
-// hookup the onchange event for saving state
-Array.from(settings.querySelectorAll('label > *')).map(el => el.addEventListener('click', updateLocalSave));
-
-function loadLocalSave() {
-	let loadState = JSON.parse(localStorage.getItem('ffFetchSave'));
-	langSelect.value = loadState.lang;
-	worldSelect.value = loadState.world;
-	retainerSelect.value = loadState.rType;
-	retainerLevel.value = loadState.rLevel;
-}
-
-if(localStorage.getItem('ffFetchSave')) {
-	loadLocalSave();
-}
-
 Array.from(document.querySelectorAll('.accordion-toggle')).map(button => button.addEventListener('click', function(e) {
 	e.preventDefault;
 	console.log(this.parentNode.nextElementSibling);
 	this.parentNode.nextElementSibling.classList.toggle('hidden');
 }));
+function updateLocalSave() {
+	let rType = retainerSelect.value;
+	let saveState = {
+		lang: langSelect.value,
+		world: worldSelect.value,
+		rLevel: retainerLevel.value
+	}
+
+	localStorage.setItem(`ffFetchSave-${rType}`, JSON.stringify(saveState));
+	localStorage.setItem('ffFetchSave-type', rType);
+}
+// hookup the onchange event for saving state
+Array.from(settings.querySelector('button.fetch')).map(el => el.addEventListener('click', updateLocalSave));
+
+function loadLocalSave() {
+	retainerStatLabel.innerText = retainerStatLabels[retainerSelect.value][langSelect.value];
+	// todo: swap job labels on select when language is switched
+	let loadRType = localStorage.getItem('ffFetchSave-type');
+	let loadState = JSON.parse(localStorage.getItem(`ffFetchSave-${loadRType}`));
+	langSelect.value = loadState.lang;
+	worldSelect.value = loadState.world;
+	retainerSelect.value = loadRType;
+	retainerLevel.value = loadState.rLevel;
+}
+// hookup the onchange event for loading retainer type save
+settings.querySelector('select.retainer-type').addEventListener('change', function() {
+	localStorage.setItem('ffFetchSave-type', this.value);
+	loadLocalSave();
+});
+
+if(localStorage.getItem('ffFetchSave-type')) {
+	loadLocalSave();
+}

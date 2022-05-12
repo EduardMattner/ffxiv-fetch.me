@@ -47,6 +47,7 @@ body.loading::after {
 th {
 	@apply text-left;
 	cursor: pointer;
+  white-space: nowrap;
 }
 
 

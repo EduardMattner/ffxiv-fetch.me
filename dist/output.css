@@ -559,10 +559,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-direction: column;
 }
 
-.content-center {
-  align-content: center;
-}
-
 .justify-between {
   justify-content: space-between;
 }
@@ -587,11 +583,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .p-4 {
   padding: 1rem;
-}
-
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .pb-24 {
@@ -712,6 +703,7 @@ body.loading::after {
 th {
   text-align: left;
   cursor: pointer;
+  white-space: nowrap;
 }
 
 tr:nth-child(2n) {
