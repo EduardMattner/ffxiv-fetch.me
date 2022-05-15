@@ -29,13 +29,26 @@ function breakpoints(data) {
 
 function updateTable(rawData) {
 	let tableData = {
-		itemIDs: [],
 		items: {}
 	};
-	let html = '<tr class="sticky top-0 bg-gray-800"><th>Lvl &#x21c5;</th><th>Item &#x21c5;</th><th>min Price &#x21c5;</th></th><th>Amounts &#x21c5;</th><th>Gil/Trip &#x21c5;</th></tr>';
+	// in seconds instead of milliseconds
+	let timeNow = Date.now() / 1000;
+
+	// setup the table headings
+	let html = `
+		<tr class="sticky top-0 bg-gray-800">
+			<th>Lvl &#x21c5;</th>
+			<th>Item &#x21c5;</th>
+			<th>min Price &#x21c5;</th>
+			<th>Amounts &#x21c5;</th>
+			<th class="init-sort">Gil/Trip &#x21c5;</th>
+			<th>Last Sale (hrs) &#x21c5;</th>
+			<th>Last Sale (price) &#x21c5;</th>
+		</tr>
+	`;
 	
+	// get all the data into one object, tableData
 	for (var i = 0; i < rawData.length; i++) {
-		tableData.itemIDs = tableData.itemIDs.concat(rawData[i].itemIDs);
 		let objKeys = Object.keys(rawData[i].items);
 		for (var q = 0; q < objKeys.length; q++) {
 			tableData.items[objKeys[q]] = rawData[i].items[objKeys[q]];
@@ -49,6 +62,10 @@ function updateTable(rawData) {
 		let minPrice = Object.values(tableData.items)[i].minPrice;
 		let amount = breakpoints(itemData[id].breakpoints);
 		let gilPerTrip = amount * minPrice;
+		let lastSaleHrs = Math.floor((timeNow - Object.values(tableData.items)[i].recentHistory[0].timestamp) / 60) / 60;
+		// drop extra digits from
+		lastSaleHrs = lastSaleHrs.toFixed(1);
+		let lastSalePrice = Object.values(tableData.items)[i].recentHistory[0].pricePerUnit;
 
 		html += '<tr>';
 			html += `<td>${lvl}</td>`
@@ -56,6 +73,8 @@ function updateTable(rawData) {
 			html += `<td>${minPrice}</td>`;
 			html += `<td>${amount}</td>`;
 			html += `<td>${gilPerTrip}</td>`;
+			html += `<td>${lastSaleHrs}</td>`;
+			html += `<td>${lastSalePrice}</td>`;
 		html += '</tr>';
 	}
 
@@ -64,7 +83,7 @@ function updateTable(rawData) {
 	// apply sorting funcionality
 	sortCol();
 	// sort by gil/trip column Desc
-	document.querySelector('table th:last-of-type').click();
+	document.querySelector('table .init-sort').click();
 }
 
 async function fetchData() {
@@ -104,33 +123,37 @@ async function fetchData() {
 	body.classList.remove('loading');
 }
 
+// collumn sort function, fires on refresh TODO: get it to always sort Descending on refresh
 function sortCol() {
 	const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
 
 	const comparer = (idx, asc) => (a, b) => ((v2, v1) => 
-	    v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
-	    )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
+		v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
+		)(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
 
 	// do the work...
 	document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
-	    const table = th.closest('table');
-	    Array.from(table.querySelectorAll('tr:nth-child(n+2)'))
-	        .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
-	        .forEach(tr => table.appendChild(tr) );
+		const table = th.closest('table');
+		Array.from(table.querySelectorAll('tr:nth-child(n+2)'))
+			.sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
+			.forEach(tr => table.appendChild(tr) );
 	})));
 }
 
-settings.querySelector('.fetch').addEventListener('click', (e) => {
+// hook up the fetch to the button
+settings.querySelector('.fetch').addEventListener('click', async (e) => {
 	e.preventDefault();
 	updateLocalSave();
 	fetchData();
 });
 
+// accordion functionality for mobile
 Array.from(document.querySelectorAll('.accordion-toggle')).map(button => button.addEventListener('click', function(e) {
 	e.preventDefault;
-	console.log(this.parentNode.nextElementSibling);
 	this.parentNode.nextElementSibling.classList.toggle('hidden');
 }));
+
+// save to local
 function updateLocalSave() {
 	let rType = retainerSelect.value;
 	let saveState = {
@@ -145,6 +168,7 @@ function updateLocalSave() {
 // hookup the onchange event for saving state
 Array.from(settings.querySelector('button.fetch')).map(el => el.addEventListener('click', updateLocalSave));
 
+// load from local
 function loadLocalSave() {
 	retainerStatLabel.innerText = retainerStatLabels[retainerSelect.value][langSelect.value];
 	// todo: swap job labels on select when language is switched
@@ -161,6 +185,7 @@ settings.querySelector('select.retainer-type').addEventListener('change', functi
 	loadLocalSave();
 });
 
+// if we have something to load, do it
 if(localStorage.getItem('ffFetchSave-type')) {
 	loadLocalSave();
 }
