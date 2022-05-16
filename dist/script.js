@@ -63,10 +63,15 @@ function updateTable(rawData) {
 		let minPrice = Object.values(tableData.items)[i].minPrice;
 		let amount = breakpoints(itemData[id].breakpoints);
 		let gilPerTrip = amount * minPrice;
-		let lastSaleHrs = Math.floor((timeNow - Object.values(tableData.items)[i].recentHistory[0].timestamp) / 60) / 60;
-		// drop extra digits from
-		lastSaleHrs = lastSaleHrs.toFixed(1);
-		let lastSalePrice = Object.values(tableData.items)[i].recentHistory[0].pricePerUnit;
+		// some items do not have historic data, which causes errors
+		let lastSaleHrs = 'No Data';
+		let lastSalePrice = 'No Data';
+		if(Object.values(tableData.items)[i].recentHistory.length) {
+			lastSaleHrs = Math.floor((timeNow - Object.values(tableData.items)[i].recentHistory[0].timestamp) / 60) / 60;
+			lastSaleHrs = lastSaleHrs.toFixed(1);
+			// drop extra digits from
+			lastSalePrice = Object.values(tableData.items)[i].recentHistory[0].pricePerUnit;
+		}
 
 		html += '<tr>';
 			html += `<td>${lvl}</td>`
