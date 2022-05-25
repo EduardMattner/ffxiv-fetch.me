@@ -111,6 +111,9 @@ async function fetchData() {
 		case "hnt":
 			items = hntData;
 			break;
+		case "gc":
+			items = gcData;
+			break;
 	}
 
 	// only 100 items at a time are permitted from the API, so chop chop
