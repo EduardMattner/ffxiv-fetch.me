@@ -45,6 +45,7 @@ function updateTable(rawData) {
 			<th class="init-sort">Gil/Trip &#x21c5;</th>
 			<th>Last Sale (hrs) &#x21c5;</th>
 			<th>Last Sale (price) &#x21c5;</th>
+			<th>Last Sale (gil/trip) &#x21c5;</th>
 		</tr>
 	`;
 	
@@ -66,11 +67,13 @@ function updateTable(rawData) {
 		// some items do not have historic data, which causes errors
 		let lastSaleHrs = 'No Data';
 		let lastSalePrice = 'No Data';
+		let lastSaleGilPerTrip = 'No Data';
 		if(Object.values(tableData.items)[i].recentHistory.length) {
 			lastSaleHrs = Math.floor((timeNow - Object.values(tableData.items)[i].recentHistory[0].timestamp) / 60) / 60;
 			lastSaleHrs = lastSaleHrs.toFixed(1);
 			// drop extra digits from
 			lastSalePrice = Object.values(tableData.items)[i].recentHistory[0].pricePerUnit;
+			lastSaleGilPerTrip = amount * lastSalePrice;
 		}
 
 		html += '<tr>';
@@ -81,6 +84,7 @@ function updateTable(rawData) {
 			html += `<td>${gilPerTrip}</td>`;
 			html += `<td>${lastSaleHrs}</td>`;
 			html += `<td>${lastSalePrice}</td>`;
+			html += `<td>${lastSaleGilPerTrip}</td>`;
 		html += '</tr>';
 	}
 
