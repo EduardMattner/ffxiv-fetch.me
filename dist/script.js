@@ -133,7 +133,7 @@ async function fetchData() {
 	body.classList.remove('loading');
 }
 
-// collumn sort function, fires on refresh TODO: get it to always sort Descending on refresh
+// column sort function, fires on refresh TODO: get it to always sort Descending on refresh
 function sortCol() {
 	const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
 
