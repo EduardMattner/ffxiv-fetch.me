@@ -11318,6 +11318,566 @@ const itemData = {
             "15": 564
         },
         "level": 86
+    },
+    "4564": {
+        "en": "Antidote",
+        "de": "Gegengift",
+        "ja": "毒消し",
+        "fr": "Antidote",
+        "cost": 120
+    },
+    "4566": {
+        "en": "Echo Drops",
+        "de": "Quasselwasser",
+        "ja": "やまびこ薬",
+        "fr": "Potion d'écho",
+        "cost": 290
+    },
+    "4567": {
+        "en": "Smelling Salts",
+        "de": "Muntermacher",
+        "ja": "きつけ薬",
+        "fr": "Potion de réveil",
+        "cost": 1710
+    },
+    "4568": {
+        "en": "Spine Drops",
+        "de": "Revitali EX",
+        "ja": "元気薬",
+        "fr": "Potion d'animation",
+        "cost": 1010
+    },
+    "4715": {
+        "en": "Trapper's Quiche",
+        "de": "Fallensteller-Quiche",
+        "ja": "猟師風エフトキッシュ",
+        "fr": "Quiche au triton façon chasseur",
+        "cost": 500
+    },
+    "4720": {
+        "en": "Fish Soup",
+        "de": "Fischsuppe",
+        "ja": "フィッシュスープ",
+        "fr": "Soupe de poisson",
+        "cost": 500
+    },
+    "5119": {
+        "en": "Peacock Ore",
+        "de": "Pfauen-Erz",
+        "ja": "斑銅鉱",
+        "fr": "Minerai de bornite",
+        "cost": 200
+    },
+    "5261": {
+        "en": "Aqueous Whetstone",
+        "de": "Sediment-Wetzstein",
+        "ja": "水成岩砥石",
+        "fr": "Pierre à aiguiser sédimentaire",
+        "cost": 200
+    },
+    "5274": {
+        "en": "Minium",
+        "de": "Minium-Klumpen",
+        "ja": "鉛丹",
+        "fr": "Oxyde de plomb",
+        "cost": 200
+    },
+    "5357": {
+        "en": "Swan Feather",
+        "de": "Schwanenfeder",
+        "ja": "スワンの羽根",
+        "fr": "Plume de cygne",
+        "cost": 200
+    },
+    "5358": {
+        "en": "Eagle Feather",
+        "de": "Adlerfeder",
+        "ja": "イーグルの羽根",
+        "fr": "Plume d'aigle",
+        "cost": 200
+    },
+    "5501": {
+        "en": "Potash",
+        "de": "Pottasche",
+        "ja": "灰汁",
+        "fr": "Potasse",
+        "cost": 200
+    },
+    "5502": {
+        "en": "Lime Sulphur",
+        "de": "Schwefelkalk",
+        "ja": "石灰硫黄合剤",
+        "fr": "Chaux soufrée",
+        "cost": 200
+    },
+    "5530": {
+        "en": "Coke",
+        "de": "Koks",
+        "ja": "コークス",
+        "fr": "Coke de houille",
+        "cost": 200
+    },
+    "5531": {
+        "en": "Animal Fat",
+        "de": "Tierisches Fett",
+        "ja": "獣脂",
+        "fr": "Suif",
+        "cost": 200
+    },
+    "5532": {
+        "en": "Hardened Sap",
+        "de": "Gehärteter Pflanzensaft",
+        "ja": "樹液塊",
+        "fr": "Sève durcie",
+        "cost": 200
+    },
+    "5558": {
+        "en": "Pudding Flesh",
+        "de": "Puddingfleisch",
+        "ja": "プリンの肉",
+        "fr": "Viande de flan",
+        "cost": 200
+    },
+    "5594": {
+        "en": "Grade 1 Dark Matter",
+        "de": "Grad 1 Dunkelmaterie",
+        "ja": "ダークマターG1",
+        "fr": "Matière sombre grade I",
+        "cost": 12
+    },
+    "5595": {
+        "en": "Grade 2 Dark Matter",
+        "de": "Grad 2 Dunkelmaterie",
+        "ja": "ダークマターG2",
+        "fr": "Matière sombre grade II",
+        "cost": 34
+    },
+    "5596": {
+        "en": "Grade 3 Dark Matter",
+        "de": "Grad 3 Dunkelmaterie",
+        "ja": "ダークマターG3",
+        "fr": "Matière sombre grade III",
+        "cost": 70
+    },
+    "5597": {
+        "en": "Grade 4 Dark Matter",
+        "de": "Grad 4 Dunkelmaterie",
+        "ja": "ダークマターG4",
+        "fr": "Matière sombre grade IV",
+        "cost": 138
+    },
+    "5598": {
+        "en": "Grade 5 Dark Matter",
+        "de": "Grad 5 Dunkelmaterie",
+        "ja": "ダークマターG5",
+        "fr": "Matière sombre grade V",
+        "cost": 230
+    },
+    "6141": {
+        "en": "Cordial",
+        "de": "Kräutertrank",
+        "ja": "コーディアル",
+        "fr": "Breuvage cordial",
+        "cost": 500
+    },
+    "6151": {
+        "en": "Cooking Sherry",
+        "de": "Flasche Kochsherry",
+        "ja": "高級クッキングワイン",
+        "fr": "Vin de cuisine de qualité",
+        "cost": 20
+    },
+    "6153": {
+        "en": "Filtered Water",
+        "de": "Gefiltertes Wasser",
+        "ja": "純水",
+        "fr": "Eau purifiée",
+        "cost": 20
+    },
+    "6154": {
+        "en": "Voidsent Blood",
+        "de": "Nichtsgesandten-Blut",
+        "ja": "妖異の血",
+        "fr": "Sang d'entité",
+        "cost": 20
+    },
+    "6470": {
+        "en": "Storm Ceiling Fan & Lamp",
+        "de": "Mahlstrom-Deckenventilator",
+        "ja": "ロミンサン・シーリングファンライト",
+        "fr": "Plafonnier ventilateur limséen",
+        "cost": 6800
+    },
+    "6471": {
+        "en": "Flame Ceiling Fan & Lamp",
+        "de": "Legions-Deckenventilator",
+        "ja": "ウルダハン・シーリングファンライト",
+        "fr": "Plafonnier ventilateur uldien",
+        "cost": 6800
+    },
+    "6472": {
+        "en": "Serpent Ceiling Fan & Lamp",
+        "de": "Bruderschafts-Deckenventilator",
+        "ja": "グリダニアン・シーリングファンライト",
+        "fr": "Plafonnier ventilateur gridanien",
+        "cost": 6800
+    },
+    "6526": {
+        "en": "Storm Storage Bench",
+        "de": "Mahlstrom-Truhenbank",
+        "ja": "ロミンサン・ベンチチェスト",
+        "fr": "Banc-coffre limséen",
+        "cost": 6800
+    },
+    "6527": {
+        "en": "Flame Storage Bench",
+        "de": "Legions-Truhenbank",
+        "ja": "ウルダハン・ベンチチェスト",
+        "fr": "Banc-coffre uldien",
+        "cost": 5050
+    },
+    "6528": {
+        "en": "Serpent Storage Bench",
+        "de": "Bruderschafts-Truhenbank",
+        "ja": "グリダニアン・ベンチチェスト",
+        "fr": "Banc-coffre gridanien",
+        "cost": 5050
+    },
+    "6539": {
+        "en": "Serpent Desk",
+        "de": "Bruderschafts-Tisch",
+        "ja": "グリダニアン・デスク",
+        "fr": "Bureau gridanien",
+        "cost": 8300
+    },
+    "6540": {
+        "en": "Flame Desk",
+        "de": "Legions-Tisch",
+        "ja": "ウルダハン・デスク",
+        "fr": "Bureau uldien",
+        "cost": 8300
+    },
+    "6545": {
+        "en": "Storm Utility Cot",
+        "de": "Mahlstrom-Feldbett",
+        "ja": "ロミンサン・ユーティリティコット",
+        "fr": "Couchette limséenne",
+        "cost": 9070
+    },
+    "6546": {
+        "en": "Serpent Utility Cot",
+        "de": "Bruderschafts-Feldbett",
+        "ja": "グリダニアン・ユーティリティコット",
+        "fr": "Couchette gridanienne",
+        "cost": 9070
+    },
+    "6547": {
+        "en": "Flame Utility Cot",
+        "de": "Legions-Feldbett",
+        "ja": "ウルダハン・ユーティリティコット",
+        "fr": "Couchette uldienne",
+        "cost": 9070
+    },
+    "6553": {
+        "en": "Storm Armoire",
+        "de": "Mahlstrom-Spind",
+        "ja": "ロミンサン・アルモアール",
+        "fr": "Armoire limséenne",
+        "cost": 6900
+    },
+    "6554": {
+        "en": "Serpent Armoire",
+        "de": "Bruderschafts-Spind",
+        "ja": "グリダニアン・アルモアール",
+        "fr": "Armoire gridanienne",
+        "cost": 6900
+    },
+    "6555": {
+        "en": "Flame Armoire",
+        "de": "Legions-Spind",
+        "ja": "ウルダハン・アルモアール",
+        "fr": "Armoire uldienne",
+        "cost": 6900
+    },
+    "6556": {
+        "en": "Storm Strongbox",
+        "de": "Mahlstrom-Feldkiste",
+        "ja": "ロミンサン・ストロングボックス",
+        "fr": "Coffre limséen",
+        "cost": 6700
+    },
+    "6557": {
+        "en": "Serpent Strongbox",
+        "de": "Bruderschafts-Feldkiste",
+        "ja": "グリダニアン・ストロングボックス",
+        "fr": "Coffre gridanien",
+        "cost": 6700
+    },
+    "6558": {
+        "en": "Flame Strongbox",
+        "de": "Legions-Feldkiste",
+        "ja": "ウルダハン・ストロングボックス",
+        "fr": "Coffre uldien",
+        "cost": 6700
+    },
+    "6600": {
+        "en": "Miniature Aetheryte",
+        "de": "Miniatur-Ätheryt",
+        "ja": "プライベート・エーテライト",
+        "fr": "Éthérite privée",
+        "cost": 14470
+    },
+    "6656": {
+        "en": "Maelstrom Banner",
+        "de": "Mahlstrom-Fahne",
+        "ja": "ロミンサン・バナー",
+        "fr": "Bannière limséenne",
+        "cost": 4900
+    },
+    "6657": {
+        "en": "Twin Adder Banner",
+        "de": "Bruderschafts-Fahne",
+        "ja": "グリダニアン・バナー",
+        "fr": "Bannière gridanienne",
+        "cost": 4900
+    },
+    "6658": {
+        "en": "Immortal Flames Banner",
+        "de": "Legions-Fahne",
+        "ja": "ウルダハン・バナー",
+        "fr": "Bannière uldienne",
+        "cost": 4900
+    },
+    "6662": {
+        "en": "Eorzean Map",
+        "de": "Karte Eorzeas",
+        "ja": "エオルゼア全図",
+        "fr": "Mappemonde d'Éorzéa",
+        "cost": 1100
+    },
+    "7059": {
+        "en": "Spiritbond Potion",
+        "de": "Trank der Bindung",
+        "ja": "錬精薬",
+        "fr": "Essence de symbiose",
+        "cost": 1500
+    },
+    "7095": {
+        "en": "Admiral Portrait",
+        "de": "Porträt von Admiral Merlwyb",
+        "ja": "提督の肖像画",
+        "fr": "Portrait de l'Amirale",
+        "cost": 19150
+    },
+    "7096": {
+        "en": "Sultana and Flame General Portrait",
+        "de": "Porträt von Nanamo und Raubahn",
+        "ja": "女王と局長の肖像画",
+        "fr": "Portrait de la Sultane et du général Aldynn",
+        "cost": 19150
+    },
+    "7097": {
+        "en": "Elder Seedseer Portrait",
+        "de": "Porträt von Kan-E-Senna",
+        "ja": "幻術皇の肖像画",
+        "fr": "Portrait de l'Oracle aînée",
+        "cost": 19150
+    },
+    "7133": {
+        "en": "Storm Interior Wall",
+        "de": "Mahlstrom-Innenwand",
+        "ja": "ロミンサン・インナーウォール",
+        "fr": "Revêtement mural limséen",
+        "cost": 10950
+    },
+    "7134": {
+        "en": "Serpent Interior Wall",
+        "de": "Bruderschafts-Innenwand",
+        "ja": "グリダニアン・インナーウォール",
+        "fr": "Revêtement mural gridanien",
+        "cost": 10950
+    },
+    "7135": {
+        "en": "Flame Interior Wall",
+        "de": "Legions-Innenwand",
+        "ja": "ウルダハン・インナーウォール",
+        "fr": "Revêtement mural uldien",
+        "cost": 10950
+    },
+    "7143": {
+        "en": "Storm Flooring",
+        "de": "Mahlstrom-Holzboden",
+        "ja": "ロミンサン・フローリング",
+        "fr": "Parquet des tempêtes",
+        "cost": 10950
+    },
+    "7144": {
+        "en": "Serpent Flooring",
+        "de": "Bruderschafts-Holzboden",
+        "ja": "グリダニアン・フローリング",
+        "fr": "Parquet gridanien",
+        "cost": 10950
+    },
+    "7145": {
+        "en": "Flame Flooring",
+        "de": "Legions-Holzboden",
+        "ja": "ウルダハン・フローリング",
+        "fr": "Parquet uldien",
+        "cost": 10950
+    },
+    "7152": {
+        "en": "Sultana Portrait",
+        "de": "Porträt von Nanamo Ul Namo",
+        "ja": "女王の肖像画",
+        "fr": "Portrait de la Sultane",
+        "cost": 19150
+    },
+    "7596": {
+        "en": "Petrified Log",
+        "de": "Silifizierter Stamm",
+        "ja": "珪化木",
+        "fr": "Rondin pétrifié",
+        "cost": 1500
+    },
+    "7597": {
+        "en": "Scheelite",
+        "de": "Scheelit",
+        "ja": "灰重石",
+        "fr": "Minerai de scheelite",
+        "cost": 1500
+    },
+    "7598": {
+        "en": "Raziqsand",
+        "de": "Raziq-Sand",
+        "ja": "アブダルラジクの霊砂",
+        "fr": "Sable de Raziq",
+        "cost": 1500
+    },
+    "7599": {
+        "en": "Saurian Skin",
+        "de": "Echsenhaut",
+        "ja": "ソーリアンの粗皮",
+        "fr": "Peau de saurien",
+        "cost": 1500
+    },
+    "7600": {
+        "en": "Cashmere Fleece",
+        "de": "Kaschmir-Vlies",
+        "ja": "カシミヤフリース",
+        "fr": "Toison de cachemire",
+        "cost": 1500
+    },
+    "7601": {
+        "en": "Emery",
+        "de": "Schmirgel",
+        "ja": "金剛砂",
+        "fr": "Émeri",
+        "cost": 1500
+    },
+    "7602": {
+        "en": "Star Anise",
+        "de": "Sternanis",
+        "ja": "スターアニス",
+        "fr": "Anis étoilé",
+        "cost": 30
+    },
+    "7603": {
+        "en": "Dalamud Popoto",
+        "de": "Dalamud-Toffel",
+        "ja": "ダラガブポポト",
+        "fr": "Popoto de Dalamud",
+        "cost": 30
+    },
+    "7604": {
+        "en": "Royal Kukuru Bean",
+        "de": "Kukuru-Bohnen Royale",
+        "ja": "ロイヤルククルビーン",
+        "fr": "Fève kukuru royale",
+        "cost": 30
+    },
+    "7605": {
+        "en": "Canard Breast",
+        "de": "Entenbrust",
+        "ja": "マグレカナールの胸肉",
+        "fr": "Magret de canard",
+        "cost": 30
+    },
+    "7621": {
+        "en": "Glamour Dispeller",
+        "de": "Entprojizierungskristall",
+        "ja": "ミラージュディスペラー",
+        "fr": "Dissipateur de mirage",
+        "cost": 200
+    },
+    "7806": {
+        "en": "Tawny Latex",
+        "de": "Lohenlatex",
+        "ja": "トーニーラテックス",
+        "fr": "Latex fauve",
+        "cost": 450
+    },
+    "9356": {
+        "en": "Quick-hardening Sealant",
+        "de": "Schnell härtender Kitt",
+        "ja": "ハードパテ",
+        "fr": "Enduit",
+        "cost": 2300
+    },
+    "9357": {
+        "en": "Xelphatol Spring Water",
+        "de": "Flasche Xelphatol-Quellwasser",
+        "ja": "ゼルファトル天然水",
+        "fr": "Eau de source de Xelphatol",
+        "cost": 2500
+    },
+    "9366": {
+        "en": "Borax",
+        "de": "Brocken Borax",
+        "ja": "神保石",
+        "fr": "Jimboite",
+        "cost": 250
+    },
+    "9367": {
+        "en": "Arachne Web",
+        "de": "Arachne-Netz",
+        "ja": "アラクネウェブ",
+        "fr": "Toile d'Arachne",
+        "cost": 2250
+    },
+    "9368": {
+        "en": "Wootz Ore",
+        "de": "Wootz-Erz",
+        "ja": "ウーツ鉱",
+        "fr": "Minerai de wootz",
+        "cost": 2250
+    },
+    "9369": {
+        "en": "Raziqsap",
+        "de": "Raziq-Pulver",
+        "ja": "アブダルラジクの霊薬",
+        "fr": "Lymphe de Raziq",
+        "cost": 250
+    },
+    "9370": {
+        "en": "Dubbin",
+        "de": "Lederfett",
+        "ja": "レザーワックス",
+        "fr": "Cirage pour cuir",
+        "cost": 2250
+    },
+    "9371": {
+        "en": 'Smoked Bacon',
+        "de": 'Räucherschinken',
+        "ja": 'ロースベーコン',
+        "fr": 'Lard de bouquetin',
+        "cost": 250
+    },
+    "9372": {
+        "en": 'Roasted Coffee Beans',
+        "de": 'Geröstete Kaffeebohnen',
+        "ja": 'ローストコーヒー',
+        "fr": 'Grains de café torréfiés',
+        "cost": 250
     }
 }
 
@@ -12176,3 +12736,67 @@ const hntData = [
     36264,
     36630
 ];
+
+const gcData = [
+    4564,
+    4566,
+    4567,
+    4568,
+    4715,
+    4720,
+    5119,
+    5261,
+    5274,
+    5357,
+    5358,
+    5501,
+    5502,
+    5530,
+    5531,
+    5532,
+    5558,
+    5594,
+    5595,
+    5596,
+    5597,
+    5598,
+    6141,
+    6151,
+    6153,
+    6154,
+    6471,
+    6527,
+    6540,
+    6547,
+    6555,
+    6558,
+    6600,
+    6658,
+    6662,
+    7059,
+    7096,
+    7135,
+    7145,
+    7152,
+    7596,
+    7597,
+    7598,
+    7599,
+    7600,
+    7601,
+    7602,
+    7603,
+    7604,
+    7605,
+    7621,
+    7806,
+    9356,
+    9357,
+    9366,
+    9367,
+    9368,
+    9369,
+    9370,
+    9371,
+    9372
+]
