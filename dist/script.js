@@ -17,6 +17,10 @@ function itemLvl(id) {
 	return itemData[id].level;
 }
 
+function sealCost(id) {
+	return itemData[id].cost;
+}
+
 function breakpoints(data) {
 	let breakpoints = Object.entries(data);
 	let amount = breakpoints[0][0];
@@ -28,23 +32,31 @@ function breakpoints(data) {
 	return amount;
 }
 
-function updateTable(rawData) {
+function updateTable(rawData, retType) {
+	let retainer = false;
+	// check if we are dealing with a retainer list
+	if (['bot','fsh','min','hunt'].indexOf(retType) !== -1) {
+		retainer = true;
+	}
+
 	let tableData = {
 		items: {}
 	};
+	
 	// in seconds instead of milliseconds
 	let timeNow = Date.now() / 1000;
 
 	// setup the table headings
 	let html = `
 		<tr class="sticky top-0 bg-gray-800">
-			<th>Lvl &#x21c5;</th>
+			<th>${retainer ? 'Lvl': 'Seals' } &#x21c5;</th>
 			<th>Item &#x21c5;</th>
 			<th>min Price &#x21c5;</th>
-			<th>Amounts &#x21c5;</th>
-			<th class="init-sort">Gil/Trip &#x21c5;</th>
+			${retainer ? '<th>Amounts &#x21c5;</th>' : '' }
+			<th class="init-sort">${retainer ? 'Gil/Trip' : 'Gil/Seal' } &#x21c5;</th>
 			<th>Last Sale (hrs) &#x21c5;</th>
-			<th>Last Sale (price) &#x21c5;</th>
+			${!retainer ? '<th>Last Sale (price) &#x21c5;</th>' : '' }
+			<th>${retainer ? 'Last Sale (price)' : 'Last Sale (Gil/Seal)'} &#x21c5;</th>
 		</tr>
 	`;
 	
@@ -58,11 +70,17 @@ function updateTable(rawData) {
 
 	for (let i = 0; i < Object.keys(tableData.items).length; i++) {
 		let id = Object.values(tableData.items)[i].itemID;
-		let lvl = itemLvl(id);
+		let lvl = retainer ? itemLvl(id) : sealCost(id);
 		let name = itemName(id);
 		let minPrice = Object.values(tableData.items)[i].minPrice;
-		let amount = breakpoints(itemData[id].breakpoints);
-		let gilPerTrip = amount * minPrice;
+		let amount = retainer ? breakpoints(itemData[id].breakpoints) : 1;
+		let gilPerTrip = 0;
+		if (retainer) {
+			gilPerTrip = amount * minPrice;
+		} else {
+			gilPerTrip = minPrice / lvl;
+			gilPerTrip = gilPerTrip.toFixed(1);
+		}
 		// some items do not have historic data, which causes errors
 		let lastSaleHrs = 'No Data';
 		let lastSalePrice = 'No Data';
@@ -71,16 +89,19 @@ function updateTable(rawData) {
 			lastSaleHrs = lastSaleHrs.toFixed(1);
 			// drop extra digits from
 			lastSalePrice = Object.values(tableData.items)[i].recentHistory[0].pricePerUnit;
+			lastSaleGilSeal = lastSalePrice / lvl;
+			lastSaleGilSeal = lastSaleGilSeal.toFixed(1);
 		}
 
 		html += '<tr>';
 			html += `<td>${lvl}</td>`
 			html += `<td><a href="https://universalis.app/market/${id}" target="_blank" rel="noopener">${name}</a></td>`;
 			html += `<td>${minPrice}</td>`;
-			html += `<td>${amount}</td>`;
+			if (retainer) html += `<td>${amount}</td>`;
 			html += `<td>${gilPerTrip}</td>`;
 			html += `<td>${lastSaleHrs}</td>`;
 			html += `<td>${lastSalePrice}</td>`;
+			if (!retainer) html += `<td>${lastSaleGilSeal}</td>`;
 		html += '</tr>';
 	}
 
@@ -128,7 +149,7 @@ async function fetchData() {
 	const responses = await Promise.all(calls);
 	responses.map(resp => result.push(resp));
 
-	updateTable(result);
+	updateTable(result, retType);
 	body.classList.remove('loading');
 }
 
