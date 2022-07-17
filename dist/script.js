@@ -35,7 +35,7 @@ function breakpoints(data) {
 function updateTable(rawData, retType) {
     let retainer = false;
     // check if we are dealing with a retainer list
-    if (['bot', 'fsh', 'min', 'hunt'].indexOf(retType) !== -1) {
+    if (['bot', 'fsh', 'min', 'hnt'].indexOf(retType) !== -1) {
         retainer = true;
     }
 

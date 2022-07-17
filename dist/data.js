@@ -4351,7 +4351,8 @@ const itemData = {
             "12": 56,
             "15": 61
         },
-        "level": 41
+        "level": 41,
+        "cost": 200
     },
     "5559": {
         "en": "Moor Leech",
@@ -11429,13 +11430,6 @@ const itemData = {
         "de": "Gehärteter Pflanzensaft",
         "ja": "樹液塊",
         "fr": "Sève durcie",
-        "cost": 200
-    },
-    "5558": {
-        "en": "Pudding Flesh",
-        "de": "Puddingfleisch",
-        "ja": "プリンの肉",
-        "fr": "Viande de flan",
         "cost": 200
     },
     "5594": {
