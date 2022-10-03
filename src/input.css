@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+*::-webkit-scrollbar {
+  width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+  @apply bg-gray-700;
+  /*background: var(--primary);*/
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  @apply bg-gray-500 border-gray-500 border-4;
+  /*background-color: var(--secondary);*/
+  border-radius: 14px;
+  /*border: 3px solid var(--primary);*/
+}
+
 body.loading::before {
 	content: '';
 	position: absolute;
@@ -23,6 +40,12 @@ body.loading::after {
   z-index: 55;
   transform: translate(-50%, -50%);
   transform-origin: bottom;
+}
+
+body.loading.error::after {
+  content: '❌ Error ❌';
+  font-family: monospace;
+  animation-iteration-count: 0;
 }
 
 @keyframes loading-animation {
