@@ -54,8 +54,9 @@ function updateTable(rawData, retType) {
 			<th>min Price &#x21c5;</th>
 			${retainer ? '<th>Amounts &#x21c5;</th>' : '' }
 			<th class="init-sort">${retainer ? 'Gil/Trip' : 'Gil/Seal' } &#x21c5;</th>
-			<th>Last Sale (hrs) &#x21c5;</th>
+            <th>Last Sale (hrs) &#x21c5;</th>
 			<th>Last Sale (price) &#x21c5;</th>
+			<th>Last Sale (qty) &#x21c5;</th>
 			<th>${retainer ? 'Last Sale (gil/trip)' : 'Last Sale (Gil/Seal)'} &#x21c5;</th>
 		</tr>
 	`;
@@ -67,6 +68,8 @@ function updateTable(rawData, retType) {
             tableData.items[objKeys[q]] = rawData[i].items[objKeys[q]];
         }
     }
+
+    // console.log(rawData);
 
     for (let i = 0; i < Object.keys(tableData.items).length; i++) {
         let id = Object.values(tableData.items)[i].itemID;
@@ -85,6 +88,7 @@ function updateTable(rawData, retType) {
         let lastSaleHrs = 'No Data';
         let lastSalePrice = 'No Data';
         let lastSaleGilPerTrip = 'No Data';
+        let lastSaleQty = 'No Data';
         if (Object.values(tableData.items)[i].recentHistory.length) {
             lastSaleHrs = Math.floor((timeNow - Object.values(tableData.items)[i].recentHistory[0].timestamp) / 60) / 60;
             lastSaleHrs = lastSaleHrs.toFixed(1);
@@ -94,6 +98,8 @@ function updateTable(rawData, retType) {
 
             lastSaleGilSeal = lastSalePrice / lvl;
             lastSaleGilSeal = lastSaleGilSeal.toFixed(1);
+
+            lastSaleQty = Object.values(tableData.items)[i].recentHistory[0].quantity;
         }
 
         html += '<tr>';
@@ -104,6 +110,7 @@ function updateTable(rawData, retType) {
         html += `<td>${gilPerTrip}</td>`;
         html += `<td>${lastSaleHrs}</td>`;
         html += `<td>${lastSalePrice}</td>`;
+        html += `<td>${lastSaleQty}</td>`;
         if (retainer) {
             html += `<td>${lastSaleGilPerTrip}</td>`;
         } else {
@@ -153,11 +160,16 @@ async function fetchData() {
     // build the promise array, the resp.json() had to be here to work
     const calls = itemsSlice.map(slice => fetch(`${endpoint}/${world}/${slice}/`).then(resp => resp.json()));
     // get the promise results into new array
-    const responses = await Promise.all(calls);
-    responses.map(resp => result.push(resp));
-
-    updateTable(result, retType);
-    body.classList.remove('loading');
+    const responses = await Promise.all(calls)
+        .then(responses => {
+            responses.map(resp => result.push(resp));
+            updateTable(result, retType);
+            body.classList.remove('loading');
+        })
+        .catch(error => {
+            console.error(`Something's wrong: ${error}`)
+            body.classList.add('error');
+        });
 }
 
 // column sort function, fires on refresh TODO: get it to always sort Descending on refresh

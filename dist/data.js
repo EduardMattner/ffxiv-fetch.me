@@ -10690,6 +10690,20 @@ const itemData = {
         },
         "level": 89
     },
+    "36167": {
+      "en": "Lunar Adamantite Ore",
+      "de": "Lunares Adamantit-Erz",
+      "ja": "ルナアダマン鉱",
+      "fr": "Minerai d'adamantium sélénien",
+      "breakpoints": {
+        "3": 2327,
+        "5": 2468,
+        "7": 3525,
+        "8": 3878,
+        "9": 4230
+      },
+      "level": 90
+    },
     "36174": {
         "en": "Raw Ametrine",
         "de": "Roh-Ametrin",
@@ -10759,6 +10773,20 @@ const itemData = {
             "50": 4104
         },
         "level": 90
+    },
+    "36179": {
+      "en": "Rhodium Sand",
+      "de": "Rhodiumsand",
+      "ja": "ロジウム砂",
+      "fr": "Sable de rhodium",
+      "breakpoints": {
+        "3": 2327,
+        "5": 2468,
+        "7": 3525,
+        "8": 3878,
+        "9": 4230
+      },
+      "level": 90
     },
     "36180": {
         "en": "Chloroschist",
@@ -10858,6 +10886,20 @@ const itemData = {
         },
         "level": 89
     },
+    "36195": {
+      "en": "Mempisang Log",
+      "de": "Mempisang-Holzscheit",
+      "ja": "メンピサン原木",
+      "fr": "Rondin de mempisang",
+      "breakpoints": {
+        "3": 2327,
+        "5": 2468,
+        "7": 3525,
+        "8": 3878,
+        "9": 4230
+      },
+      "level": 90
+    },
     "36202": {
         "en": "Dark Hemp",
         "de": "Dunkelhanf",
@@ -10927,6 +10969,76 @@ const itemData = {
             "50": 4020
         },
         "level": 89
+    },
+    "36207": {
+        "en": "Golden Cocoon",
+        "de": "Goldkokon",
+        "ja": "金マユ",
+        "fr": "Cocon doré",
+        "breakpoints": {
+            "3": 2327,
+            "5": 2468,
+            "7": 3525,
+            "8": 3878,
+            "9": 4230
+        },
+        "level": 90
+    },
+    "36214": {
+        "en": "Potent Spice",
+        "de": "Natürliche Gewürze",
+        "ja": "天然香辛料",
+        "fr": "Épices naturelles",
+        "breakpoints": {
+            "3": 2258,
+            "5": 2394,
+            "7": 3420,
+            "8": 3762,
+            "9": 4104
+        },
+        "level": 90
+    },
+    "36215": {
+        "en": "Stonehard Water",
+        "de": "Superhartes Quellwasser",
+        "ja": "極硬水",
+        "fr": "Eau extrêmement dure",
+        "breakpoints": {
+            "3": 2258,
+            "5": 2394,
+            "7": 3420,
+            "8": 3762,
+            "9": 4104
+        },
+        "level": 90
+    },
+    "36216": {
+        "en": "Rime Dolomite",
+        "de": "Nordilsabarder Dolomitklumpen",
+        "ja": "北州苦灰石",
+        "fr": "Minerai de dolomite boréale",
+        "breakpoints": {
+            "3": 2327,
+            "5": 2468,
+            "7": 3525,
+            "8": 3878,
+            "9": 4230
+        },
+        "level": 90
+    },
+    "36217": {
+        "en": "Double-edged Herb",
+        "de": "Verlaufdichnicht",
+        "ja": "迷い草",
+        "fr": "Feuille d'égarante",
+        "breakpoints": {
+            "3": 2327,
+            "5": 2468,
+            "7": 3525,
+            "8": 3878,
+            "9": 4230
+        },
+        "level": 90
     },
     "36241": {
         "en": "Eblan Alumen",
@@ -12105,13 +12217,17 @@ const minData = [
     36164,
     36165,
     36166,
+    36167,
     36174,
     36175,
     36176,
     36177,
     36178,
+    36179,
     36180,
     36181,
+    36215,
+    36216,
     36241,
     36263
 ];
@@ -12475,10 +12591,14 @@ const botData = [
     36192,
     36193,
     36194,
+    36195,
     36202,
     36204,
     36205,
-    36206
+    36206,
+    36207,
+    36214,
+    36217
 ];
 
 const fshData = [
