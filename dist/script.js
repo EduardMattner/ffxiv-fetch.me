@@ -8,20 +8,37 @@ const retainerSlot = settings.querySelector('.retainer-slot');
 const retainerName = settings.querySelector('.retainer-name');
 const retainerType = settings.querySelector('.retainer-type');
 const retainerLevel = settings.querySelector('.retainer-level');
+const favicon = document.querySelector("head > link:first-of-type");
+console.log(favicon);
+const favicons = {
+	start: 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>',
+	bot: '🪓',
+	hnt: '🏹',
+	fsh: '🎣',
+	gc: '💵',
+	min: '⛏️',
+	end: '</text></svg>'
+}
 
-function itemName(id) {
+
+function updateIcons(ret) {
+	favicon.href = `${favicons.start}${favicons[ret]}${favicons.end}`;
+}
+
+
+function getItemName(id) {
     return itemData[id][langSelect.value];
 }
 
-function itemLvl(id) {
+function getItemLvl(id) {
     return itemData[id].level;
 }
 
-function sealCost(id) {
+function getSealCost(id) {
     return itemData[id].cost;
 }
 
-function breakpoints(data) {
+function getBreakpoints(data) {
     let breakpoints = Object.entries(data);
     let amount = breakpoints[0][0];
     for (let i = 0; i < breakpoints.length; i++) {
@@ -30,6 +47,31 @@ function breakpoints(data) {
         }
     }
     return amount;
+}
+
+function getItemsSlices(items) {
+	let list = [];
+  for (var i = 0; i < Math.ceil(items.length / 100); i++) {
+    list[i] = items.slice(i * 100, (i + 1) * 100).join(',');
+	}
+	return list;
+}
+
+function getTableHeadings(retainer) {
+	const sortIcon =  '&#x21c5;';
+	return `
+		<tr class="sticky top-0 bg-gray-800">
+			<th>${retainer ? 'Lvl': 'Seals' } ${sortIcon}</th>
+			<th>Item ${sortIcon}</th>
+			<th>min Price ${sortIcon}</th>
+			${retainer ? '<th>Amounts ${sortIcon}</th>' : '' }
+			<th class="init-sort">${retainer ? 'Gil/Trip' : 'Gil/Seal' } ${sortIcon}</th>
+      <th>Last Sale (hrs) ${sortIcon}</th>
+			<th>Last Sale (price) ${sortIcon}</th>
+			<th>Last Sale (qty) ${sortIcon}</th>
+			<th>${retainer ? 'Last Sale (gil/trip)' : 'Last Sale (Gil/Seal)'} ${sortIcon}</th>
+		</tr>
+	`;
 }
 
 function updateTable(rawData, retType) {
@@ -47,19 +89,7 @@ function updateTable(rawData, retType) {
     let timeNow = Date.now() / 1000;
 
     // setup the table headings
-    let html = `
-		<tr class="sticky top-0 bg-gray-800">
-			<th>${retainer ? 'Lvl': 'Seals' } &#x21c5;</th>
-			<th>Item &#x21c5;</th>
-			<th>min Price &#x21c5;</th>
-			${retainer ? '<th>Amounts &#x21c5;</th>' : '' }
-			<th class="init-sort">${retainer ? 'Gil/Trip' : 'Gil/Seal' } &#x21c5;</th>
-            <th>Last Sale (hrs) &#x21c5;</th>
-			<th>Last Sale (price) &#x21c5;</th>
-			<th>Last Sale (qty) &#x21c5;</th>
-			<th>${retainer ? 'Last Sale (gil/trip)' : 'Last Sale (Gil/Seal)'} &#x21c5;</th>
-		</tr>
-	`;
+    let html = getTableHeadings(retainer);
 
     // get all the data into one object, tableData
     for (var i = 0; i < rawData.length; i++) {
@@ -73,10 +103,10 @@ function updateTable(rawData, retType) {
 
     for (let i = 0; i < Object.keys(tableData.items).length; i++) {
         let id = Object.values(tableData.items)[i].itemID;
-        let lvl = retainer ? itemLvl(id) : sealCost(id);
-        let name = itemName(id);
+        let lvl = retainer ? getItemLvl(id) : getSealCost(id);
+        let name = getItemName(id);
         let minPrice = Object.values(tableData.items)[i].minPrice;
-        let amount = retainer ? breakpoints(itemData[id].breakpoints) : 1;
+        let amount = retainer ? getBreakpoints(itemData[id].breakpoints) : 1;
         let gilPerTrip = 0;
         if (retainer) {
             gilPerTrip = amount * minPrice;
@@ -128,7 +158,6 @@ function updateTable(rawData, retType) {
 }
 
 async function fetchData() {
-    body.classList.add('loading');
     let world = worldSelect.value;
     let retType = retainerType.value;
     let items = '';
@@ -150,13 +179,12 @@ async function fetchData() {
             items = gcData;
             break;
     }
+    body.classList.add('loading', retType);
+
 
     // only 100 items at a time are permitted from the API, so chop chop
-    const itemsSlice = [];
-    for (var i = 0; i < Math.ceil(items.length / 100); i++) {
-        itemsSlice[i] = items.slice(i * 100, (i + 1) * 100);
-        itemsSlice[i] = itemsSlice[i].join(',');
-    }
+    const itemsSlice = getItemsSlices(items);
+
     // build the promise array, the resp.json() had to be here to work
     const calls = itemsSlice.map(slice => fetch(`${endpoint}/${world}/${slice}/`).then(resp => resp.json()));
     // get the promise results into new array
@@ -164,7 +192,7 @@ async function fetchData() {
         .then(responses => {
             responses.map(resp => result.push(resp));
             updateTable(result, retType);
-            body.classList.remove('loading');
+            body.classList.remove('loading', retType);
         })
         .catch(error => {
             console.error(`Something's wrong: ${error}`)
@@ -232,6 +260,8 @@ function loadLocalSave() {
     retainerType.value = loadState.rType;
     retainerLevel.value = loadState.rLevel;
 
+    updateIcons(loadState.rType);
+
     for (var i = 0; i < retainerSlot.length; i++) {
         let tempSlot = JSON.parse(localStorage.getItem(`ffFetchSave-slot-${i + 1}`));
         if (tempSlot !== null) {
@@ -255,3 +285,4 @@ settings.querySelector('select.retainer-slot').addEventListener('change', functi
 if (localStorage.getItem('ffFetchSave-slot') !== null) {
     loadLocalSave();
 }
+

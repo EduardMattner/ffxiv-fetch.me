@@ -29,18 +29,21 @@ body.loading::before {
 }
 
 body.loading::after {
-  content: '⛏️';
   position: absolute;
   font-size: 500%;
   animation-duration: 2s;
-  animation-name: loading-animation;
   animation-iteration-count: infinite;
   left: 50%;
   top: 50%;
   z-index: 55;
   transform: translate(-50%, -50%);
-  transform-origin: bottom;
+  
 }
+body.loading.bot::after { content: '🪓'; animation-name: loading-animation-bot; transform-origin: right }
+body.loading.hnt::after { content: '🏹'; animation-name: loading-animation-hnt; transform-origin: unset; }
+body.loading.fsh::after { content: '🎣'; animation-name: loading-animation-fsh; transform-origin: bottom right; }
+body.loading.gc::after { content: '💵';  animation-name: loading-animation-gc; }
+body.loading.min::after { content: '⛏️'; animation-name: loading-animation-min; transform-origin: bottom;}
 
 body.loading.error::after {
   content: '❌ Error ❌';
@@ -48,7 +51,67 @@ body.loading.error::after {
   animation-iteration-count: 0;
 }
 
-@keyframes loading-animation {
+@keyframes loading-animation-bot {
+  from {
+    transform: translate(-50%, -50%) rotate(100deg);
+  }
+  15% {
+      transform: translate(-50%, -50%) rotate(0deg);
+  }
+  20% {
+      transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(100deg);
+  }
+}
+
+@keyframes loading-animation-hnt {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  80% {
+      transform: translate(-50%, -50%) rotate(48deg);
+  }
+  85% {
+      transform: translate(-50%, -50%) rotate(48deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+
+@keyframes loading-animation-fsh {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  35% {
+    transform: translate(-50%, -50%) rotate(-35deg);
+  }
+  55% {
+      transform: translate(-50%, -50%) rotate(55deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+
+@keyframes loading-animation-gc {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  33% {
+    transform: translate(-50%, -50%) rotate(-25deg);
+  }
+  66% {
+      transform: translate(-50%, -50%) rotate(25deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+
+@keyframes loading-animation-min {
   from {
     transform: translate(-50%, -50%) rotate(0deg);
   }

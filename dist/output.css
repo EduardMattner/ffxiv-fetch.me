@@ -511,14 +511,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 1rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
-.ml-4 {
-  margin-left: 1rem;
-}
-
 .ml-6 {
   margin-left: 1.5rem;
 }
@@ -640,10 +632,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-left: 0.25rem;
 }
 
-.pl-3 {
-  padding-left: 0.75rem;
-}
-
 .text-center {
   text-align: center;
 }
@@ -713,19 +701,49 @@ body.loading::before {
 }
 
 body.loading::after {
-  content: '⛏️';
   position: absolute;
   font-size: 500%;
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
-  -webkit-animation-name: loading-animation;
-          animation-name: loading-animation;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   left: 50%;
   top: 50%;
   z-index: 55;
   transform: translate(-50%, -50%);
+}
+
+body.loading.bot::after {
+  content: '🪓';
+  -webkit-animation-name: loading-animation-bot;
+          animation-name: loading-animation-bot;
+  transform-origin: right
+}
+
+body.loading.hnt::after {
+  content: '🏹';
+  -webkit-animation-name: loading-animation-hnt;
+          animation-name: loading-animation-hnt;
+  transform-origin: unset;
+}
+
+body.loading.fsh::after {
+  content: '🎣';
+  -webkit-animation-name: loading-animation-fsh;
+          animation-name: loading-animation-fsh;
+  transform-origin: bottom right;
+}
+
+body.loading.gc::after {
+  content: '💵';
+  -webkit-animation-name: loading-animation-gc;
+          animation-name: loading-animation-gc;
+}
+
+body.loading.min::after {
+  content: '⛏️';
+  -webkit-animation-name: loading-animation-min;
+          animation-name: loading-animation-min;
   transform-origin: bottom;
 }
 
@@ -736,7 +754,151 @@ body.loading.error::after {
           animation-iteration-count: 0;
 }
 
-@-webkit-keyframes loading-animation {
+@-webkit-keyframes loading-animation-bot {
+  from {
+    transform: translate(-50%, -50%) rotate(100deg);
+  }
+
+  15% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  20% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(100deg);
+  }
+}
+
+@keyframes loading-animation-bot {
+  from {
+    transform: translate(-50%, -50%) rotate(100deg);
+  }
+
+  15% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  20% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(100deg);
+  }
+}
+
+@-webkit-keyframes loading-animation-hnt {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  80% {
+    transform: translate(-50%, -50%) rotate(48deg);
+  }
+
+  85% {
+    transform: translate(-50%, -50%) rotate(48deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+
+@keyframes loading-animation-hnt {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  80% {
+    transform: translate(-50%, -50%) rotate(48deg);
+  }
+
+  85% {
+    transform: translate(-50%, -50%) rotate(48deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+
+@-webkit-keyframes loading-animation-fsh {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  35% {
+    transform: translate(-50%, -50%) rotate(-35deg);
+  }
+
+  55% {
+    transform: translate(-50%, -50%) rotate(55deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+
+@keyframes loading-animation-fsh {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  35% {
+    transform: translate(-50%, -50%) rotate(-35deg);
+  }
+
+  55% {
+    transform: translate(-50%, -50%) rotate(55deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+
+@-webkit-keyframes loading-animation-gc {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  33% {
+    transform: translate(-50%, -50%) rotate(-25deg);
+  }
+
+  66% {
+    transform: translate(-50%, -50%) rotate(25deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+
+@keyframes loading-animation-gc {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  33% {
+    transform: translate(-50%, -50%) rotate(-25deg);
+  }
+
+  66% {
+    transform: translate(-50%, -50%) rotate(25deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+
+@-webkit-keyframes loading-animation-min {
   from {
     transform: translate(-50%, -50%) rotate(0deg);
   }
@@ -754,7 +916,7 @@ body.loading.error::after {
   }
 }
 
-@keyframes loading-animation {
+@keyframes loading-animation-min {
   from {
     transform: translate(-50%, -50%) rotate(0deg);
   }
