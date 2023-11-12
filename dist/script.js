@@ -9,7 +9,6 @@ const retainerName = settings.querySelector('.retainer-name');
 const retainerType = settings.querySelector('.retainer-type');
 const retainerLevel = settings.querySelector('.retainer-level');
 const favicon = document.querySelector("head > link:first-of-type");
-console.log(favicon);
 const favicons = {
 	start: 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>',
 	bot: '🪓',
